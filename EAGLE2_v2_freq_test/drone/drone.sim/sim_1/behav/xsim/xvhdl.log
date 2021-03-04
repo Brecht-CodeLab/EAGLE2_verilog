@@ -1,0 +1,27 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/src/bd/ipshared/5f23/src/PWM_measure.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'PWM_measure'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/src/bd/ipshared/5f23/hdl/RC_v1_0_S00_AXI.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'RC_v1_0_S00_AXI'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/src/bd/ipshared/5f23/hdl/RC_v1_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'RC_v1_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/src/bd/ip/drone_RC_1_0/sim/drone_RC_1_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'drone_RC_1_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/src/bd/ip/drone_RC_0_0/sim/drone_RC_0_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'drone_RC_0_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/src/bd/ip/drone_axi_gpio_testpins_0/sim/drone_axi_gpio_testpins_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'drone_axi_gpio_testpins_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/src/bd/ip/drone_axi_gpio_led_0/sim/drone_axi_gpio_led_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'drone_axi_gpio_led_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/src/bd/ipshared/7836/kill_switch.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'kill_switch'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/src/bd/ip/drone_kill_switch_0_0/sim/drone_kill_switch_0_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'drone_kill_switch_0_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/src/bd/ipshared/7486/hdl/PWM_AXI.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'PWM_AXI'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/src/bd/ipshared/7486/hdl/PWM_AXI_v1_0_S00_AXI.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'PWM_AXI_v1_0_S00_AXI_triple'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/src/bd/ipshared/7486/hdl/PWM_AXI_v1_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'PWM_AXI_triple_v1_0'
+ERROR: [VRFC 10-2989] 'pwm_axi_v1_0_s00_axi' is not declared [C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/src/bd/ipshared/7486/hdl/PWM_AXI_v1_0.vhd:89]
+ERROR: [VRFC 10-3782] unit 'arch_imp' ignored due to previous errors [C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/src/bd/ipshared/7486/hdl/PWM_AXI_v1_0.vhd:53]
+INFO: [VRFC 10-3070] VHDL file 'C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/src/bd/ipshared/7486/hdl/PWM_AXI_v1_0.vhd' ignored due to errors

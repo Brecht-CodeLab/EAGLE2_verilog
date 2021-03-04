@@ -1,0 +1,39 @@
+$date
+        2021-Mar-01 22:11:50
+$end
+$version
+        Vivado v2020.1 (64-bit)
+$end
+$timescale
+        1ps
+$end
+$scope module dut $end
+$var reg 1 " drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/SWIPT_OUT0 $end
+$var reg 1 # drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/SWIPT_OUT1 $end
+$var reg 1 $ drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/SWIPT_OUT2 $end
+$var reg 1 % drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/SWIPT_OUT3 $end
+$var reg 1 & _TRIGGER $end
+$var reg 1 ' _WINDOW $end
+$var reg 1 ( _GAP $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0"
+1#
+1$
+0%
+0&
+1'
+0(
+$end
+#260
+0#
+#292
+1%
+#512
+1&
+#917
+0$
+#949
+1"

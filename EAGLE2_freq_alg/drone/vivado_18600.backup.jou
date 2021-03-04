@@ -1,0 +1,161 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Mon Mar  1 21:52:11 2021
+# Process ID: 18600
+# Current directory: C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_freq_alg/drone
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9880 C:\Users\brech\Desktop\EAGLE2_verilog\EAGLE2_freq_alg\drone\drone.xpr
+# Log file: C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_freq_alg/drone/vivado.log
+# Journal file: C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_freq_alg/drone\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_freq_alg/drone/drone.xpr
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_freq_alg/drone/drone.runs/impl_1/drone_wrapper.bit} [get_hw_devices xc7z010_1]
+set_property PROBES.FILE {C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_freq_alg/drone/drone.runs/impl_1/drone_wrapper.ltx} [get_hw_devices xc7z010_1]
+set_property FULL_PROBES.FILE {C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_freq_alg/drone/drone.runs/impl_1/drone_wrapper.ltx} [get_hw_devices xc7z010_1]
+current_hw_device [get_hw_devices xc7z010_1]
+refresh_hw_device [lindex [get_hw_devices xc7z010_1] 0]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z010_1] -filter {CELL_NAME=~"u_ila_0"}]]
+set_property PROBES.FILE {C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_freq_alg/drone/drone.runs/impl_1/drone_wrapper.ltx} [get_hw_devices xc7z010_1]
+set_property FULL_PROBES.FILE {C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_freq_alg/drone/drone.runs/impl_1/drone_wrapper.ltx} [get_hw_devices xc7z010_1]
+set_property PROGRAM.FILE {C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_freq_alg/drone/drone.runs/impl_1/drone_wrapper.bit} [get_hw_devices xc7z010_1]
+program_hw_devices [get_hw_devices xc7z010_1]
+refresh_hw_device [lindex [get_hw_devices xc7z010_1] 0]
+open_bd_design {C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_freq_alg/src/bd/drone.bd}
+ipx::edit_ip_in_project -upgrade true -name SWIPT_2020_v1_0_project -directory C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_freq_alg/drone/drone.tmp/SWIPT_2020_v1_0_project c:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_freq_alg/IP_Repo/SWIPT_2020_1.0/component.xml
+update_compile_order -fileset sources_1
+current_project drone
+current_project SWIPT_2020_v1_0_project
+set_property core_revision 17 [ipx::current_core]
+ipx::update_source_project_archive -component [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+ipx::move_temp_component_back -component [ipx::current_core]
+close_project -delete
+update_ip_catalog -rebuild -repo_path c:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_freq_alg/IP_Repo
+report_ip_status -name ip_status 
+upgrade_ip -vlnv user.org:user:SWIPT_2020:1.0 [get_ips  drone_SWIPT_2020_0_0] -log ip_upgrade.log
+export_ip_user_files -of_objects [get_ips drone_SWIPT_2020_0_0] -no_script -sync -force -quiet
+generate_target all [get_files  C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_freq_alg/src/bd/drone.bd]
+export_ip_user_files -of_objects [get_files C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_freq_alg/src/bd/drone.bd] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_freq_alg/src/bd/drone.bd] -directory C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_freq_alg/drone/drone.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_freq_alg/drone/drone.ip_user_files -ipstatic_source_dir C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_freq_alg/drone/drone.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_freq_alg/drone/drone.cache/compile_simlib/modelsim} {questa=C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_freq_alg/drone/drone.cache/compile_simlib/questa} {riviera=C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_freq_alg/drone/drone.cache/compile_simlib/riviera} {activehdl=C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_freq_alg/drone/drone.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+report_ip_status -name ip_status 
+synth_design -rtl -name rtl_1
+ipx::edit_ip_in_project -upgrade true -name SWIPT_2020_v1_0_project -directory C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_freq_alg/drone/drone.tmp/SWIPT_2020_v1_0_project c:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_freq_alg/IP_Repo/SWIPT_2020_1.0/component.xml
+update_compile_order -fileset sources_1
+synth_design -rtl -name rtl_1
+add_files -norecurse -copy_to c:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_freq_alg/IP_Repo/SWIPT_2020_1.0/src {C:/Users/brech/Desktop/EAGLE2_v1/ZYBO/Freq.v C:/Users/brech/Desktop/EAGLE2_v1/ZYBO/DutyAdjust.v C:/Users/brech/Desktop/EAGLE2_v1/ZYBO/Optimization.v C:/Users/brech/Desktop/EAGLE2_v1/ZYBO/CalcL.v C:/Users/brech/Desktop/EAGLE2_v1/ZYBO/SwiptOut.v}
+add_files -norecurse -override -copy_to c:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_freq_alg/IP_Repo/SWIPT_2020_1.0/src {C:/Users/brech/Desktop/EAGLE2_v1/ZYBO/Freq.v C:/Users/brech/Desktop/EAGLE2_v1/ZYBO/DutyAdjust.v C:/Users/brech/Desktop/EAGLE2_v1/ZYBO/Optimization.v C:/Users/brech/Desktop/EAGLE2_v1/ZYBO/CalcL.v C:/Users/brech/Desktop/EAGLE2_v1/ZYBO/SwiptOut.v}
+add_files -norecurse -force -copy_to c:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_freq_alg/IP_Repo/SWIPT_2020_1.0/src {C:/Users/brech/Desktop/EAGLE2_v1/ZYBO/Freq.v C:/Users/brech/Desktop/EAGLE2_v1/ZYBO/DutyAdjust.v C:/Users/brech/Desktop/EAGLE2_v1/ZYBO/Optimization.v C:/Users/brech/Desktop/EAGLE2_v1/ZYBO/CalcL.v C:/Users/brech/Desktop/EAGLE2_v1/ZYBO/SwiptOut.v}
+update_compile_order -fileset sources_1
+set_property core_revision 18 [ipx::current_core]
+ipx::update_source_project_archive -component [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+synth_design -rtl -name rtl_1
+set_property core_revision 19 [ipx::current_core]
+ipx::update_source_project_archive -component [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+create_interface data_start_led
+delete_interface data_start_led
+current_project drone
+open_bd_design {C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_freq_alg/src/bd/drone.bd}
+update_ip_catalog -rebuild -scan_changes
+report_ip_status -name ip_status
+upgrade_ip -vlnv user.org:user:SWIPT_2020:1.0 [get_ips  drone_SWIPT_2020_0_0] -log ip_upgrade.log
+export_ip_user_files -of_objects [get_ips drone_SWIPT_2020_0_0] -no_script -sync -force -quiet
+generate_target all [get_files  C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_freq_alg/src/bd/drone.bd]
+export_ip_user_files -of_objects [get_files C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_freq_alg/src/bd/drone.bd] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_freq_alg/src/bd/drone.bd] -directory C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_freq_alg/drone/drone.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_freq_alg/drone/drone.ip_user_files -ipstatic_source_dir C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_freq_alg/drone/drone.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_freq_alg/drone/drone.cache/compile_simlib/modelsim} {questa=C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_freq_alg/drone/drone.cache/compile_simlib/questa} {riviera=C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_freq_alg/drone/drone.cache/compile_simlib/riviera} {activehdl=C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_freq_alg/drone/drone.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+report_ip_status -name ip_status 
+open_bd_design {C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_freq_alg/src/bd/drone.bd}
+create_bd_port -dir O data_start_led
+current_project SWIPT_2020_v1_0_project
+refresh_design
+refresh_design
+current_project drone
+update_ip_catalog -rebuild -scan_changes
+report_ip_status -name ip_status
+current_project SWIPT_2020_v1_0_project
+current_project drone
+upgrade_ip -vlnv user.org:user:SWIPT_2020:1.0 [get_ips  drone_SWIPT_2020_0_0] -log ip_upgrade.log
+export_ip_user_files -of_objects [get_ips drone_SWIPT_2020_0_0] -no_script -sync -force -quiet
+generate_target all [get_files  C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_freq_alg/src/bd/drone.bd]
+export_ip_user_files -of_objects [get_files C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_freq_alg/src/bd/drone.bd] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_freq_alg/src/bd/drone.bd] -directory C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_freq_alg/drone/drone.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_freq_alg/drone/drone.ip_user_files -ipstatic_source_dir C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_freq_alg/drone/drone.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_freq_alg/drone/drone.cache/compile_simlib/modelsim} {questa=C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_freq_alg/drone/drone.cache/compile_simlib/questa} {riviera=C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_freq_alg/drone/drone.cache/compile_simlib/riviera} {activehdl=C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_freq_alg/drone/drone.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+report_ip_status -name ip_status 
+set_property core_revision 20 [ipx::current_core]
+ipx::update_source_project_archive -component [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -scan_changes
+report_ip_status -name ip_status
+upgrade_ip -vlnv user.org:user:SWIPT_2020:1.0 [get_ips  drone_SWIPT_2020_0_0] -log ip_upgrade.log
+export_ip_user_files -of_objects [get_ips drone_SWIPT_2020_0_0] -no_script -sync -force -quiet
+generate_target all [get_files  C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_freq_alg/src/bd/drone.bd]
+export_ip_user_files -of_objects [get_files C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_freq_alg/src/bd/drone.bd] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_freq_alg/src/bd/drone.bd] -directory C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_freq_alg/drone/drone.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_freq_alg/drone/drone.ip_user_files -ipstatic_source_dir C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_freq_alg/drone/drone.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_freq_alg/drone/drone.cache/compile_simlib/modelsim} {questa=C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_freq_alg/drone/drone.cache/compile_simlib/questa} {riviera=C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_freq_alg/drone/drone.cache/compile_simlib/riviera} {activehdl=C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_freq_alg/drone/drone.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+report_ip_status -name ip_status 
+current_project SWIPT_2020_v1_0_project
+current_project drone
+refresh_design
+current_project SWIPT_2020_v1_0_project
+current_project drone
+set_property package_pin "" [get_ports [list  data_start_led]]
+place_ports data_start_led M14
+set_property IOSTANDARD LVCMOS33 [get_ports [list data_start_led]]
+save_constraints
+current_project SWIPT_2020_v1_0_project
+set_property core_revision 21 [ipx::current_core]
+ipx::update_source_project_archive -component [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+current_project drone
+open_bd_design {C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_freq_alg/src/bd/drone.bd}
+current_project SWIPT_2020_v1_0_project
+current_project drone
+update_ip_catalog -rebuild -scan_changes
+report_ip_status -name ip_status
+upgrade_ip -vlnv user.org:user:SWIPT_2020:1.0 [get_ips  drone_SWIPT_2020_0_0] -log ip_upgrade.log
+export_ip_user_files -of_objects [get_ips drone_SWIPT_2020_0_0] -no_script -sync -force -quiet
+generate_target all [get_files  C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_freq_alg/src/bd/drone.bd]
+export_ip_user_files -of_objects [get_files C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_freq_alg/src/bd/drone.bd] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_freq_alg/src/bd/drone.bd] -directory C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_freq_alg/drone/drone.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_freq_alg/drone/drone.ip_user_files -ipstatic_source_dir C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_freq_alg/drone/drone.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_freq_alg/drone/drone.cache/compile_simlib/modelsim} {questa=C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_freq_alg/drone/drone.cache/compile_simlib/questa} {riviera=C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_freq_alg/drone/drone.cache/compile_simlib/riviera} {activehdl=C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_freq_alg/drone/drone.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+report_ip_status -name ip_status 
+current_project SWIPT_2020_v1_0_project
+place_ports data_start M14
+set_property package_pin "" [get_ports [list  data_start]]
+set_property package_pin "" [get_ports [list  ADC_vp_in]]
+set_property core_revision 22 [ipx::current_core]
+ipx::update_source_project_archive -component [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+ipx::move_temp_component_back -component [ipx::current_core]
+close_project -delete
+update_ip_catalog -rebuild -repo_path c:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_freq_alg/IP_Repo
+regenerate_bd_layout
+report_ip_status -name ip_status 
+upgrade_ip -vlnv user.org:user:SWIPT_2020:1.0 [get_ips  drone_SWIPT_2020_0_0] -log ip_upgrade.log
+export_ip_user_files -of_objects [get_ips drone_SWIPT_2020_0_0] -no_script -sync -force -quiet
+report_ip_status -name ip_status 
+open_bd_design {C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_freq_alg/src/bd/drone.bd}
+ipx::edit_ip_in_project -upgrade true -name SWIPT_2020_v1_0_project -directory C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_freq_alg/drone/drone.tmp/SWIPT_2020_v1_0_project c:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_freq_alg/IP_Repo/SWIPT_2020_1.0/component.xml
+update_compile_order -fileset sources_1
+set_property core_revision 23 [ipx::current_core]
+ipx::update_source_project_archive -component [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+current_project drone
+update_ip_catalog -rebuild -scan_changes

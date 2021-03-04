@@ -1,0 +1,1268 @@
+/*
+
+Xilinx Vivado v2020.1 (64-bit) [Major: 2020, Minor: 1]
+SW Build: 2902540 on Wed May 27 19:54:49 MDT 2020
+IP Build: 2902112 on Wed May 27 22:43:36 MDT 2020
+
+Process ID (PID): 25392
+License: Customer
+
+Current time: 	Thu Feb 25 22:21:12 CET 2021
+Time zone: 	Central European Standard Time (Europe/Paris)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1920x1080
+Screen resolution (DPI): 125
+Available screens: 2
+Default font: family=Segoe UI,name=Segoe UI,style=plain,size=15
+
+Java version: 	9.0.4 64-bit
+Java home: 	C:/Xilinx/Vivado/2020.1/tps/win64/jre9.0.4
+Java executable location: 	C:/Xilinx/Vivado/2020.1/tps/win64/jre9.0.4/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	brech
+User home directory: C:/Users/brech
+User working directory: C:/Users/brech/Desktop/EAGLE2_v2/drone
+User country: 	BE
+User language: 	nl
+User locale: 	nl_BE
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2020.1
+RDI_DATADIR: C:/Xilinx/Vivado/2020.1/data
+RDI_BINDIR: C:/Xilinx/Vivado/2020.1/bin
+
+Vivado preferences file location: C:/Users/brech/AppData/Roaming/Xilinx/Vivado/2020.1/vivado.xml
+Vivado preferences directory: C:/Users/brech/AppData/Roaming/Xilinx/Vivado/2020.1/
+Vivado layouts directory: C:/Users/brech/AppData/Roaming/Xilinx/Vivado/2020.1/data/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2020.1/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/brech/Desktop/EAGLE2_v2/drone/vivado.log
+Vivado journal file location: 	C:/Users/brech/Desktop/EAGLE2_v2/drone/vivado.jou
+Engine tmp dir: 	C:/Users/brech/Desktop/EAGLE2_v2/drone/.Xil/Vivado-25392-LAPTOP-HDUT8SCT
+
+Xilinx Environment Variables
+----------------------------
+XILINX: C:/Xilinx/Vivado/2020.1/ids_lite/ISE
+XILINX_DSP: C:/Xilinx/Vivado/2020.1/ids_lite/ISE
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2020.1
+XILINX_SDK: C:/Xilinx/Vitis/2020.1
+XILINX_VITIS: C:/Xilinx/Vitis/2020.1
+XILINX_VIVADO: C:/Xilinx/Vivado/2020.1
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2020.1
+
+
+GUI allocated memory:	185 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 1,090 MB
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 99 MB (+101656kb) [00:00:09]
+// [Engine Memory]: 1,090 MB (+991472kb) [00:00:09]
+// bz (cs):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\brech\Desktop\EAGLE2_v2\drone\drone.xpr. Version: Vivado v2020.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.xpr 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,090 MB. GUI used memory: 58 MB. Current time: 2/25/21, 10:21:14 PM CET
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 110 MB (+6317kb) [00:00:20]
+// WARNING: HEventQueue.dispatchEvent() is taking  4854 ms.
+// Tcl Message: open_project C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/brech/Desktop/EAGLE2_v2/IP_Repo'. INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/brech/Desktop/EAGLEtutorials/tut5/tut5/tut5.srcs/sources_1/new'. INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.1/data/ip'. 
+// Tcl Message: open_project: Time (s): cpu = 00:00:25 ; elapsed = 00:00:13 . Memory (MB): peak = 1112.621 ; gain = 0.000 
+// Project name: drone; location: C:/Users/brech/Desktop/EAGLE2_v2/drone; part: xc7z010clg400-1
+dismissDialog("Open Project"); // bz (cs)
+// Tcl Command: 'rdi::info_commands {device::*}'
+// Tcl Command: 'rdi::info_commands {debug::*}'
+// Tcl Command: 'rdi::info_commands {*}'
+// [GUI Memory]: 123 MB (+7322kb) [00:00:29]
+// [GUI Memory]: 130 MB (+964kb) [00:00:29]
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "impl_1 ; constrs_1 ; place_design ERROR ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Thu Feb 25 21:46:10 CET 2021 ; 00:00:57 ; Flow_RuntimeOptimized* (Vivado Implementation 2016) ; Vivado Implementation Default Reports ; xc7z010clg400-1 ; Each implementation step trades design performance for better runtime. Physical optimization (phys_opt_design) is disabled.", 1, "place_design ERROR", 2, false); // az (J, cs)
+// PAPropertyPanels.initPanels (impl_1) elapsed time: 0.7s
+// [GUI Memory]: 138 MB (+2125kb) [00:00:37]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CalcL (CalcL.v)]", 2, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, SwiptOut (SwiptOut.v)]", 10, false, true, false, false, false, false); // B (F, cs) - Shift Key
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// aE (cs): Remove Sources: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aE)
+dismissDialog("Remove Sources"); // aE (cs)
+// aE (cs): Remove Sources: addNotify
+// bz (aE):  Remove Sources : addNotify
+// Tcl Message: export_ip_user_files -of_objects  [get_files C:/Users/brech/Desktop/EAGLE2_v1/ZYBO/CalcL.v] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files C:/Users/brech/Desktop/EAGLE2_v1/ZYBO/DataStream.v] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files C:/Users/brech/Desktop/EAGLE2_v1/ZYBO/DutyAdjust.v] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files C:/Users/brech/Desktop/EAGLE2_v1/ZYBO/Freq.v] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files C:/Users/brech/Desktop/EAGLE2_v1/ZYBO/GetMeanCurrent.v] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files C:/Users/brech/Desktop/EAGLE2_v1/ZYBO/Optimization.v] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files C:/Users/brech/Desktop/EAGLE2_v1/ZYBO/ReadData.v] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files C:/Users/brech/Desktop/EAGLE2_v1/ZYBO/StartupData.v] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files C:/Users/brech/Desktop/EAGLE2_v1/ZYBO/SwiptOut.v] -no_script -reset -force -quiet 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// PAPropertyPanels.initPanels (impl_1) elapsed time: 0.2s
+// Tcl Message: remove_files  {C:/Users/brech/Desktop/EAGLE2_v1/ZYBO/CalcL.v C:/Users/brech/Desktop/EAGLE2_v1/ZYBO/DataStream.v C:/Users/brech/Desktop/EAGLE2_v1/ZYBO/DutyAdjust.v C:/Users/brech/Desktop/EAGLE2_v1/ZYBO/Freq.v C:/Users/brech/Desktop/EAGLE2_v1/ZYBO/GetMeanCurrent.v C:/Users/brech/Desktop/EAGLE2_v1/ZYBO/Optimization.v C:/Users/brech/Desktop/EAGLE2_v1/ZYBO/ReadData.v C:/Users/brech/Desktop/EAGLE2_v1/ZYBO/StartupData.v C:/Users/brech/Desktop/EAGLE2_v1/ZYBO/SwiptOut.v} 
+dismissDialog("Remove Sources"); // bz (aE)
+// [GUI Memory]: 150 MB (+4426kb) [00:00:47]
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, drone_wrapper (drone_wrapper.v)]", 1); // B (F, cs)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, drone_wrapper (drone_wrapper.v), drone_i : drone (drone.bd), drone (drone.v)]", 3); // B (F, cs)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, drone_wrapper (drone_wrapper.v), drone_i : drone (drone.bd), drone (drone.v), SWIPT_2020_0 : drone_SWIPT_2020_0_0 (drone_SWIPT_2020_0_0.xci)]", 10); // B (F, cs)
+// A (cs): Show IP Hierarchy: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Show IP Hierarchy"); // A (cs)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, drone_wrapper (drone_wrapper.v), drone_i : drone (drone.bd), drone (drone.v), SWIPT_2020_0 : drone_SWIPT_2020_0_0 (drone_SWIPT_2020_0_0.xci), drone_SWIPT_2020_0_0 (drone_SWIPT_2020_0_0.v)]", 11); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, drone_wrapper (drone_wrapper.v), drone_i : drone (drone.bd), drone (drone.v), SWIPT_2020_0 : drone_SWIPT_2020_0_0 (drone_SWIPT_2020_0_0.xci), drone_SWIPT_2020_0_0 (drone_SWIPT_2020_0_0.v), inst : SWIPT_2020_v1_0 (SWIPT_2020_v1_0.v), SWIPT_2020_v1_0_S00_AXI_inst : SWIPT_2020_v1_0_S00_AXI (SWIPT_2020_v1_0_S00_AXI.v), swipt_toplevel_inst : swipt_toplevel (swipt_toplevel.v)]", 14, true); // B (F, cs) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, drone_wrapper (drone_wrapper.v), drone_i : drone (drone.bd), drone (drone.v), SWIPT_2020_0 : drone_SWIPT_2020_0_0 (drone_SWIPT_2020_0_0.xci), drone_SWIPT_2020_0_0 (drone_SWIPT_2020_0_0.v), inst : SWIPT_2020_v1_0 (SWIPT_2020_v1_0.v), SWIPT_2020_v1_0_S00_AXI_inst : SWIPT_2020_v1_0_S00_AXI (SWIPT_2020_v1_0_S00_AXI.v), swipt_toplevel_inst : swipt_toplevel (swipt_toplevel.v)]", 14, true, false, false, false, false, true); // B (F, cs) - Double Click - Node
+// Elapsed time: 10 seconds
+selectCodeEditor("swipt_toplevel.v", 31, 194); // G (w, cs)
+selectCodeEditor("swipt_toplevel.v", 217, 337, false, false, false, true, false); // G (w, cs) - Popup Trigger
+selectCodeEditor("swipt_toplevel.v", 151, 327, false, false, false, true, false); // G (w, cs) - Popup Trigger
+selectCodeEditor("swipt_toplevel.v", 124, 228, false, false, false, true, false); // G (w, cs) - Popup Trigger
+selectCodeEditor("swipt_toplevel.v", 124, 132); // G (w, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, drone_wrapper (drone_wrapper.v), drone_i : drone (drone.bd), drone (drone.v), SWIPT_2020_0 : drone_SWIPT_2020_0_0 (drone_SWIPT_2020_0_0.xci)]", 10, true); // B (F, cs) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, drone_wrapper (drone_wrapper.v), drone_i : drone (drone.bd), drone (drone.v), SWIPT_2020_0 : drone_SWIPT_2020_0_0 (drone_SWIPT_2020_0_0.xci)]", 10, true, false, false, false, true, false); // B (F, cs) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_EDIT_IN_IP_PACKAGER, "Edit in IP Packager"); // ai (ao, cs)
+// Run Command: PAResourceCommand.PACommandNames_EDIT_IN_IP_PACKAGER
+// k (cs): Edit in IP Packager: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (k)
+// bz (cs):  Edit in IP Packager : addNotify
+selectButton("OptionPane.button", "OK"); // JButton (v, C)
+// TclEventType: LOAD_FEATURE
+// Tcl Message: ipx::edit_ip_in_project -upgrade true -name SWIPT_2020_v1_0_project -directory C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.tmp/SWIPT_2020_v1_0_project c:/Users/brech/Desktop/EAGLE2_v2/IP_Repo/SWIPT_2020_1.0/component.xml 
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_ADD
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// WARNING: HEventQueue.dispatchEvent() is taking  3732 ms.
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.1/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,117 MB. GUI used memory: 98 MB. Current time: 2/25/21, 10:22:34 PM CET
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: create_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:07 . Memory (MB): peak = 1130.336 ; gain = 0.098 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/brech/Desktop/EAGLE2_v2/IP_Repo'. INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/brech/Desktop/EAGLEtutorials/tut5/tut5/tut5.srcs/sources_1/new'. INFO: [IP_Flow 19-795] Syncing license key meta-data 
+// TclEventType: LOAD_FEATURE
+// TclEventType: PACKAGER_CURRENT_CORE
+// Run Command: PAResourceCommand.PACommandNames_IP_PACKAGER
+// WARNING: HEventQueue.dispatchEvent() is taking  1967 ms.
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// Tcl Message: ipx::edit_ip_in_project: Time (s): cpu = 00:00:16 ; elapsed = 00:00:10 . Memory (MB): peak = 1139.480 ; gain = 9.242 
+// 'i' command handler elapsed time: 14 seconds
+// Elapsed time: 11 seconds
+dismissDialog("Edit in IP Packager"); // bz (cs)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: update_compile_order -fileset sources_1 
+// [GUI Memory]: 163 MB (+6616kb) [00:01:44]
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, SWIPT_2020_v1_0 (SWIPT_2020_v1_0.v)]", 1); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, SWIPT_2020_v1_0 (SWIPT_2020_v1_0.v), SWIPT_2020_v1_0_S00_AXI_inst : SWIPT_2020_v1_0_S00_AXI (SWIPT_2020_v1_0_S00_AXI.v), swipt_toplevel_inst : swipt_toplevel (swipt_toplevel.v)]", 3, true); // B (F, cs) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, SWIPT_2020_v1_0 (SWIPT_2020_v1_0.v), SWIPT_2020_v1_0_S00_AXI_inst : SWIPT_2020_v1_0_S00_AXI (SWIPT_2020_v1_0_S00_AXI.v), swipt_toplevel_inst : swipt_toplevel (swipt_toplevel.v)]", 3, true, false, false, false, false, true); // B (F, cs) - Double Click - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, IP-XACT]", 4); // B (F, cs)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, IP-XACT]", 4); // B (F, cs)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Utility Sources]", 7); // B (F, cs)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Utility Sources]", 7); // B (F, cs)
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Libraries", 1); // i (N, cs)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0); // B (F, cs)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Verilog]", 1); // B (F, cs)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Verilog, ]", 2); // B (F, cs)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, IP-XACT]", 6); // B (F, cs)
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Hierarchy", 0); // i (N, cs)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, SWIPT_2020_v1_0 (SWIPT_2020_v1_0.v), SWIPT_2020_v1_0_S00_AXI_inst : SWIPT_2020_v1_0_S00_AXI (SWIPT_2020_v1_0_S00_AXI.v), swipt_toplevel_inst : swipt_toplevel (swipt_toplevel.v)]", 3); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, SWIPT_2020_v1_0 (SWIPT_2020_v1_0.v), SWIPT_2020_v1_0_S00_AXI_inst : SWIPT_2020_v1_0_S00_AXI (SWIPT_2020_v1_0_S00_AXI.v), swipt_toplevel_inst : swipt_toplevel (swipt_toplevel.v)]", 3, true); // B (F, cs) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, SWIPT_2020_v1_0 (SWIPT_2020_v1_0.v), SWIPT_2020_v1_0_S00_AXI_inst : SWIPT_2020_v1_0_S00_AXI (SWIPT_2020_v1_0_S00_AXI.v), swipt_toplevel_inst : swipt_toplevel (swipt_toplevel.v)]", 3, true, false, false, false, false, true); // B (F, cs) - Double Click - Node
+selectCodeEditor("swipt_toplevel.v", 11, 142); // bP (w, cs)
+selectCodeEditor("swipt_toplevel.v", 239, 266, false, false, false, true, false); // bP (w, cs) - Popup Trigger
+selectMenuItem(RDIResource.HInputHandler_TOGGLE_LINE_COMMENTS, "Toggle Line Comments"); // ai (ao, Popup.HeavyWeightWindow)
+selectCodeEditor("swipt_toplevel.v", 272, 460); // bP (w, cs)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 21, false); // u (J, cs)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cs): No Implementation Results Available: addNotify
+selectCheckBox(RDIResource.MessageWithOptionDialog_DONT_SHOW_THIS_DIALOG_AGAIN, "Don't show this dialog again", false); // g (Q, A): FALSE
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bz (cs):  Resetting Runs : addNotify
+// f (cs): Launch Runs: addNotify
+dismissDialog("No Implementation Results Available"); // A (cs)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// 'cD' command handler elapsed time: 4 seconds
+dismissDialog("Launch Runs"); // f (cs)
+// TclEventType: RUN_LAUNCH
+// bz (cs):  Generate Bitstream : addNotify
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// TclEventType: RUN_MODIFY
+// [Engine Memory]: 1,145 MB (+166kb) [00:02:34]
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Thu Feb 25 22:23:35 2021] Launched synth_1... Run output will be captured here: c:/users/brech/desktop/eagle2_v2/drone/drone.tmp/swipt_2020_v1_0_project/SWIPT_2020_v1_0_project.runs/synth_1/runme.log [Thu Feb 25 22:23:35 2021] Launched impl_1... Run output will be captured here: c:/users/brech/desktop/eagle2_v2/drone/drone.tmp/swipt_2020_v1_0_project/SWIPT_2020_v1_0_project.runs/impl_1/runme.log 
+// TclEventType: RUN_STATUS_CHANGE
+dismissDialog("Generate Bitstream"); // bz (cs)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 45 seconds
+selectCodeEditor("swipt_toplevel.v", 36, 393); // bP (w, cs)
+selectCodeEditor("swipt_toplevel.v", 96, 450, false, false, false, true, false); // bP (w, cs) - Popup Trigger
+selectMenuItem(RDIResource.HInputHandler_TOGGLE_LINE_COMMENTS, "Toggle Line Comments"); // ai (ao, Popup.HeavyWeightWindow)
+selectCodeEditor("swipt_toplevel.v", 206, 583); // bP (w, cs)
+selectCodeEditor("swipt_toplevel.v", 5, 606); // bP (w, cs)
+selectCodeEditor("swipt_toplevel.v", 55, 601, false, false, false, true, false); // bP (w, cs) - Popup Trigger
+selectMenuItem(RDIResource.HInputHandler_TOGGLE_LINE_COMMENTS, "Toggle Line Comments"); // ai (ao, Popup.HeavyWeightWindow)
+selectCodeEditor("swipt_toplevel.v", 153, 568); // bP (w, cs)
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 12 seconds
+selectButton(PAResourceQtoS.SyntheticaStateMonitor_CANCEL, "Cancel"); // h (Q, cs)
+// aU (cs): Cancel Implementation: addNotify
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (aU)
+dismissDialog("Cancel Implementation"); // aU (cs)
+selectButton(PAResourceQtoS.SyntheticaStateMonitor_CANCEL, "Cancel"); // h (Q, cs)
+// aU (cs): Cancel Implementation: addNotify
+selectButton(PAResourceQtoS.StateMonitor_RESET_RUN, "Reset Run"); // a (aU)
+// bz (cs):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Cancel Implementation"); // aU (cs)
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run impl_1 
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+dismissDialog("Resetting Runs"); // bz (cs)
+// Elapsed time: 39 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 21, false); // u (J, cs)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// am (cs): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a (am)
+// bz (cs):  Save Constraints : addNotify
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// A (cs): No Implementation Results Available: addNotify
+dismissDialog("Save Project"); // am (cs)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCheckBox(RDIResource.MessageWithOptionDialog_DONT_SHOW_THIS_DIALOG_AGAIN, "Don't show this dialog again", false); // g (Q, A): FALSE
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bz (cs):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("No Implementation Results Available"); // A (cs)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (cs): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// 'cD' command handler elapsed time: 4 seconds
+dismissDialog("Launch Runs"); // f (cs)
+// bz (cs):  Generate Bitstream : addNotify
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Thu Feb 25 22:25:38 2021] Launched synth_1... Run output will be captured here: c:/users/brech/desktop/eagle2_v2/drone/drone.tmp/swipt_2020_v1_0_project/SWIPT_2020_v1_0_project.runs/synth_1/runme.log [Thu Feb 25 22:25:38 2021] Launched impl_1... Run output will be captured here: c:/users/brech/desktop/eagle2_v2/drone/drone.tmp/swipt_2020_v1_0_project/SWIPT_2020_v1_0_project.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bz (cs)
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// ag (cs): Implementation Failed: addNotify
+// Elapsed time: 91 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ag)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Implementation Failed"); // ag (cs)
+selectCodeEditor("swipt_toplevel.v", 28, 368); // bP (w, cs)
+selectCodeEditor("swipt_toplevel.v", 140, 505, false, false, false, true, false); // bP (w, cs) - Popup Trigger
+selectMenuItem(RDIResource.HInputHandler_TOGGLE_LINE_COMMENTS, "Toggle Line Comments"); // ai (ao, Popup.HeavyWeightWindow)
+selectCodeEditor("swipt_toplevel.v", 598, 142); // bP (w, cs)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 21, false); // u (J, cs)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cs): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bz (cs):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // A (cs)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// f (cs): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// 'cD' command handler elapsed time: 9 seconds
+// TclEventType: RUN_LAUNCH
+dismissDialog("Launch Runs"); // f (cs)
+// bz (cs):  Generate Bitstream : addNotify
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Thu Feb 25 22:27:39 2021] Launched synth_1... Run output will be captured here: c:/users/brech/desktop/eagle2_v2/drone/drone.tmp/swipt_2020_v1_0_project/SWIPT_2020_v1_0_project.runs/synth_1/runme.log [Thu Feb 25 22:27:39 2021] Launched impl_1... Run output will be captured here: c:/users/brech/desktop/eagle2_v2/drone/drone.tmp/swipt_2020_v1_0_project/SWIPT_2020_v1_0_project.runs/impl_1/runme.log 
+// TclEventType: RUN_STATUS_CHANGE
+dismissDialog("Generate Bitstream"); // bz (cs)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, SWIPT_2020_v1_0 (SWIPT_2020_v1_0.v), SWIPT_2020_v1_0_S00_AXI_inst : SWIPT_2020_v1_0_S00_AXI (SWIPT_2020_v1_0_S00_AXI.v), swipt_toplevel_inst : swipt_toplevel (swipt_toplevel.v)]", 3); // B (F, cs)
+selectButton(PAResourceQtoS.SyntheticaStateMonitor_CANCEL, "Cancel"); // h (Q, cs)
+// bz (cs):  Resetting Runs : addNotify
+selectButton("OptionPane.button", "Cancel Process"); // JButton (v, B)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+dismissDialog("Resetting Runs"); // bz (cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, SWIPT_2020_v1_0 (SWIPT_2020_v1_0.v), SWIPT_2020_v1_0_S00_AXI_inst : SWIPT_2020_v1_0_S00_AXI (SWIPT_2020_v1_0_S00_AXI.v), swipt_toplevel_inst : swipt_toplevel (swipt_toplevel.v)]", 3, true); // B (F, cs) - Node
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // E (g, cs)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (cs): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton (j, c)
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files"); // a (E, c)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,162 MB. GUI used memory: 110 MB. Current time: 2/25/21, 10:28:19 PM CET
+// Elapsed time: 25 seconds
+setFileChooser("C:/Users/brech/Desktop/EAGLE2_v1/ZYBO/SwiptOut.v");
+selectButton("FINISH", "Finish"); // JButton (j, c)
+// 'h' command handler elapsed time: 30 seconds
+dismissDialog("Add Sources"); // c (cs)
+// Tcl Message: add_files -norecurse -copy_to c:/Users/brech/Desktop/EAGLE2_v2/IP_Repo/SWIPT_2020_1.0/src C:/Users/brech/Desktop/EAGLE2_v1/ZYBO/SwiptOut.v 
+// Tcl Message: ERROR: [Vivado 12-3630] The destination file 'c:/Users/brech/Desktop/EAGLE2_v2/IP_Repo/SWIPT_2020_1.0/src/SwiptOut.v' already exists, please use -force if you want to overwrite! 
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Vivado 12-3630] The destination file 'c:/Users/brech/Desktop/EAGLE2_v2/IP_Repo/SWIPT_2020_1.0/src/SwiptOut.v' already exists, please use -force if you want to overwrite!  
+// a (cs): Critical Messages: addNotify
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (a)
+dismissDialog("Critical Messages"); // a (cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, SWIPT_2020_v1_0 (SWIPT_2020_v1_0.v), SWIPT_2020_v1_0_S00_AXI_inst : SWIPT_2020_v1_0_S00_AXI (SWIPT_2020_v1_0_S00_AXI.v), swipt_toplevel_inst : swipt_toplevel (swipt_toplevel.v), inst_swiptout : xil_defaultlib.SwiptOut]", 4, false); // B (F, cs)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Utility Sources]", 8); // B (F, cs)
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Libraries", 1); // i (N, cs)
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Compile Order", 2); // i (N, cs)
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Hierarchy", 0); // i (N, cs)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, General Messages, [Vivado 12-3630] The destination file 'c:/Users/brech/Desktop/EAGLE2_v2/IP_Repo/SWIPT_2020_1.0/src/SwiptOut.v' already exists, please use -force if you want to overwrite!. ]", 2, false); // ah (J, cs)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, General Messages, [Vivado 12-3630] The destination file 'c:/Users/brech/Desktop/EAGLE2_v2/IP_Repo/SWIPT_2020_1.0/src/SwiptOut.v' already exists, please use -force if you want to overwrite!. ]", 2, false); // ah (J, cs)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, General Messages, [Vivado 12-3630] The destination file 'c:/Users/brech/Desktop/EAGLE2_v2/IP_Repo/SWIPT_2020_1.0/src/SwiptOut.v' already exists, please use -force if you want to overwrite!. ]", 2, false, false, false, false, true, false); // ah (J, cs) - Popup Trigger
+selectCodeEditor("swipt_toplevel.v", 723, 387); // bP (w, cs)
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // E (g, cs)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (cs): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton (j, c)
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files"); // a (E, c)
+setFileChooser("C:/Users/brech/Desktop/EAGLE2_v1/ZYBO/SwiptOut.v");
+selectTable(PAResourceQtoS.SrcChooserTable_SRC_CHOOSER_TABLE, "VSourceFile ; 1 ; SwiptOut.v ; xil_defaultlib ; C:/Users/brech/Desktop/EAGLE2_v1/ZYBO", 0, "C:/Users/brech/Desktop/EAGLE2_v1/ZYBO", 4); // bQ (J, c)
+selectTable(PAResourceQtoS.SrcChooserTable_SRC_CHOOSER_TABLE, "VSourceFile ; 1 ; SwiptOut.v ; xil_defaultlib ; C:/Users/brech/Desktop/EAGLE2_v1/ZYBO", 0, "C:/Users/brech/Desktop/EAGLE2_v1/ZYBO", 4, false, false, false, true, false); // bQ (J, c) - Popup Trigger
+selectTable(PAResourceQtoS.SrcChooserTable_SRC_CHOOSER_TABLE, "VSourceFile ; 1 ; SwiptOut.v ; xil_defaultlib ; C:/Users/brech/Desktop/EAGLE2_v1/ZYBO", 0, "C:/Users/brech/Desktop/EAGLE2_v1/ZYBO", 4, false, false, false, true, false); // bQ (J, c) - Popup Trigger
+selectMenu(PAResourceQtoS.SrcChooserPanel_ADD_OR_CREATE_SOURCE_FILE, "Add"); // af (ao, c)
+selectMenu(PAResourceQtoS.SrcChooserPanel_ADD_OR_CREATE_SOURCE_FILE, "Add"); // af (ao, c)
+selectButton("FINISH", "Finish"); // JButton (j, c)
+// 'h' command handler elapsed time: 16 seconds
+dismissDialog("Add Sources"); // c (cs)
+// Tcl Message: add_files -norecurse -copy_to c:/Users/brech/Desktop/EAGLE2_v2/IP_Repo/SWIPT_2020_1.0/src C:/Users/brech/Desktop/EAGLE2_v1/ZYBO/SwiptOut.v 
+// Tcl Message: ERROR: [Vivado 12-3630] The destination file 'c:/Users/brech/Desktop/EAGLE2_v2/IP_Repo/SWIPT_2020_1.0/src/SwiptOut.v' already exists, please use -force if you want to overwrite! 
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Vivado 12-3630] The destination file 'c:/Users/brech/Desktop/EAGLE2_v2/IP_Repo/SWIPT_2020_1.0/src/SwiptOut.v' already exists, please use -force if you want to overwrite!  
+// a (cs): Critical Messages: addNotify
+selectButton(PAResourceAtoD.CmdMsgDialog_OPEN_MESSAGES_VIEW, "Open Messages View"); // a (a)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Critical Messages"); // a (cs)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, General Messages, [Vivado 12-3630] The destination file 'c:/Users/brech/Desktop/EAGLE2_v2/IP_Repo/SWIPT_2020_1.0/src/SwiptOut.v' already exists, please use -force if you want to overwrite!. ]", 2, true); // ah (J, cs) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, General Messages, [Vivado 12-3630] The destination file 'c:/Users/brech/Desktop/EAGLE2_v2/IP_Repo/SWIPT_2020_1.0/src/SwiptOut.v' already exists, please use -force if you want to overwrite!. ]", 2, true, false, false, false, false, true); // ah (J, cs) - Double Click - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, General Messages, [Vivado 12-3630] The destination file 'c:/Users/brech/Desktop/EAGLE2_v2/IP_Repo/SWIPT_2020_1.0/src/SwiptOut.v' already exists, please use -force if you want to overwrite!. , [Vivado 12-3630] The destination file 'c:/Users/brech/Desktop/EAGLE2_v2/IP_Repo/SWIPT_2020_1.0/src/SwiptOut.v' already exists, please use -force if you want to overwrite!. ]", 3, false); // ah (J, cs)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, General Messages, [Vivado 12-3630] The destination file 'c:/Users/brech/Desktop/EAGLE2_v2/IP_Repo/SWIPT_2020_1.0/src/SwiptOut.v' already exists, please use -force if you want to overwrite!. , [Vivado 12-3630] The destination file 'c:/Users/brech/Desktop/EAGLE2_v2/IP_Repo/SWIPT_2020_1.0/src/SwiptOut.v' already exists, please use -force if you want to overwrite!. ]", 3, false, false, false, false, false, true); // ah (J, cs) - Double Click
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, General Messages, [Vivado 12-3630] The destination file 'c:/Users/brech/Desktop/EAGLE2_v2/IP_Repo/SWIPT_2020_1.0/src/SwiptOut.v' already exists, please use -force if you want to overwrite!. , [Vivado 12-3630] The destination file 'c:/Users/brech/Desktop/EAGLE2_v2/IP_Repo/SWIPT_2020_1.0/src/SwiptOut.v' already exists, please use -force if you want to overwrite!. ]", 3, false); // ah (J, cs)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, General Messages, [Vivado 12-3630] The destination file 'c:/Users/brech/Desktop/EAGLE2_v2/IP_Repo/SWIPT_2020_1.0/src/SwiptOut.v' already exists, please use -force if you want to overwrite!. , [Vivado 12-3630] The destination file 'c:/Users/brech/Desktop/EAGLE2_v2/IP_Repo/SWIPT_2020_1.0/src/SwiptOut.v' already exists, please use -force if you want to overwrite!. ]", 3, false, false, false, false, true, false); // ah (J, cs) - Popup Trigger
+selectMenu(PAResourceItoN.MsgTreePanel_MESSAGE_SEVERITY, "Message Severity"); // af (K, Popup.HeavyWeightWindow)
+selectMenu(PAResourceItoN.MsgTreePanel_MESSAGE_SEVERITY, "Message Severity"); // af (K, Popup.HeavyWeightWindow)
+selectMenu(PAResourceItoN.MsgTreePanel_MESSAGE_SEVERITY, "Message Severity"); // af (K, Popup.HeavyWeightWindow)
+selectMenu(PAResourceItoN.MsgTreePanel_MESSAGE_SEVERITY, "Message Severity"); // af (K, Popup.HeavyWeightWindow)
+// Elapsed time: 18 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 6); // B (F, cs)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 8); // B (F, cs)
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Libraries", 1); // i (N, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1]", 9, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1]", 9, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1]", 9, false, false, false, false, false, true); // B (F, cs) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation-Only Sources, sim_1]", 11, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation-Only Sources, sim_1]", 11, false, false, false, false, false, true); // B (F, cs) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Utility Sources, utils_1]", 13, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Utility Sources, utils_1]", 13, false, false, false, false, false, true); // B (F, cs) - Double Click
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Compile Order", 2); // i (N, cs)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0); // B (F, cs)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Edit Packaged IP]", 5, false); // u (J, cs)
+// bz (cs):  Open Project Manager : addNotify
+// Run Command: PAResourceCommand.PACommandNames_IP_PACKAGER
+dismissDialog("Open Project Manager"); // bz (cs)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Review and Package", 7); // ar (J, cs)
+selectButton(PAResourceItoN.MessageBanner_CHANGES_DETECTED_IN_IP_THAT_REQUIRE, "IP has been modified."); // h (M, cs)
+// Tcl Message: ipx::update_checksums [ipx::current_core] 
+// Tcl Message: ipx::save_core [ipx::current_core] 
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: FILE_SET_CHANGE
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Hierarchy", 0); // i (N, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "swipt_toplevel.v", 2); // m (l, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, SWIPT_2020_v1_0 (SWIPT_2020_v1_0.v), SWIPT_2020_v1_0_S00_AXI_inst : SWIPT_2020_v1_0_S00_AXI (SWIPT_2020_v1_0_S00_AXI.v), swipt_toplevel_inst : swipt_toplevel (swipt_toplevel.v), inst_swiptout : xil_defaultlib.SwiptOut]", 4, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, SWIPT_2020_v1_0 (SWIPT_2020_v1_0.v), SWIPT_2020_v1_0_S00_AXI_inst : SWIPT_2020_v1_0_S00_AXI (SWIPT_2020_v1_0_S00_AXI.v), swipt_toplevel_inst : swipt_toplevel (swipt_toplevel.v), inst_swiptout : xil_defaultlib.SwiptOut]", 4, false, false, false, false, true, false); // B (F, cs) - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // af (ao, cs)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // af (ao, cs)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // af (ao, cs)
+selectMenuItem(PAResourceCommand.PACommandNames_ADD_SOURCES, "Add Sources..."); // ai (ao, cs)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (cs): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton (j, c)
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files"); // a (E, c)
+setFileChooser("C:/Users/brech/Desktop/EAGLE2_v1/ZYBO/SwiptOut.v");
+selectButton("FINISH", "Finish"); // JButton (j, c)
+// 'h' command handler elapsed time: 8 seconds
+dismissDialog("Add Sources"); // c (cs)
+// Tcl Message: add_files -norecurse -copy_to c:/Users/brech/Desktop/EAGLE2_v2/IP_Repo/SWIPT_2020_1.0/src C:/Users/brech/Desktop/EAGLE2_v1/ZYBO/SwiptOut.v 
+// Tcl Message: ERROR: [Vivado 12-3630] The destination file 'c:/Users/brech/Desktop/EAGLE2_v2/IP_Repo/SWIPT_2020_1.0/src/SwiptOut.v' already exists, please use -force if you want to overwrite! 
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Vivado 12-3630] The destination file 'c:/Users/brech/Desktop/EAGLE2_v2/IP_Repo/SWIPT_2020_1.0/src/SwiptOut.v' already exists, please use -force if you want to overwrite!  
+// a (cs): Critical Messages: addNotify
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (a)
+dismissDialog("Critical Messages"); // a (cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, SWIPT_2020_v1_0 (SWIPT_2020_v1_0.v), SWIPT_2020_v1_0_S00_AXI_inst : SWIPT_2020_v1_0_S00_AXI (SWIPT_2020_v1_0_S00_AXI.v), swipt_toplevel_inst : swipt_toplevel (swipt_toplevel.v), inst_swiptout : xil_defaultlib.SwiptOut]", 4, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, SWIPT_2020_v1_0 (SWIPT_2020_v1_0.v), SWIPT_2020_v1_0_S00_AXI_inst : SWIPT_2020_v1_0_S00_AXI (SWIPT_2020_v1_0_S00_AXI.v), swipt_toplevel_inst : swipt_toplevel (swipt_toplevel.v), inst_swiptout : xil_defaultlib.SwiptOut]", 4, false, false, false, false, true, false); // B (F, cs) - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // af (ao, cs)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // af (ao, cs)
+selectMenuItem(PAResourceCommand.PACommandNames_ADD_SOURCES, "Add Sources..."); // ai (ao, cs)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (cs): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton (j, c)
+// Elapsed time: 11 seconds
+selectButton("CANCEL", "Cancel"); // JButton (j, c)
+// 'h' command handler elapsed time: 13 seconds
+dismissDialog("Add Sources"); // c (cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, SWIPT_2020_v1_0 (SWIPT_2020_v1_0.v), SWIPT_2020_v1_0_S00_AXI_inst : SWIPT_2020_v1_0_S00_AXI (SWIPT_2020_v1_0_S00_AXI.v), swipt_toplevel_inst : swipt_toplevel (swipt_toplevel.v)]", 3, true, false, false, false, true, false); // B (F, cs) - Popup Trigger - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, SWIPT_2020_v1_0 (SWIPT_2020_v1_0.v), SWIPT_2020_v1_0_S00_AXI_inst : SWIPT_2020_v1_0_S00_AXI (SWIPT_2020_v1_0_S00_AXI.v), swipt_toplevel_inst : swipt_toplevel (swipt_toplevel.v), inst_swiptout : xil_defaultlib.SwiptOut]", 4, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, SWIPT_2020_v1_0 (SWIPT_2020_v1_0.v), SWIPT_2020_v1_0_S00_AXI_inst : SWIPT_2020_v1_0_S00_AXI (SWIPT_2020_v1_0_S00_AXI.v), swipt_toplevel_inst : swipt_toplevel (swipt_toplevel.v), inst_swiptout : xil_defaultlib.SwiptOut]", 4, false, false, false, false, true, false); // B (F, cs) - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // af (ao, cs)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // af (ao, cs)
+selectMenuItem(PAResourceCommand.PACommandNames_GOTO_INSTANTIATION, "Go to Source"); // ai (ao, cs)
+// Run Command: PAResourceCommand.PACommandNames_GOTO_INSTANTIATION
+selectCodeEditor("swipt_toplevel.v", 210, 413, false, false, false, true, false); // bP (w, cs) - Popup Trigger
+selectMenuItem(PAResourceOtoP.PACodeEditor_FIND_USAGES, "Find Usages..."); // ai (ao, Popup.HeavyWeightWindow)
+// a (cs): Find Usages: addNotify
+selectButton(RDIResource.BaseDialog_OK, "Find"); // a (a)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,173 MB. GUI used memory: 115 MB. Current time: 2/25/21, 10:31:39 PM CET
+dismissDialog("Find Usages"); // a (cs)
+selectTree(PAResourceEtoH.FindInFilesView_ROOT, "[ROOT]", 2, false); // G (J, cs)
+selectTree(PAResourceEtoH.FindInFilesView_ROOT, "[ROOT]", 2, false, false, false, false, false, true); // G (J, cs) - Double Click
+// [GUI Memory]: 172 MB (+640kb) [00:10:44]
+// Elapsed time: 16 seconds
+closeFrame(PAResourceOtoP.PAViews_FIND_IN_FILES, "Find in Files - Usage of 'inst_swiptout'"); // aA (aL, cs)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 21, false); // u (J, cs)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cs): No Implementation Results Available: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bz (cs):  Resetting Runs : addNotify
+// f (cs): Launch Runs: addNotify
+dismissDialog("No Implementation Results Available"); // A (cs)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// TclEventType: RUN_LAUNCH
+dismissDialog("Launch Runs"); // f (cs)
+// bz (cs):  Generate Bitstream : addNotify
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Thu Feb 25 22:32:10 2021] Launched synth_1... Run output will be captured here: c:/users/brech/desktop/eagle2_v2/drone/drone.tmp/swipt_2020_v1_0_project/SWIPT_2020_v1_0_project.runs/synth_1/runme.log [Thu Feb 25 22:32:10 2021] Launched impl_1... Run output will be captured here: c:/users/brech/desktop/eagle2_v2/drone/drone.tmp/swipt_2020_v1_0_project/SWIPT_2020_v1_0_project.runs/impl_1/runme.log 
+// TclEventType: RUN_STATUS_CHANGE
+dismissDialog("Generate Bitstream"); // bz (cs)
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// ag (cs): Synthesis Failed: addNotify
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 33 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ag)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // ag (cs)
+// Elapsed time: 15 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 25); // B (F, cs)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, drone_wrapper (drone_wrapper.v), drone_i : drone (drone.bd), drone (drone.v)]", 29); // B (F, cs)
+// Tcl Message: current_project drone 
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Libraries", 2); // i (N, cs)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Block Designs, drone]", 5); // B (F, cs)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Block Designs, drone, drone_SWIPT_2020_0_0]", 19); // B (F, cs)
+// Elapsed time: 10 seconds
+selectButton(PAResourceOtoP.PlanAheadTab_REFRESH_IP_CATALOG, "Refresh IP Catalog"); // h (ds, cs)
+// TclEventType: CREATE_IP_CATALOG
+// TclEventType: IP_LOCK_CHANGE
+// Tcl Message: update_ip_catalog -rebuild -scan_changes 
+// bz (cs):  Refresh IP Catalog : addNotify
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: BDCELL_LOCK_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: BDCELL_LOCK_CHANGE
+// TclEventType: CREATE_IP_CATALOG
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/brech/Desktop/EAGLE2_v2/IP_Repo'. INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/brech/Desktop/EAGLEtutorials/tut5/tut5/tut5.srcs/sources_1/new'. 
+// Tcl Message: report_ip_status -name ip_status 
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: RSB_CLOSE_DIAGRAM
+// TclEventType: RSB_REMOVE_ADDRNETWORK
+// TclEventType: IP_SUMMARY_RESULTS
+dismissDialog("Refresh IP Catalog"); // bz (cs)
+selectButton(PAResourceItoN.IPStatusSectionPanel_UPGRADE_SELECTED, "Upgrade Selected"); // a (g, cs)
+// Run Command: PAResourceCommand.PACommandNames_UPGRADE_IP
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// bz (cs):  Upgrade IP : addNotify
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_OPEN_DIAGRAM
+// Tcl Message: upgrade_ip -vlnv user.org:user:SWIPT_2020:1.0 [get_ips  drone_SWIPT_2020_0_0] -log ip_upgrade.log 
+// Tcl Message: Adding component instance block -- xilinx.com:ip:processing_system7:5.5 - processing_system7_0 
+// Tcl Message: Successfully read diagram <drone> from BD file <C:/Users/brech/Desktop/EAGLE2_v2/src/bd/drone.bd> 
+// TclEventType: RSB_OPEN_DIAGRAM
+// WARNING: HEventQueue.dispatchEvent() is taking  4145 ms.
+// TclEventType: RSB_CONNECTION_CHANGE
+// Elapsed time: 12 seconds
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: RSB_OPEN_DIAGRAM
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// [GUI Memory]: 181 MB (+210kb) [00:12:45]
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: Upgrading 'C:/Users/brech/Desktop/EAGLE2_v2/src/bd/drone.bd' 
+// Tcl Message: INFO: [IP_Flow 19-1972] Upgraded drone_SWIPT_2020_0_0 from SWIPT_2020_v1.0 1.0 to SWIPT_2020_v1.0 1.0 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: FILESET_UPDATE_IP
+// TclEventType: IP_UPGRADE_COMPLETE
+// Tcl Message: Wrote  : <C:\Users\brech\Desktop\EAGLE2_v2\src\bd\drone.bd>  Wrote  : <C:/Users/brech/Desktop/EAGLE2_v2/src/bd/ui/bd_2bde8598.ui>  
+// Tcl Message: INFO: [Coretcl 2-1525] Wrote upgrade log to 'C:/Users/brech/Desktop/EAGLE2_v2/drone/ip_upgrade.log'. 
+// Tcl Message: upgrade_ip: Time (s): cpu = 00:00:20 ; elapsed = 00:00:14 . Memory (MB): peak = 1284.188 ; gain = 96.406 
+// Tcl Message: export_ip_user_files -of_objects [get_ips drone_SWIPT_2020_0_0] -no_script -sync -force -quiet 
+// aI (cs): Generate Output Products: addNotify
+selectButton("OptionPane.button", "OK"); // JButton (v, B)
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY, "Generate"); // a (aI)
+// bz (cs):  Managing Output Products : addNotify
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// Tcl Message: generate_target all [get_files  C:/Users/brech/Desktop/EAGLE2_v2/src/bd/drone.bd] 
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// Tcl Message: Wrote  : <C:\Users\brech\Desktop\EAGLE2_v2\src\bd\drone.bd>  
+// Tcl Message: VHDL Output written to : C:/Users/brech/Desktop/EAGLE2_v2/src/bd/synth/drone.v 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: VHDL Output written to : C:/Users/brech/Desktop/EAGLE2_v2/src/bd/sim/drone.v VHDL Output written to : C:/Users/brech/Desktop/EAGLE2_v2/src/bd/hdl/drone_wrapper.v 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block SWIPT_2020_0 . 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0_axi_periph/s00_couplers/auto_pc . 
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0_axi_periph/m00_couplers/auto_pc . 
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0_axi_periph/m01_couplers/auto_pc . 
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0_axi_periph/m02_couplers/auto_pc . 
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0_axi_periph/m03_couplers/auto_pc . 
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0_axi_periph/m04_couplers/auto_pc . 
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0_axi_periph/m05_couplers/auto_pc . 
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0_axi_periph/m06_couplers/auto_pc . 
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0_axi_periph/m07_couplers/auto_pc . 
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0_axi_periph/m09_couplers/auto_pc . 
+// Tcl Message: Exporting to file C:/Users/brech/Desktop/EAGLE2_v2/src/bd/hw_handoff/drone.hwh Generated Block Design Tcl file C:/Users/brech/Desktop/EAGLE2_v2/src/bd/hw_handoff/drone_bd.tcl 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: Generated Hardware Definition File C:/Users/brech/Desktop/EAGLE2_v2/src/bd/synth/drone.hwdef 
+// Tcl Message: generate_target: Time (s): cpu = 00:00:55 ; elapsed = 00:00:55 . Memory (MB): peak = 1473.961 ; gain = 187.305 
+// Tcl Message: export_ip_user_files -of_objects [get_files C:/Users/brech/Desktop/EAGLE2_v2/src/bd/drone.bd] -no_script -sync -force -quiet 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: export_simulation -of_objects [get_files C:/Users/brech/Desktop/EAGLE2_v2/src/bd/drone.bd] -directory C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.ip_user_files -ipstatic_source_dir C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.cache/compile_simlib/modelsim} {questa=C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.cache/compile_simlib/questa} {riviera=C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.cache/compile_simlib/riviera} {activehdl=C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// a (cs): Critical Messages: addNotify
+// Elapsed time: 83 seconds
+dismissDialog("Managing Output Products"); // bz (cs)
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 11 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (a)
+dismissDialog("Critical Messages"); // a (cs)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (J, cs)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cs): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bz (cs):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // A (cs)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (cs): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// 'cD' command handler elapsed time: 4 seconds
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+dismissDialog("Launch Runs"); // f (cs)
+// bz (cs):  Generate Bitstream : addNotify
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_STATUS_CHANGE
+// Tcl Message: [Thu Feb 25 22:35:38 2021] Launched synth_1... Run output will be captured here: C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.runs/synth_1/runme.log [Thu Feb 25 22:35:38 2021] Launched impl_1... Run output will be captured here: C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.runs/impl_1/runme.log 
+// TclEventType: RUN_STATUS_CHANGE
+dismissDialog("Generate Bitstream"); // bz (cs)
+selectTab((HResource) null, (HResource) null, "Sources", 0); // aL (aI, cs)
+// Elapsed time: 15 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "swipt_toplevel.v", 2); // m (l, cs)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // F
+// Elapsed time: 19 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Package IP - SWIPT_2020", 1); // m (l, cs)
+selectButton(PAResourceQtoS.ReviewContentPanel_RE_PACKAGE_IP, "Re-Package IP"); // a (c, cs)
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// bz (cs):  Package IP : addNotify
+// Tcl Message: set_property core_revision 8 [ipx::current_core] 
+// Tcl Message: ipx::update_source_project_archive -component [ipx::current_core] 
+// Tcl Message: ipx::create_xgui_files [ipx::current_core] 
+// Tcl Message: ipx::update_checksums [ipx::current_core] 
+// Tcl Message: ipx::save_core [ipx::current_core] 
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// bz (cs):  Package IP : addNotify
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+selectButton("OptionPane.button", "Yes"); // JButton (v, B)
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: current_project SWIPT_2020_v1_0_project 
+// Tcl Message: ipx::move_temp_component_back -component [ipx::current_core] 
+// TclEventType: PROJECT_CLOSE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,173 MB. GUI used memory: 113 MB. Current time: 2/25/21, 10:36:27 PM CET
+// Tcl Message: close_project -delete 
+dismissDialog("Package IP"); // bz (cs)
+// TclEventType: CREATE_IP_CATALOG
+// TclEventType: IP_LOCK_CHANGE
+// Tcl Message: update_ip_catalog -rebuild -repo_path c:/Users/brech/Desktop/EAGLE2_v2/IP_Repo 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: BDCELL_LOCK_CHANGE
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: RSB_BITABEN_IPREPODATA_REFRESH
+// TclEventType: BDCELL_LOCK_CHANGE
+// TclEventType: CREATE_IP_CATALOG
+// Tcl Message: INFO: [IP_Flow 19-725] Reloaded user IP repository 'c:/Users/brech/Desktop/EAGLE2_v2/IP_Repo' 
+// ag (cs): Synthesis Failed: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ag)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // ag (cs)
+selectButton(PAResourceQtoS.SystemTab_SHOW_IP_STATUS, "Show IP Status"); // h (ds, cs)
+ // selectButton(PAResourceItoN.IPStatusTablePanel_MORE_INFO, "Incompatible IP data detected. IP definition 'SWIPT_2020_v1.0 (1.0)' changed on disk"); // P (D, cs)
+selectTreeTable(PAResourceItoN.IPStatusTablePanel_IP_STATUS_TABLE, "/SWIPT_2020_0 ; true ; drone_SWIPT_2020_0_0 [SWIPT_2020_v1.0] (Incompatible IP data detected. IP definition 'SWIPT_2020_v1.0 (1.0)' changed on disk) ; drone_SWIPT_2020_0_0 [SWIPT_2020_v1.0] (Incompatible IP data detected. IP definition 'SWIPT_2020_v1.0 (1.0)' changed on disk) ;  ; SWIPT_2020_v1.0 ; 1.0 (Rev. 7) ; 1.0 (Rev. 7) ; drone_SWIPT_2020_0_0 [SWIPT_2020_v1.0] (Incompatible IP data detected. IP definition 'SWIPT_2020_v1.0 (1.0)' changed on disk) ; xc7z010clg400-1", 1, "drone_SWIPT_2020_0_0 [SWIPT_2020_v1.0] (Incompatible IP data detected. IP definition 'SWIPT_2020_v1.0 (1.0)' changed on disk)", 2, false); // D (J, cs)
+selectButton(PAResourceItoN.IPStatusSectionPanel_UPGRADE_SELECTED, "Upgrade Selected"); // a (g, cs)
+// Run Command: PAResourceCommand.PACommandNames_UPGRADE_IP
+// TclEventType: RSB_OPEN_DIAGRAM
+// TclEventType: RSB_SCRIPT_TASK
+// bz (cs):  Upgrade IP : addNotify
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: upgrade_ip -vlnv user.org:user:SWIPT_2020:1.0 [get_ips  drone_SWIPT_2020_0_0] -log ip_upgrade.log 
+// Tcl Message: Upgrading 'C:/Users/brech/Desktop/EAGLE2_v2/src/bd/drone.bd' 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-3422] Upgraded drone_SWIPT_2020_0_0 (SWIPT_2020_v1.0 1.0) from revision 7 to revision 8 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: FILESET_UPDATE_IP
+// TclEventType: IP_UPGRADE_COMPLETE
+// Tcl Message: Wrote  : <C:\Users\brech\Desktop\EAGLE2_v2\src\bd\drone.bd>  Wrote  : <C:/Users/brech/Desktop/EAGLE2_v2/src/bd/ui/bd_2bde8598.ui>  
+// Tcl Message: INFO: [Coretcl 2-1525] Wrote upgrade log to 'C:/Users/brech/Desktop/EAGLE2_v2/drone/ip_upgrade.log'. 
+// Tcl Message: export_ip_user_files -of_objects [get_ips drone_SWIPT_2020_0_0] -no_script -sync -force -quiet 
+// aI (cs): Generate Output Products: addNotify
+selectButton("OptionPane.button", "OK"); // JButton (v, B)
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY, "Generate"); // a (aI)
+// bz (cs):  Managing Output Products : addNotify
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// Tcl Message: generate_target all [get_files  C:/Users/brech/Desktop/EAGLE2_v2/src/bd/drone.bd] 
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// Tcl Message: Wrote  : <C:\Users\brech\Desktop\EAGLE2_v2\src\bd\drone.bd>  
+// Tcl Message: VHDL Output written to : C:/Users/brech/Desktop/EAGLE2_v2/src/bd/synth/drone.v 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: VHDL Output written to : C:/Users/brech/Desktop/EAGLE2_v2/src/bd/sim/drone.v VHDL Output written to : C:/Users/brech/Desktop/EAGLE2_v2/src/bd/hdl/drone_wrapper.v 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block SWIPT_2020_0 . 
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0_axi_periph/s00_couplers/auto_pc . 
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0_axi_periph/m00_couplers/auto_pc . 
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0_axi_periph/m01_couplers/auto_pc . 
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0_axi_periph/m02_couplers/auto_pc . 
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0_axi_periph/m03_couplers/auto_pc . 
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0_axi_periph/m04_couplers/auto_pc . 
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0_axi_periph/m05_couplers/auto_pc . 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0_axi_periph/m06_couplers/auto_pc . 
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0_axi_periph/m07_couplers/auto_pc . 
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0_axi_periph/m09_couplers/auto_pc . 
+// Tcl Message: Exporting to file C:/Users/brech/Desktop/EAGLE2_v2/src/bd/hw_handoff/drone.hwh Generated Block Design Tcl file C:/Users/brech/Desktop/EAGLE2_v2/src/bd/hw_handoff/drone_bd.tcl 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: Generated Hardware Definition File C:/Users/brech/Desktop/EAGLE2_v2/src/bd/synth/drone.hwdef 
+// Tcl Message: generate_target: Time (s): cpu = 00:00:40 ; elapsed = 00:00:45 . Memory (MB): peak = 1509.125 ; gain = 4.594 
+// Tcl Message: export_ip_user_files -of_objects [get_files C:/Users/brech/Desktop/EAGLE2_v2/src/bd/drone.bd] -no_script -sync -force -quiet 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: export_simulation -of_objects [get_files C:/Users/brech/Desktop/EAGLE2_v2/src/bd/drone.bd] -directory C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.ip_user_files -ipstatic_source_dir C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.cache/compile_simlib/modelsim} {questa=C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.cache/compile_simlib/questa} {riviera=C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.cache/compile_simlib/riviera} {activehdl=C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// a (cs): Critical Messages: addNotify
+// Elapsed time: 69 seconds
+dismissDialog("Managing Output Products"); // bz (cs)
+// TclEventType: FILE_SET_CHANGE
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (a)
+dismissDialog("Critical Messages"); // a (cs)
+selectButton(RDIResource.BaseReportTab_RERUN, "Rerun"); // h (ds, cs)
+// Tcl Command: 'report_ip_status -name ip_status '
+// TclEventType: IP_SUMMARY_RESULTS
+// bz (cs):  Report IP Status : addNotify
+// Tcl Message: report_ip_status -name ip_status  
+dismissDialog("Report IP Status"); // bz (cs)
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aL (aI, cs)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-439] module 'SwiptOut' not found [c:/Users/brech/Desktop/EAGLE2_v2/src/bd/ipshared/44fa/swipt_toplevel.v:186]. ]", 5, false); // ah (J, cs)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;c:\Users\brech\Desktop\EAGLE2_v2\src\bd\ipshared\44fa\swipt_toplevel.v;-;;-;16;-;line;-;186;-;;-;16;-;"); // ah (J, cs)
+// ad (cs): Unable to Open File: addNotify
+selectButton(PAResourceOtoP.OpenFileAction_OK, "OK"); // a (ad)
+dismissDialog("Unable to Open File"); // ad (cs)
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-6156] failed synthesizing module 'swipt_toplevel' [c:/Users/brech/Desktop/EAGLE2_v2/src/bd/ipshared/44fa/swipt_toplevel.v:22]. ]", 6); // ah (J, cs)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-6156] failed synthesizing module 'swipt_toplevel' [c:/Users/brech/Desktop/EAGLE2_v2/src/bd/ipshared/44fa/swipt_toplevel.v:22]. , [Synth 8-6156] failed synthesizing module 'drone_SWIPT_2020_0_0' [c:/Users/brech/Desktop/EAGLE2_v2/src/bd/ip/drone_SWIPT_2020_0_0/synth/drone_SWIPT_2020_0_0.v:56]. ]", 9, false); // ah (J, cs)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-6156] failed synthesizing module 'swipt_toplevel' [c:/Users/brech/Desktop/EAGLE2_v2/src/bd/ipshared/44fa/swipt_toplevel.v:22]. , [Synth 8-6156] failed synthesizing module 'drone_SWIPT_2020_0_0' [c:/Users/brech/Desktop/EAGLE2_v2/src/bd/ip/drone_SWIPT_2020_0_0/synth/drone_SWIPT_2020_0_0.v:56]. ]", 9, false); // ah (J, cs)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;c:\Users\brech\Desktop\EAGLE2_v2\src\bd\ip\drone_SWIPT_2020_0_0\synth\drone_SWIPT_2020_0_0.v;-;;-;16;-;line;-;56;-;;-;16;-;"); // ah (J, cs)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-6156] failed synthesizing module 'swipt_toplevel' [c:/Users/brech/Desktop/EAGLE2_v2/src/bd/ipshared/44fa/swipt_toplevel.v:22]. , [Synth 8-6156] failed synthesizing module 'drone' [C:/Users/brech/Desktop/EAGLE2_v2/src/bd/synth/drone.v:13]. ]", 10, false); // ah (J, cs)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\brech\Desktop\EAGLE2_v2\src\bd\synth\drone.v;-;;-;16;-;line;-;13;-;;-;16;-;"); // ah (J, cs)
+// Elapsed time: 15 seconds
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Hierarchy", 0); // i (N, cs)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, drone_wrapper (drone_wrapper.v), drone_i : drone (drone.bd), drone (drone.v)]", 3); // B (F, cs)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, drone_wrapper (drone_wrapper.v), drone_i : drone (drone.bd), drone (drone.v), SWIPT_2020_0 : drone_SWIPT_2020_0_0 (drone_SWIPT_2020_0_0.xci)]", 10); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, drone_wrapper (drone_wrapper.v), drone_i : drone (drone.bd), drone (drone.v), SWIPT_2020_0 : drone_SWIPT_2020_0_0 (drone_SWIPT_2020_0_0.xci), drone_SWIPT_2020_0_0 (drone_SWIPT_2020_0_0.v), inst : SWIPT_2020_v1_0 (SWIPT_2020_v1_0.v), SWIPT_2020_v1_0_S00_AXI_inst : SWIPT_2020_v1_0_S00_AXI (SWIPT_2020_v1_0_S00_AXI.v), swipt_toplevel_inst : swipt_toplevel (swipt_toplevel.v), inst_swiptout : xil_defaultlib.SwiptOut]", 15, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, drone_wrapper (drone_wrapper.v), drone_i : drone (drone.bd), drone (drone.v), SWIPT_2020_0 : drone_SWIPT_2020_0_0 (drone_SWIPT_2020_0_0.xci), drone_SWIPT_2020_0_0 (drone_SWIPT_2020_0_0.v), inst : SWIPT_2020_v1_0 (SWIPT_2020_v1_0.v), SWIPT_2020_v1_0_S00_AXI_inst : SWIPT_2020_v1_0_S00_AXI (SWIPT_2020_v1_0_S00_AXI.v), swipt_toplevel_inst : swipt_toplevel (swipt_toplevel.v)]", 14, true); // B (F, cs) - Node
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // F
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "drone_SWIPT_2020_0_0.v", 2); // m (l, cs)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // F
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, drone_wrapper (drone_wrapper.v), drone_i : drone (drone.bd), drone (drone.v), SWIPT_2020_0 : drone_SWIPT_2020_0_0 (drone_SWIPT_2020_0_0.xci), drone_SWIPT_2020_0_0 (drone_SWIPT_2020_0_0.v), inst : SWIPT_2020_v1_0 (SWIPT_2020_v1_0.v), SWIPT_2020_v1_0_S00_AXI_inst : SWIPT_2020_v1_0_S00_AXI (SWIPT_2020_v1_0_S00_AXI.v)]", 13, true); // B (F, cs) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, drone_wrapper (drone_wrapper.v), drone_i : drone (drone.bd), drone (drone.v), SWIPT_2020_0 : drone_SWIPT_2020_0_0 (drone_SWIPT_2020_0_0.xci), drone_SWIPT_2020_0_0 (drone_SWIPT_2020_0_0.v), inst : SWIPT_2020_v1_0 (SWIPT_2020_v1_0.v), SWIPT_2020_v1_0_S00_AXI_inst : SWIPT_2020_v1_0_S00_AXI (SWIPT_2020_v1_0_S00_AXI.v)]", 13, true, false, false, false, false, true); // B (F, cs) - Double Click - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, drone_wrapper (drone_wrapper.v), drone_i : drone (drone.bd), drone (drone.v), SWIPT_2020_0 : drone_SWIPT_2020_0_0 (drone_SWIPT_2020_0_0.xci), drone_SWIPT_2020_0_0 (drone_SWIPT_2020_0_0.v), inst : SWIPT_2020_v1_0 (SWIPT_2020_v1_0.v), SWIPT_2020_v1_0_S00_AXI_inst : SWIPT_2020_v1_0_S00_AXI (SWIPT_2020_v1_0_S00_AXI.v)]", 13); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, drone_wrapper (drone_wrapper.v), drone_i : drone (drone.bd), drone (drone.v), SWIPT_2020_0 : drone_SWIPT_2020_0_0 (drone_SWIPT_2020_0_0.xci), drone_SWIPT_2020_0_0 (drone_SWIPT_2020_0_0.v), inst : SWIPT_2020_v1_0 (SWIPT_2020_v1_0.v), SWIPT_2020_v1_0_S00_AXI_inst : SWIPT_2020_v1_0_S00_AXI (SWIPT_2020_v1_0_S00_AXI.v), swipt_toplevel_inst : swipt_toplevel (swipt_toplevel.v)]", 14, true); // B (F, cs) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, drone_wrapper (drone_wrapper.v), drone_i : drone (drone.bd), drone (drone.v), SWIPT_2020_0 : drone_SWIPT_2020_0_0 (drone_SWIPT_2020_0_0.xci), drone_SWIPT_2020_0_0 (drone_SWIPT_2020_0_0.v), inst : SWIPT_2020_v1_0 (SWIPT_2020_v1_0.v), SWIPT_2020_v1_0_S00_AXI_inst : SWIPT_2020_v1_0_S00_AXI (SWIPT_2020_v1_0_S00_AXI.v), swipt_toplevel_inst : swipt_toplevel (swipt_toplevel.v)]", 14, true, false, false, false, false, true); // B (F, cs) - Double Click - Node
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // F
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, drone_wrapper (drone_wrapper.v), drone_i : drone (drone.bd), drone (drone.v), SWIPT_2020_0 : drone_SWIPT_2020_0_0 (drone_SWIPT_2020_0_0.xci), drone_SWIPT_2020_0_0 (drone_SWIPT_2020_0_0.v), inst : SWIPT_2020_v1_0 (SWIPT_2020_v1_0.v), SWIPT_2020_v1_0_S00_AXI_inst : SWIPT_2020_v1_0_S00_AXI (SWIPT_2020_v1_0_S00_AXI.v), swipt_toplevel_inst : swipt_toplevel (swipt_toplevel.v)]", 14); // B (F, cs)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, drone_wrapper (drone_wrapper.v), drone_i : drone (drone.bd), drone (drone.v), SWIPT_2020_0 : drone_SWIPT_2020_0_0 (drone_SWIPT_2020_0_0.xci), drone_SWIPT_2020_0_0 (drone_SWIPT_2020_0_0.v), inst : SWIPT_2020_v1_0 (SWIPT_2020_v1_0.v), SWIPT_2020_v1_0_S00_AXI_inst : SWIPT_2020_v1_0_S00_AXI (SWIPT_2020_v1_0_S00_AXI.v), swipt_toplevel_inst : swipt_toplevel (swipt_toplevel.v)]", 14); // B (F, cs)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, drone_wrapper (drone_wrapper.v), drone_i : drone (drone.bd), drone (drone.v), SWIPT_2020_0 : drone_SWIPT_2020_0_0 (drone_SWIPT_2020_0_0.xci), drone_SWIPT_2020_0_0 (drone_SWIPT_2020_0_0.v), inst : SWIPT_2020_v1_0 (SWIPT_2020_v1_0.v), SWIPT_2020_v1_0_S00_AXI_inst : SWIPT_2020_v1_0_S00_AXI (SWIPT_2020_v1_0_S00_AXI.v), swipt_toplevel_inst : swipt_toplevel (swipt_toplevel.v)]", 14); // B (F, cs)
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // E (g, cs)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (cs): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton (j, c)
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files"); // a (E, c)
+setFileChooser("C:/Users/brech/Desktop/EAGLE2_v1/ZYBO/SwiptOut.v");
+selectButton("FINISH", "Finish"); // JButton (j, c)
+// 'h' command handler elapsed time: 6 seconds
+dismissDialog("Add Sources"); // c (cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files -norecurse C:/Users/brech/Desktop/EAGLE2_v1/ZYBO/SwiptOut.v 
+// Elapsed time: 10 seconds
+selectCodeEditor("swipt_toplevel.v", 518, 376); // G (w, cs)
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Libraries", 2); // i (N, cs)
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Hierarchy", 0); // i (N, cs)
+selectTab((HResource) null, (HResource) null, "IP Status", 3); // aL (aI, cs)
+selectTreeTable(PAResourceItoN.IPStatusTablePanel_IP_STATUS_TABLE, "/SWIPT_2020_0 ; false ; drone_SWIPT_2020_0_0 [SWIPT_2020_v1.0] (Up-to-date) ; No changes required ;  ; SWIPT_2020_v1.0 ; 1.0 (Rev. 8) ; 1.0 (Rev. 8) ; drone_SWIPT_2020_0_0 [SWIPT_2020_v1.0] (Up-to-date) ; xc7z010clg400-1", 9, "/SWIPT_2020_0", 0, false); // D (J, cs)
+selectTreeTable(PAResourceItoN.IPStatusTablePanel_IP_STATUS_TABLE, "/SWIPT_2020_0 ; false ; drone_SWIPT_2020_0_0 [SWIPT_2020_v1.0] (Up-to-date) ; No changes required ;  ; SWIPT_2020_v1.0 ; 1.0 (Rev. 8) ; 1.0 (Rev. 8) ; drone_SWIPT_2020_0_0 [SWIPT_2020_v1.0] (Up-to-date) ; xc7z010clg400-1", 9, "false", 1, false); // D (J, cs)
+selectTreeTable(PAResourceItoN.IPStatusTablePanel_IP_STATUS_TABLE, "/SWIPT_2020_0 ; false ; drone_SWIPT_2020_0_0 [SWIPT_2020_v1.0] (Up-to-date) ; No changes required ;  ; SWIPT_2020_v1.0 ; 1.0 (Rev. 8) ; 1.0 (Rev. 8) ; drone_SWIPT_2020_0_0 [SWIPT_2020_v1.0] (Up-to-date) ; xc7z010clg400-1", 9, "false", 1, false); // D (J, cs)
+expandTreeTable(PAResourceItoN.IPStatusTablePanel_IP_STATUS_TABLE, "/SWIPT_2020_0 ; false ; drone_SWIPT_2020_0_0 [SWIPT_2020_v1.0] (Up-to-date) ; No changes required ;  ; SWIPT_2020_v1.0 ; 1.0 (Rev. 8) ; 1.0 (Rev. 8) ; drone_SWIPT_2020_0_0 [SWIPT_2020_v1.0] (Up-to-date) ; xc7z010clg400-1", 9); // D (J, cs)
+selectTreeTable(PAResourceItoN.IPStatusTablePanel_IP_STATUS_TABLE, "/SWIPT_2020_0 ; false ; drone_SWIPT_2020_0_0 [SWIPT_2020_v1.0] (Up-to-date) ; No changes required ;  ; SWIPT_2020_v1.0 ; 1.0 (Rev. 8) ; 1.0 (Rev. 8) ; drone_SWIPT_2020_0_0 [SWIPT_2020_v1.0] (Up-to-date) ; xc7z010clg400-1", 9, "false", 1, false, false, false, false, false, true); // D (J, cs) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, drone_wrapper (drone_wrapper.v), drone_i : drone (drone.bd), drone (drone.v), SWIPT_2020_0 : drone_SWIPT_2020_0_0 (drone_SWIPT_2020_0_0.xci), drone_SWIPT_2020_0_0 (drone_SWIPT_2020_0_0.v), inst : SWIPT_2020_v1_0 (SWIPT_2020_v1_0.v), SWIPT_2020_v1_0_S00_AXI_inst : SWIPT_2020_v1_0_S00_AXI (SWIPT_2020_v1_0_S00_AXI.v), swipt_toplevel_inst : swipt_toplevel (swipt_toplevel.v), inst_swiptout : xil_defaultlib.SwiptOut]", 15, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, drone_wrapper (drone_wrapper.v), drone_i : drone (drone.bd), drone (drone.v), SWIPT_2020_0 : drone_SWIPT_2020_0_0 (drone_SWIPT_2020_0_0.xci), drone_SWIPT_2020_0_0 (drone_SWIPT_2020_0_0.v), inst : SWIPT_2020_v1_0 (SWIPT_2020_v1_0.v), SWIPT_2020_v1_0_S00_AXI_inst : SWIPT_2020_v1_0_S00_AXI (SWIPT_2020_v1_0_S00_AXI.v), swipt_toplevel_inst : swipt_toplevel (swipt_toplevel.v), inst_swiptout : xil_defaultlib.SwiptOut]", 15, false, false, false, false, false, true); // B (F, cs) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, drone_wrapper (drone_wrapper.v), drone_i : drone (drone.bd), drone (drone.v), SWIPT_2020_0 : drone_SWIPT_2020_0_0 (drone_SWIPT_2020_0_0.xci), drone_SWIPT_2020_0_0 (drone_SWIPT_2020_0_0.v), inst : SWIPT_2020_v1_0 (SWIPT_2020_v1_0.v), SWIPT_2020_v1_0_S00_AXI_inst : SWIPT_2020_v1_0_S00_AXI (SWIPT_2020_v1_0_S00_AXI.v), swipt_toplevel_inst : swipt_toplevel (swipt_toplevel.v), inst_swiptout : xil_defaultlib.SwiptOut]", 15, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, drone_wrapper (drone_wrapper.v), drone_i : drone (drone.bd), drone (drone.v), SWIPT_2020_0 : drone_SWIPT_2020_0_0 (drone_SWIPT_2020_0_0.xci), drone_SWIPT_2020_0_0 (drone_SWIPT_2020_0_0.v), inst : SWIPT_2020_v1_0 (SWIPT_2020_v1_0.v), SWIPT_2020_v1_0_S00_AXI_inst : SWIPT_2020_v1_0_S00_AXI (SWIPT_2020_v1_0_S00_AXI.v), swipt_toplevel_inst : swipt_toplevel (swipt_toplevel.v), inst_swiptout : xil_defaultlib.SwiptOut]", 15, false, false, false, false, false, true); // B (F, cs) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, drone_wrapper (drone_wrapper.v), drone_i : drone (drone.bd), drone (drone.v), SWIPT_2020_0 : drone_SWIPT_2020_0_0 (drone_SWIPT_2020_0_0.xci), drone_SWIPT_2020_0_0 (drone_SWIPT_2020_0_0.v), inst : SWIPT_2020_v1_0 (SWIPT_2020_v1_0.v), SWIPT_2020_v1_0_S00_AXI_inst : SWIPT_2020_v1_0_S00_AXI (SWIPT_2020_v1_0_S00_AXI.v), swipt_toplevel_inst : swipt_toplevel (swipt_toplevel.v)]", 14, true); // B (F, cs) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, drone_wrapper (drone_wrapper.v), drone_i : drone (drone.bd), drone (drone.v), SWIPT_2020_0 : drone_SWIPT_2020_0_0 (drone_SWIPT_2020_0_0.xci), drone_SWIPT_2020_0_0 (drone_SWIPT_2020_0_0.v), inst : SWIPT_2020_v1_0 (SWIPT_2020_v1_0.v), SWIPT_2020_v1_0_S00_AXI_inst : SWIPT_2020_v1_0_S00_AXI (SWIPT_2020_v1_0_S00_AXI.v), swipt_toplevel_inst : swipt_toplevel (swipt_toplevel.v)]", 14, true, false, false, false, false, true); // B (F, cs) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, SwiptOut (SwiptOut.v)]", 24, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, SwiptOut (SwiptOut.v)]", 24, false, false, false, false, true, false); // B (F, cs) - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // af (ao, Popup.HeavyWeightWindow)
+selectMenuItem(PAResourceQtoS.SrcMenu_REFRESH_HIERARCHY, "Refresh Hierarchy"); // ai (ao, Popup.HeavyWeightWindow)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, drone_wrapper (drone_wrapper.v), drone_i : drone (drone.bd), drone (drone.v), SWIPT_2020_0 : drone_SWIPT_2020_0_0 (drone_SWIPT_2020_0_0.xci), drone_SWIPT_2020_0_0 (drone_SWIPT_2020_0_0.v), inst : SWIPT_2020_v1_0 (SWIPT_2020_v1_0.v), SWIPT_2020_v1_0_S00_AXI_inst : SWIPT_2020_v1_0_S00_AXI (SWIPT_2020_v1_0_S00_AXI.v), swipt_toplevel_inst : swipt_toplevel (swipt_toplevel.v)]", 14); // B (F, cs)
+// Elapsed time: 10 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (J, cs)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cs): No Implementation Results Available: addNotify
+selectCheckBox(RDIResource.MessageWithOptionDialog_DONT_SHOW_THIS_DIALOG_AGAIN, "Don't show this dialog again", false); // g (Q, A): FALSE
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bz (cs):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("No Implementation Results Available"); // A (cs)
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// f (cs): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// 'cD' command handler elapsed time: 3 seconds
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+dismissDialog("Launch Runs"); // f (cs)
+// TclEventType: RUN_LAUNCH
+// bz (cs):  Generate Bitstream : addNotify
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Thu Feb 25 22:40:42 2021] Launched synth_1... Run output will be captured here: C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.runs/synth_1/runme.log [Thu Feb 25 22:40:42 2021] Launched impl_1... Run output will be captured here: C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bz (cs)
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 20 seconds
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aL (aI, cs)
+// Elapsed time: 36 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, SwiptOut (SwiptOut.v)]", 25, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, SwiptOut (SwiptOut.v)]", 25, false, false, false, false, false, true); // B (F, cs) - Double Click
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "IP Sources", 1); // i (N, cs)
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Libraries", 2); // i (N, cs)
+// Elapsed time: 14 seconds
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Compile Order", 3); // i (N, cs)
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Hierarchy", 0); // i (N, cs)
+// Elapsed time: 45 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, SwiptOut (SwiptOut.v)]", 32, false); // B (F, cs)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, drone_wrapper (drone_wrapper.v), drone_i : drone (drone.bd), drone (drone.v)]", 31); // B (F, cs)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, drone_wrapper (drone_wrapper.v), drone_i : drone (drone.bd), drone (drone.v)]", 31); // B (F, cs)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, drone_wrapper (drone_wrapper.v)]", 29); // B (F, cs)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, drone_wrapper (drone_wrapper.v), drone_i : drone (drone.bd), drone (drone.v)]", 3); // B (F, cs)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, drone_wrapper (drone_wrapper.v), drone_i : drone (drone.bd)]", 2); // B (F, cs)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// ag (cs): Implementation Failed: addNotify
+// Elapsed time: 125 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ag)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Implementation Failed"); // ag (cs)
+// Elapsed time: 32 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, drone_wrapper (drone_wrapper.v), drone_i : drone (drone.bd)]", 2, true); // B (F, cs) - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, drone_wrapper (drone_wrapper.v), drone_i : drone (drone.bd)]", 2); // B (F, cs)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, drone_wrapper (drone_wrapper.v), drone_i : drone (drone.bd), drone (drone.v)]", 3); // B (F, cs)
+// Elapsed time: 14 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, drone_wrapper (drone_wrapper.v), drone_i : drone (drone.bd)]", 2, true); // B (F, cs) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, drone_wrapper (drone_wrapper.v), drone_i : drone (drone.bd)]", 2, true, false, false, false, false, true); // B (F, cs) - Double Click - Node
+// bz (cs):  Open Block Design : addNotify
+// TclEventType: RSB_OPEN_DIAGRAM
+// Tcl Message: open_bd_design {C:/Users/brech/Desktop/EAGLE2_v2/src/bd/drone.bd} 
+dismissDialog("Open Block Design"); // bz (cs)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// Tcl Message: delete_bd_objs [get_bd_ports test_killswitch] 
+// Elapsed time: 13 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, SwiptOut (SwiptOut.v)]", 3, false, false, false, false, true, false); // B (F, cs) - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // af (ao, cs)
+selectMenuItem(PAResourceQtoS.SrcMenu_REFRESH_HIERARCHY, "Refresh Hierarchy"); // ai (ao, cs)
+selectButton(PAResourceQtoS.RSBApplyAutomationBar_RUN_CONNECTION_AUTOMATION, "Run Connection Automation"); // h (dq, cs)
+// ai (cs): Run Connection Automation: addNotify

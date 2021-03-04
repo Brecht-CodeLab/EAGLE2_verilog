@@ -1,0 +1,1060 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Sun Feb 28 08:15:00 2021
+# Process ID: 11024
+# Current directory: C:/Users/brech/Desktop/EAGLE2_v2/drone
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3516 C:\Users\brech\Desktop\EAGLE2_v2\drone\drone.xpr
+# Log file: C:/Users/brech/Desktop/EAGLE2_v2/drone/vivado.log
+# Journal file: C:/Users/brech/Desktop/EAGLE2_v2/drone\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.xpr
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.srcs/sources_1'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/brech/Desktop/EAGLE2_v2/IP_Repo'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/brech/Desktop/EAGLEtutorials/tut5/tut5/tut5.srcs/sources_1/new'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.1/data/ip'.
+open_project: Time (s): cpu = 00:00:31 ; elapsed = 00:00:21 . Memory (MB): peak = 1096.637 ; gain = 0.000
+open_bd_design {C:/Users/brech/Desktop/EAGLE2_v2/src/bd/drone.bd}
+Adding component instance block -- xilinx.com:ip:processing_system7:5.5 - processing_system7_0
+WARNING: [BD 41-176] The physical port 'S_AXI_GP2_rd_socket' specified in the portmap, is not found on the block! 
+WARNING: [BD 41-176] The physical port 'S_AXI_GP2_wr_socket' specified in the portmap, is not found on the block! 
+WARNING: [BD 41-176] The physical port 'S_AXI_GP3_rd_socket' specified in the portmap, is not found on the block! 
+WARNING: [BD 41-176] The physical port 'S_AXI_GP3_wr_socket' specified in the portmap, is not found on the block! 
+Adding component instance block -- kuleuven.be:user:RC:1.0 - RC_1
+Adding component instance block -- kuleuven.be:user:RC:1.0 - RC_0
+Adding component instance block -- xilinx.com:ip:axi_gpio:2.0 - axi_gpio_testpins
+Adding component instance block -- xilinx.com:ip:axi_gpio:2.0 - axi_gpio_led
+Adding component instance block -- kuleuven.be:user:kill_switch:1.0 - kill_switch_0
+Adding component instance block -- kuleuven.be:user:PWM_AXI_triple:1.0 - PWM_AXI_triple_0
+Adding component instance block -- kuleuven.be:user:PWM_AXI_triple:1.0 - PWM_AXI_triple_3
+Adding component instance block -- kuleuven.be:user:PWM_AXI_triple:1.0 - PWM_AXI_triple_5
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - rst_processing_system7_0_100M
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - processing_system7_0_axi_periph
+Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:xadc_wiz:3.3 - xadc_wiz_0
+Adding component instance block -- kuleuven.be:user:PWM_AXI_triple:1.0 - PWM_AXI_triple_4
+Adding component instance block -- user.org:user:crypto2020_hash_ip_v1:1.0 - crypto2020_hash_ip_v1_0
+Adding component instance block -- user.org:user:SWIPT_2020:1.0 - SWIPT_2020_0
+WARNING: [BD 41-1731] Type mismatch between connected pins: /processing_system7_0/FCLK_CLK0(clk) and /kill_switch_0/clk(undef)
+Successfully read diagram <drone> from BD file <C:/Users/brech/Desktop/EAGLE2_v2/src/bd/drone.bd>
+open_bd_design: Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 1309.453 ; gain = 79.195
+ipx::edit_ip_in_project -upgrade true -name SWIPT_2020_v1_0_project -directory C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.tmp/SWIPT_2020_v1_0_project c:/Users/brech/Desktop/EAGLE2_v2/IP_Repo/SWIPT_2020_1.0/component.xml
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.1/data/ip'.
+create_project: Time (s): cpu = 00:00:10 ; elapsed = 00:00:08 . Memory (MB): peak = 1312.043 ; gain = 0.000
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/brech/Desktop/EAGLE2_v2/IP_Repo'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/brech/Desktop/EAGLEtutorials/tut5/tut5/tut5.srcs/sources_1/new'.
+INFO: [IP_Flow 19-795] Syncing license key meta-data
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [c:/Users/brech/Desktop/EAGLE2_v2/IP_Repo/SWIPT_2020_1.0/hdl/SWIPT_2020_v1_0_S00_AXI.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [c:/Users/brech/Desktop/EAGLE2_v2/IP_Repo/SWIPT_2020_1.0/swipt_toplevel.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [c:/Users/brech/Desktop/EAGLE2_v2/IP_Repo/SWIPT_2020_1.0/hdl/SWIPT_2020_v1_0.v:]
+ipx::edit_ip_in_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:11 . Memory (MB): peak = 1312.043 ; gain = 0.000
+update_compile_order -fileset sources_1
+current_project drone
+current_project SWIPT_2020_v1_0_project
+set_property core_revision 11 [ipx::current_core]
+ipx::update_source_project_archive -component [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+current_project drone
+update_ip_catalog -rebuild -scan_changes
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/brech/Desktop/EAGLE2_v2/IP_Repo'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/brech/Desktop/EAGLEtutorials/tut5/tut5/tut5.srcs/sources_1/new'.
+report_ip_status -name ip_status
+current_project SWIPT_2020_v1_0_project
+current_project drone
+upgrade_ip -vlnv user.org:user:SWIPT_2020:1.0 [get_ips  drone_SWIPT_2020_0_0] -log ip_upgrade.log
+Upgrading 'C:/Users/brech/Desktop/EAGLE2_v2/src/bd/drone.bd'
+INFO: [IP_Flow 19-3422] Upgraded drone_SWIPT_2020_0_0 (SWIPT_2020_v1.0 1.0) from revision 10 to revision 11
+Wrote  : <C:\Users\brech\Desktop\EAGLE2_v2\src\bd\drone.bd> 
+Wrote  : <C:/Users/brech/Desktop/EAGLE2_v2/src/bd/ui/bd_2bde8598.ui> 
+INFO: [Coretcl 2-1525] Wrote upgrade log to 'C:/Users/brech/Desktop/EAGLE2_v2/drone/ip_upgrade.log'.
+export_ip_user_files -of_objects [get_ips drone_SWIPT_2020_0_0] -no_script -sync -force -quiet
+generate_target all [get_files  C:/Users/brech/Desktop/EAGLE2_v2/src/bd/drone.bd]
+CRITICAL WARNING: [BD 41-1358] IP interface /axi_gpio_led/GPIO has associated board param GPIO_BOARD_INTERFACE, which is set to board part interface leds_4bits, but IP interface is not connected to any external port. To apply board automation generated constraints, please make it external.
+Wrote  : <C:\Users\brech\Desktop\EAGLE2_v2\src\bd\drone.bd> 
+VHDL Output written to : C:/Users/brech/Desktop/EAGLE2_v2/src/bd/synth/drone.v
+VHDL Output written to : C:/Users/brech/Desktop/EAGLE2_v2/src/bd/sim/drone.v
+VHDL Output written to : C:/Users/brech/Desktop/EAGLE2_v2/src/bd/hdl/drone_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block SWIPT_2020_0 .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/brech/Desktop/EAGLE2_v2/src/bd/ip/drone_auto_pc_9/drone_auto_pc_9_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0_axi_periph/s00_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/brech/Desktop/EAGLE2_v2/src/bd/ip/drone_auto_pc_0/drone_auto_pc_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0_axi_periph/m00_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/brech/Desktop/EAGLE2_v2/src/bd/ip/drone_auto_pc_1/drone_auto_pc_1_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0_axi_periph/m01_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/brech/Desktop/EAGLE2_v2/src/bd/ip/drone_auto_pc_2/drone_auto_pc_2_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0_axi_periph/m02_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/brech/Desktop/EAGLE2_v2/src/bd/ip/drone_auto_pc_3/drone_auto_pc_3_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0_axi_periph/m03_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/brech/Desktop/EAGLE2_v2/src/bd/ip/drone_auto_pc_4/drone_auto_pc_4_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0_axi_periph/m04_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/brech/Desktop/EAGLE2_v2/src/bd/ip/drone_auto_pc_5/drone_auto_pc_5_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0_axi_periph/m05_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/brech/Desktop/EAGLE2_v2/src/bd/ip/drone_auto_pc_6/drone_auto_pc_6_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0_axi_periph/m06_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/brech/Desktop/EAGLE2_v2/src/bd/ip/drone_auto_pc_7/drone_auto_pc_7_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0_axi_periph/m07_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/brech/Desktop/EAGLE2_v2/src/bd/ip/drone_auto_pc_8/drone_auto_pc_8_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0_axi_periph/m09_couplers/auto_pc .
+Exporting to file C:/Users/brech/Desktop/EAGLE2_v2/src/bd/hw_handoff/drone.hwh
+Generated Block Design Tcl file C:/Users/brech/Desktop/EAGLE2_v2/src/bd/hw_handoff/drone_bd.tcl
+Generated Hardware Definition File C:/Users/brech/Desktop/EAGLE2_v2/src/bd/synth/drone.hwdef
+generate_target: Time (s): cpu = 00:00:51 ; elapsed = 00:00:59 . Memory (MB): peak = 1586.809 ; gain = 185.148
+export_ip_user_files -of_objects [get_files C:/Users/brech/Desktop/EAGLE2_v2/src/bd/drone.bd] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files C:/Users/brech/Desktop/EAGLE2_v2/src/bd/drone.bd] -directory C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.ip_user_files -ipstatic_source_dir C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.cache/compile_simlib/modelsim} {questa=C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.cache/compile_simlib/questa} {riviera=C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.cache/compile_simlib/riviera} {activehdl=C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+report_ip_status -name ip_status 
+add_files -norecurse C:/Users/brech/Desktop/EAGLE2_v1/ZYBO/DutyAdjust.v
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Mon Mar  1 10:28:36 2021] Launched synth_1...
+Run output will be captured here: C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.runs/synth_1/runme.log
+[Mon Mar  1 10:28:36 2021] Launched impl_1...
+Run output will be captured here: C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.runs/impl_1/runme.log
+open_run impl_1
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.746 . Memory (MB): peak = 1760.004 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 1017 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2020.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 2462.566 ; gain = 1.098
+Restored from archive | CPU: 2.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 2462.566 ; gain = 1.098
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.010 . Memory (MB): peak = 2462.707 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 6 instances were transformed.
+  IOBUF => IOBUF (IBUF, OBUFT): 2 instances
+  SRLC32E => SRL16E: 4 instances
+
+open_run: Time (s): cpu = 00:00:44 ; elapsed = 00:00:35 . Memory (MB): peak = 2604.430 ; gain = 987.340
+open_report: Time (s): cpu = 00:00:26 ; elapsed = 00:00:19 . Memory (MB): peak = 2615.023 ; gain = 10.594
+CRITICAL WARNING: [Timing 38-282] The design failed to meet the timing requirements. Please see the timing summary report for details on the timing violations.
+set_property core_revision 12 [ipx::current_core]
+ipx::update_source_project_archive -component [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+current_project SWIPT_2020_v1_0_project
+ipx::move_temp_component_back -component [ipx::current_core]
+close_project -delete
+update_ip_catalog -rebuild -repo_path c:/Users/brech/Desktop/EAGLE2_v2/IP_Repo
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'c:/Users/brech/Desktop/EAGLE2_v2/IP_Repo'
+report_ip_status -name ip_status 
+upgrade_ip -vlnv user.org:user:SWIPT_2020:1.0 [get_ips  drone_SWIPT_2020_0_0] -log ip_upgrade.log
+Upgrading 'C:/Users/brech/Desktop/EAGLE2_v2/src/bd/drone.bd'
+INFO: [IP_Flow 19-3422] Upgraded drone_SWIPT_2020_0_0 (SWIPT_2020_v1.0 1.0) from revision 11 to revision 12
+Wrote  : <C:\Users\brech\Desktop\EAGLE2_v2\src\bd\drone.bd> 
+Wrote  : <C:/Users/brech/Desktop/EAGLE2_v2/src/bd/ui/bd_2bde8598.ui> 
+INFO: [Coretcl 2-1525] Wrote upgrade log to 'C:/Users/brech/Desktop/EAGLE2_v2/drone/ip_upgrade.log'.
+export_ip_user_files -of_objects [get_ips drone_SWIPT_2020_0_0] -no_script -sync -force -quiet
+generate_target all [get_files  C:/Users/brech/Desktop/EAGLE2_v2/src/bd/drone.bd]
+CRITICAL WARNING: [BD 41-1358] IP interface /axi_gpio_led/GPIO has associated board param GPIO_BOARD_INTERFACE, which is set to board part interface leds_4bits, but IP interface is not connected to any external port. To apply board automation generated constraints, please make it external.
+Wrote  : <C:\Users\brech\Desktop\EAGLE2_v2\src\bd\drone.bd> 
+VHDL Output written to : C:/Users/brech/Desktop/EAGLE2_v2/src/bd/synth/drone.v
+VHDL Output written to : C:/Users/brech/Desktop/EAGLE2_v2/src/bd/sim/drone.v
+VHDL Output written to : C:/Users/brech/Desktop/EAGLE2_v2/src/bd/hdl/drone_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block SWIPT_2020_0 .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/brech/Desktop/EAGLE2_v2/src/bd/ip/drone_auto_pc_9/drone_auto_pc_9_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0_axi_periph/s00_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/brech/Desktop/EAGLE2_v2/src/bd/ip/drone_auto_pc_0/drone_auto_pc_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0_axi_periph/m00_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/brech/Desktop/EAGLE2_v2/src/bd/ip/drone_auto_pc_1/drone_auto_pc_1_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0_axi_periph/m01_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/brech/Desktop/EAGLE2_v2/src/bd/ip/drone_auto_pc_2/drone_auto_pc_2_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0_axi_periph/m02_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/brech/Desktop/EAGLE2_v2/src/bd/ip/drone_auto_pc_3/drone_auto_pc_3_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0_axi_periph/m03_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/brech/Desktop/EAGLE2_v2/src/bd/ip/drone_auto_pc_4/drone_auto_pc_4_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0_axi_periph/m04_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/brech/Desktop/EAGLE2_v2/src/bd/ip/drone_auto_pc_5/drone_auto_pc_5_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0_axi_periph/m05_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/brech/Desktop/EAGLE2_v2/src/bd/ip/drone_auto_pc_6/drone_auto_pc_6_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0_axi_periph/m06_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/brech/Desktop/EAGLE2_v2/src/bd/ip/drone_auto_pc_7/drone_auto_pc_7_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0_axi_periph/m07_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/brech/Desktop/EAGLE2_v2/src/bd/ip/drone_auto_pc_8/drone_auto_pc_8_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0_axi_periph/m09_couplers/auto_pc .
+Exporting to file C:/Users/brech/Desktop/EAGLE2_v2/src/bd/hw_handoff/drone.hwh
+Generated Block Design Tcl file C:/Users/brech/Desktop/EAGLE2_v2/src/bd/hw_handoff/drone_bd.tcl
+Generated Hardware Definition File C:/Users/brech/Desktop/EAGLE2_v2/src/bd/synth/drone.hwdef
+generate_target: Time (s): cpu = 00:00:38 ; elapsed = 00:00:42 . Memory (MB): peak = 2975.297 ; gain = 12.457
+export_ip_user_files -of_objects [get_files C:/Users/brech/Desktop/EAGLE2_v2/src/bd/drone.bd] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files C:/Users/brech/Desktop/EAGLE2_v2/src/bd/drone.bd] -directory C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.ip_user_files -ipstatic_source_dir C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.cache/compile_simlib/modelsim} {questa=C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.cache/compile_simlib/questa} {riviera=C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.cache/compile_simlib/riviera} {activehdl=C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+report_ip_status -name ip_status 
+add_files -norecurse C:/Users/brech/Desktop/EAGLE2_v1/ZYBO/CalcL.v
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7z010clg400-1
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.660 . Memory (MB): peak = 2975.297 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 1123 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2020.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [c:/Users/brech/Desktop/EAGLE2_v2/src/bd/ip/drone_processing_system7_0_0/drone_processing_system7_0_0.xdc] for cell 'drone_i/processing_system7_0/inst'
+WARNING: [Vivado 12-2489] -input_jitter contains time 0.389970 which will be rounded to 0.390 to ensure it is an integer multiple of 1 picosecond [c:/Users/brech/Desktop/EAGLE2_v2/src/bd/ip/drone_processing_system7_0_0/drone_processing_system7_0_0.xdc:24]
+Finished Parsing XDC File [c:/Users/brech/Desktop/EAGLE2_v2/src/bd/ip/drone_processing_system7_0_0/drone_processing_system7_0_0.xdc] for cell 'drone_i/processing_system7_0/inst'
+Parsing XDC File [c:/Users/brech/Desktop/EAGLE2_v2/src/bd/ip/drone_axi_gpio_testpins_0/drone_axi_gpio_testpins_0_board.xdc] for cell 'drone_i/axi_gpio_testpins/U0'
+Finished Parsing XDC File [c:/Users/brech/Desktop/EAGLE2_v2/src/bd/ip/drone_axi_gpio_testpins_0/drone_axi_gpio_testpins_0_board.xdc] for cell 'drone_i/axi_gpio_testpins/U0'
+Parsing XDC File [c:/Users/brech/Desktop/EAGLE2_v2/src/bd/ip/drone_axi_gpio_testpins_0/drone_axi_gpio_testpins_0.xdc] for cell 'drone_i/axi_gpio_testpins/U0'
+Finished Parsing XDC File [c:/Users/brech/Desktop/EAGLE2_v2/src/bd/ip/drone_axi_gpio_testpins_0/drone_axi_gpio_testpins_0.xdc] for cell 'drone_i/axi_gpio_testpins/U0'
+Parsing XDC File [c:/Users/brech/Desktop/EAGLE2_v2/src/bd/ip/drone_axi_gpio_led_0/drone_axi_gpio_led_0_board.xdc] for cell 'drone_i/axi_gpio_led/U0'
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'BOARD_PIN', because the property does not exist for objects of type 'pin'. [c:/Users/brech/Desktop/EAGLE2_v2/src/bd/ip/drone_axi_gpio_led_0/drone_axi_gpio_led_0_board.xdc:3]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'BOARD_PIN', because the property does not exist for objects of type 'pin'. [c:/Users/brech/Desktop/EAGLE2_v2/src/bd/ip/drone_axi_gpio_led_0/drone_axi_gpio_led_0_board.xdc:5]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'BOARD_PIN', because the property does not exist for objects of type 'pin'. [c:/Users/brech/Desktop/EAGLE2_v2/src/bd/ip/drone_axi_gpio_led_0/drone_axi_gpio_led_0_board.xdc:7]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'BOARD_PIN', because the property does not exist for objects of type 'pin'. [c:/Users/brech/Desktop/EAGLE2_v2/src/bd/ip/drone_axi_gpio_led_0/drone_axi_gpio_led_0_board.xdc:9]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+Finished Parsing XDC File [c:/Users/brech/Desktop/EAGLE2_v2/src/bd/ip/drone_axi_gpio_led_0/drone_axi_gpio_led_0_board.xdc] for cell 'drone_i/axi_gpio_led/U0'
+Parsing XDC File [c:/Users/brech/Desktop/EAGLE2_v2/src/bd/ip/drone_axi_gpio_led_0/drone_axi_gpio_led_0.xdc] for cell 'drone_i/axi_gpio_led/U0'
+Finished Parsing XDC File [c:/Users/brech/Desktop/EAGLE2_v2/src/bd/ip/drone_axi_gpio_led_0/drone_axi_gpio_led_0.xdc] for cell 'drone_i/axi_gpio_led/U0'
+Parsing XDC File [c:/Users/brech/Desktop/EAGLE2_v2/src/bd/ip/drone_rst_processing_system7_0_100M_0/drone_rst_processing_system7_0_100M_0_board.xdc] for cell 'drone_i/rst_processing_system7_0_100M/U0'
+Finished Parsing XDC File [c:/Users/brech/Desktop/EAGLE2_v2/src/bd/ip/drone_rst_processing_system7_0_100M_0/drone_rst_processing_system7_0_100M_0_board.xdc] for cell 'drone_i/rst_processing_system7_0_100M/U0'
+Parsing XDC File [c:/Users/brech/Desktop/EAGLE2_v2/src/bd/ip/drone_rst_processing_system7_0_100M_0/drone_rst_processing_system7_0_100M_0.xdc] for cell 'drone_i/rst_processing_system7_0_100M/U0'
+Finished Parsing XDC File [c:/Users/brech/Desktop/EAGLE2_v2/src/bd/ip/drone_rst_processing_system7_0_100M_0/drone_rst_processing_system7_0_100M_0.xdc] for cell 'drone_i/rst_processing_system7_0_100M/U0'
+Parsing XDC File [c:/Users/brech/Desktop/EAGLE2_v2/src/bd/ip/drone_xadc_wiz_0_0/drone_xadc_wiz_0_0.xdc] for cell 'drone_i/xadc_wiz_0/inst'
+Finished Parsing XDC File [c:/Users/brech/Desktop/EAGLE2_v2/src/bd/ip/drone_xadc_wiz_0_0/drone_xadc_wiz_0_0.xdc] for cell 'drone_i/xadc_wiz_0/inst'
+Parsing XDC File [C:/Users/brech/Desktop/EAGLE2_v2/constraints/ZYBO_Master_2018.xdc]
+WARNING: [Vivado 12-584] No ports matched 'test_killswitch'. [C:/Users/brech/Desktop/EAGLE2_v2/constraints/ZYBO_Master_2018.xdc:29]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/brech/Desktop/EAGLE2_v2/constraints/ZYBO_Master_2018.xdc:29]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'tes_killswitch'. [C:/Users/brech/Desktop/EAGLE2_v2/constraints/ZYBO_Master_2018.xdc:30]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/brech/Desktop/EAGLE2_v2/constraints/ZYBO_Master_2018.xdc:30]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+CRITICAL WARNING: [Vivado 12-1411] Cannot set LOC property of ports, Could not legally place instance ADC_inn_6_IBUF_inst at K14 (IOB_X0Y60) since it belongs to a shape containing instance drone_i/xadc_wiz_0/inst. The shape requires relative placement between ADC_inn_6_IBUF_inst and drone_i/xadc_wiz_0/inst that can not be honoured because it would result in an invalid location for drone_i/xadc_wiz_0/inst. [C:/Users/brech/Desktop/EAGLE2_v2/constraints/ZYBO_Master_2018.xdc:465]
+CRITICAL WARNING: [Vivado 12-1411] Cannot set LOC property of ports, Could not legally place instance ADC_inp_6_IBUF_inst at J14 (IOB_X0Y59) since it belongs to a shape containing instance drone_i/xadc_wiz_0/inst. The shape requires relative placement between ADC_inp_6_IBUF_inst and drone_i/xadc_wiz_0/inst that can not be honoured because it would result in an invalid location for drone_i/xadc_wiz_0/inst. [C:/Users/brech/Desktop/EAGLE2_v2/constraints/ZYBO_Master_2018.xdc:466]
+WARNING: [Vivado 12-584] No ports matched 'leds_4bits_tri_o[3]'. [C:/Users/brech/Desktop/EAGLE2_v2/constraints/ZYBO_Master_2018.xdc:494]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/brech/Desktop/EAGLE2_v2/constraints/ZYBO_Master_2018.xdc:494]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds_4bits_tri_o[2]'. [C:/Users/brech/Desktop/EAGLE2_v2/constraints/ZYBO_Master_2018.xdc:495]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/brech/Desktop/EAGLE2_v2/constraints/ZYBO_Master_2018.xdc:495]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds_4bits_tri_o[1]'. [C:/Users/brech/Desktop/EAGLE2_v2/constraints/ZYBO_Master_2018.xdc:496]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/brech/Desktop/EAGLE2_v2/constraints/ZYBO_Master_2018.xdc:496]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds_4bits_tri_o[0]'. [C:/Users/brech/Desktop/EAGLE2_v2/constraints/ZYBO_Master_2018.xdc:497]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/brech/Desktop/EAGLE2_v2/constraints/ZYBO_Master_2018.xdc:497]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds_4bits_tri_o[3]'. [C:/Users/brech/Desktop/EAGLE2_v2/constraints/ZYBO_Master_2018.xdc:498]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/brech/Desktop/EAGLE2_v2/constraints/ZYBO_Master_2018.xdc:498]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds_4bits_tri_o[2]'. [C:/Users/brech/Desktop/EAGLE2_v2/constraints/ZYBO_Master_2018.xdc:499]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/brech/Desktop/EAGLE2_v2/constraints/ZYBO_Master_2018.xdc:499]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds_4bits_tri_o[1]'. [C:/Users/brech/Desktop/EAGLE2_v2/constraints/ZYBO_Master_2018.xdc:500]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/brech/Desktop/EAGLE2_v2/constraints/ZYBO_Master_2018.xdc:500]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds_4bits_tri_o[0]'. [C:/Users/brech/Desktop/EAGLE2_v2/constraints/ZYBO_Master_2018.xdc:501]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/brech/Desktop/EAGLE2_v2/constraints/ZYBO_Master_2018.xdc:501]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+CRITICAL WARNING: [Common 17-163] Missing value for option 'value', please type 'set_property -help' for usage info. [C:/Users/brech/Desktop/EAGLE2_v2/constraints/ZYBO_Master_2018.xdc:503]
+Finished Parsing XDC File [C:/Users/brech/Desktop/EAGLE2_v2/constraints/ZYBO_Master_2018.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.010 . Memory (MB): peak = 3070.297 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 2 instances were transformed.
+  IOBUF => IOBUF (IBUF, OBUFT): 2 instances
+
+open_run: Time (s): cpu = 00:00:14 ; elapsed = 00:00:11 . Memory (MB): peak = 3126.617 ; gain = 151.320
+set_property mark_debug true [get_nets [list drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/SWIPT_OUT0 drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/SWIPT_OUT1 drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/SWIPT_OUT2 drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/SWIPT_OUT3]]
+create_debug_core u_ila_0 ila
+set_property C_DATA_DEPTH 1024 [get_debug_cores u_ila_0]
+set_property C_TRIGIN_EN false [get_debug_cores u_ila_0]
+set_property C_TRIGOUT_EN false [get_debug_cores u_ila_0]
+set_property C_ADV_TRIGGER false [get_debug_cores u_ila_0]
+set_property C_INPUT_PIPE_STAGES 0 [get_debug_cores u_ila_0]
+set_property C_EN_STRG_QUAL false [get_debug_cores u_ila_0]
+set_property ALL_PROBE_SAME_MU true [get_debug_cores u_ila_0]
+set_property ALL_PROBE_SAME_MU_CNT 1 [get_debug_cores u_ila_0]
+connect_debug_port u_ila_0/clk [get_nets [list drone_i/processing_system7_0/inst/FCLK_CLK0 ]]
+set_property port_width 1 [get_debug_ports u_ila_0/probe0]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe0]
+connect_debug_port u_ila_0/probe0 [get_nets [list drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/SWIPT_OUT0 ]]
+create_debug_port u_ila_0 probe
+set_property port_width 1 [get_debug_ports u_ila_0/probe1]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe1]
+connect_debug_port u_ila_0/probe1 [get_nets [list drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/SWIPT_OUT1 ]]
+create_debug_port u_ila_0 probe
+set_property port_width 1 [get_debug_ports u_ila_0/probe2]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe2]
+connect_debug_port u_ila_0/probe2 [get_nets [list drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/SWIPT_OUT2 ]]
+create_debug_port u_ila_0 probe
+set_property port_width 1 [get_debug_ports u_ila_0/probe3]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe3]
+connect_debug_port u_ila_0/probe3 [get_nets [list drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/SWIPT_OUT3 ]]
+save_constraints
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+WARNING: [Project 1-478] Design 'synth_1' is stale and will not be used when launching 'impl_1'
+[Mon Mar  1 10:56:01 2021] Launched synth_1...
+Run output will be captured here: C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.runs/synth_1/runme.log
+[Mon Mar  1 10:56:01 2021] Launched impl_1...
+Run output will be captured here: C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.runs/impl_1/runme.log
+refresh_design
+Netlist sorting complete. Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 3173.492 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 1123 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2020.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [c:/Users/brech/Desktop/EAGLE2_v2/src/bd/ip/drone_processing_system7_0_0/drone_processing_system7_0_0.xdc] for cell 'drone_i/processing_system7_0/inst'
+WARNING: [Vivado 12-2489] -input_jitter contains time 0.389970 which will be rounded to 0.390 to ensure it is an integer multiple of 1 picosecond [c:/Users/brech/Desktop/EAGLE2_v2/src/bd/ip/drone_processing_system7_0_0/drone_processing_system7_0_0.xdc:24]
+Finished Parsing XDC File [c:/Users/brech/Desktop/EAGLE2_v2/src/bd/ip/drone_processing_system7_0_0/drone_processing_system7_0_0.xdc] for cell 'drone_i/processing_system7_0/inst'
+Parsing XDC File [c:/Users/brech/Desktop/EAGLE2_v2/src/bd/ip/drone_axi_gpio_testpins_0/drone_axi_gpio_testpins_0_board.xdc] for cell 'drone_i/axi_gpio_testpins/U0'
+Finished Parsing XDC File [c:/Users/brech/Desktop/EAGLE2_v2/src/bd/ip/drone_axi_gpio_testpins_0/drone_axi_gpio_testpins_0_board.xdc] for cell 'drone_i/axi_gpio_testpins/U0'
+Parsing XDC File [c:/Users/brech/Desktop/EAGLE2_v2/src/bd/ip/drone_axi_gpio_testpins_0/drone_axi_gpio_testpins_0.xdc] for cell 'drone_i/axi_gpio_testpins/U0'
+Finished Parsing XDC File [c:/Users/brech/Desktop/EAGLE2_v2/src/bd/ip/drone_axi_gpio_testpins_0/drone_axi_gpio_testpins_0.xdc] for cell 'drone_i/axi_gpio_testpins/U0'
+Parsing XDC File [c:/Users/brech/Desktop/EAGLE2_v2/src/bd/ip/drone_axi_gpio_led_0/drone_axi_gpio_led_0_board.xdc] for cell 'drone_i/axi_gpio_led/U0'
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'BOARD_PIN', because the property does not exist for objects of type 'pin'. [c:/Users/brech/Desktop/EAGLE2_v2/src/bd/ip/drone_axi_gpio_led_0/drone_axi_gpio_led_0_board.xdc:3]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'BOARD_PIN', because the property does not exist for objects of type 'pin'. [c:/Users/brech/Desktop/EAGLE2_v2/src/bd/ip/drone_axi_gpio_led_0/drone_axi_gpio_led_0_board.xdc:5]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'BOARD_PIN', because the property does not exist for objects of type 'pin'. [c:/Users/brech/Desktop/EAGLE2_v2/src/bd/ip/drone_axi_gpio_led_0/drone_axi_gpio_led_0_board.xdc:7]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'BOARD_PIN', because the property does not exist for objects of type 'pin'. [c:/Users/brech/Desktop/EAGLE2_v2/src/bd/ip/drone_axi_gpio_led_0/drone_axi_gpio_led_0_board.xdc:9]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+Finished Parsing XDC File [c:/Users/brech/Desktop/EAGLE2_v2/src/bd/ip/drone_axi_gpio_led_0/drone_axi_gpio_led_0_board.xdc] for cell 'drone_i/axi_gpio_led/U0'
+Parsing XDC File [c:/Users/brech/Desktop/EAGLE2_v2/src/bd/ip/drone_axi_gpio_led_0/drone_axi_gpio_led_0.xdc] for cell 'drone_i/axi_gpio_led/U0'
+Finished Parsing XDC File [c:/Users/brech/Desktop/EAGLE2_v2/src/bd/ip/drone_axi_gpio_led_0/drone_axi_gpio_led_0.xdc] for cell 'drone_i/axi_gpio_led/U0'
+Parsing XDC File [c:/Users/brech/Desktop/EAGLE2_v2/src/bd/ip/drone_rst_processing_system7_0_100M_0/drone_rst_processing_system7_0_100M_0_board.xdc] for cell 'drone_i/rst_processing_system7_0_100M/U0'
+Finished Parsing XDC File [c:/Users/brech/Desktop/EAGLE2_v2/src/bd/ip/drone_rst_processing_system7_0_100M_0/drone_rst_processing_system7_0_100M_0_board.xdc] for cell 'drone_i/rst_processing_system7_0_100M/U0'
+Parsing XDC File [c:/Users/brech/Desktop/EAGLE2_v2/src/bd/ip/drone_rst_processing_system7_0_100M_0/drone_rst_processing_system7_0_100M_0.xdc] for cell 'drone_i/rst_processing_system7_0_100M/U0'
+Finished Parsing XDC File [c:/Users/brech/Desktop/EAGLE2_v2/src/bd/ip/drone_rst_processing_system7_0_100M_0/drone_rst_processing_system7_0_100M_0.xdc] for cell 'drone_i/rst_processing_system7_0_100M/U0'
+Parsing XDC File [c:/Users/brech/Desktop/EAGLE2_v2/src/bd/ip/drone_xadc_wiz_0_0/drone_xadc_wiz_0_0.xdc] for cell 'drone_i/xadc_wiz_0/inst'
+Finished Parsing XDC File [c:/Users/brech/Desktop/EAGLE2_v2/src/bd/ip/drone_xadc_wiz_0_0/drone_xadc_wiz_0_0.xdc] for cell 'drone_i/xadc_wiz_0/inst'
+Parsing XDC File [C:/Users/brech/Desktop/EAGLE2_v2/constraints/ZYBO_Master_2018.xdc]
+WARNING: [Vivado 12-584] No ports matched 'test_killswitch'. [C:/Users/brech/Desktop/EAGLE2_v2/constraints/ZYBO_Master_2018.xdc:29]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/brech/Desktop/EAGLE2_v2/constraints/ZYBO_Master_2018.xdc:29]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'tes_killswitch'. [C:/Users/brech/Desktop/EAGLE2_v2/constraints/ZYBO_Master_2018.xdc:30]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/brech/Desktop/EAGLE2_v2/constraints/ZYBO_Master_2018.xdc:30]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+CRITICAL WARNING: [Vivado 12-1411] Cannot set LOC property of ports, Could not legally place instance ADC_inn_6_IBUF_inst at K14 (IOB_X0Y60) since it belongs to a shape containing instance drone_i/xadc_wiz_0/inst. The shape requires relative placement between ADC_inn_6_IBUF_inst and drone_i/xadc_wiz_0/inst that can not be honoured because it would result in an invalid location for drone_i/xadc_wiz_0/inst. [C:/Users/brech/Desktop/EAGLE2_v2/constraints/ZYBO_Master_2018.xdc:465]
+CRITICAL WARNING: [Vivado 12-1411] Cannot set LOC property of ports, Could not legally place instance ADC_inp_6_IBUF_inst at J14 (IOB_X0Y59) since it belongs to a shape containing instance drone_i/xadc_wiz_0/inst. The shape requires relative placement between ADC_inp_6_IBUF_inst and drone_i/xadc_wiz_0/inst that can not be honoured because it would result in an invalid location for drone_i/xadc_wiz_0/inst. [C:/Users/brech/Desktop/EAGLE2_v2/constraints/ZYBO_Master_2018.xdc:466]
+WARNING: [Vivado 12-584] No ports matched 'leds_4bits_tri_o[3]'. [C:/Users/brech/Desktop/EAGLE2_v2/constraints/ZYBO_Master_2018.xdc:494]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/brech/Desktop/EAGLE2_v2/constraints/ZYBO_Master_2018.xdc:494]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds_4bits_tri_o[2]'. [C:/Users/brech/Desktop/EAGLE2_v2/constraints/ZYBO_Master_2018.xdc:495]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/brech/Desktop/EAGLE2_v2/constraints/ZYBO_Master_2018.xdc:495]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds_4bits_tri_o[1]'. [C:/Users/brech/Desktop/EAGLE2_v2/constraints/ZYBO_Master_2018.xdc:496]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/brech/Desktop/EAGLE2_v2/constraints/ZYBO_Master_2018.xdc:496]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds_4bits_tri_o[0]'. [C:/Users/brech/Desktop/EAGLE2_v2/constraints/ZYBO_Master_2018.xdc:497]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/brech/Desktop/EAGLE2_v2/constraints/ZYBO_Master_2018.xdc:497]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds_4bits_tri_o[3]'. [C:/Users/brech/Desktop/EAGLE2_v2/constraints/ZYBO_Master_2018.xdc:498]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/brech/Desktop/EAGLE2_v2/constraints/ZYBO_Master_2018.xdc:498]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds_4bits_tri_o[2]'. [C:/Users/brech/Desktop/EAGLE2_v2/constraints/ZYBO_Master_2018.xdc:499]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/brech/Desktop/EAGLE2_v2/constraints/ZYBO_Master_2018.xdc:499]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds_4bits_tri_o[1]'. [C:/Users/brech/Desktop/EAGLE2_v2/constraints/ZYBO_Master_2018.xdc:500]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/brech/Desktop/EAGLE2_v2/constraints/ZYBO_Master_2018.xdc:500]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds_4bits_tri_o[0]'. [C:/Users/brech/Desktop/EAGLE2_v2/constraints/ZYBO_Master_2018.xdc:501]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/brech/Desktop/EAGLE2_v2/constraints/ZYBO_Master_2018.xdc:501]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+CRITICAL WARNING: [Common 17-163] Missing value for option 'value', please type 'set_property -help' for usage info. [C:/Users/brech/Desktop/EAGLE2_v2/constraints/ZYBO_Master_2018.xdc:503]
+Finished Parsing XDC File [C:/Users/brech/Desktop/EAGLE2_v2/constraints/ZYBO_Master_2018.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+refresh_design: Time (s): cpu = 00:00:31 ; elapsed = 00:00:29 . Memory (MB): peak = 3173.492 ; gain = 0.000
+CRITICAL WARNING: [Chipscope 16-3] Cannot debug net 'SWIPT_OUT0'; it is not accessible from the fabric routing.
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2020.1
+  **** Build date : May 27 2020 at 20:24:38
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+****** Xilinx cs_server v2020.1.0
+  **** Build date : May 14 2020-03:10:29
+    ** Copyright 2017-2020 Xilinx, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:01 ; elapsed = 00:00:16 . Memory (MB): peak = 3220.258 ; gain = 3.961
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210279A7912CA
+open_hw_target: Time (s): cpu = 00:00:05 ; elapsed = 00:00:09 . Memory (MB): peak = 4483.840 ; gain = 1263.582
+set_property PROGRAM.FILE {C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.runs/impl_1/drone_wrapper.bit} [get_hw_devices xc7z010_1]
+set_property PROBES.FILE {C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.runs/impl_1/drone_wrapper.ltx} [get_hw_devices xc7z010_1]
+set_property FULL_PROBES.FILE {C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.runs/impl_1/drone_wrapper.ltx} [get_hw_devices xc7z010_1]
+current_hw_device [get_hw_devices xc7z010_1]
+refresh_hw_device [lindex [get_hw_devices xc7z010_1] 0]
+INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+WARNING: [Labtools 27-3413] Dropping logic core with cellname:'u_ila_0' at location 'uuid_23E7D65A79BC59F7BC47406C1714DFAE' from probes file, since it cannot be found on the programmed device.
+refresh_hw_device [lindex [get_hw_devices xc7z010_1] 0]
+INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+WARNING: [Labtools 27-3413] Dropping logic core with cellname:'u_ila_0' at location 'uuid_23E7D65A79BC59F7BC47406C1714DFAE' from probes file, since it cannot be found on the programmed device.
+set_property PROBES.FILE {C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.runs/impl_1/drone_wrapper.ltx} [get_hw_devices xc7z010_1]
+set_property FULL_PROBES.FILE {C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.runs/impl_1/drone_wrapper.ltx} [get_hw_devices xc7z010_1]
+set_property PROGRAM.FILE {C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.runs/impl_1/drone_wrapper.bit} [get_hw_devices xc7z010_1]
+program_hw_devices [get_hw_devices xc7z010_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z010_1] 0]
+INFO: [Labtools 27-2302] Device xc7z010 (JTAG device index = 1) is programmed with a design that has 1 ILA core(s).
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z010_1] -filter {CELL_NAME=~"u_ila_0"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z010_1] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2021-Mar-01 11:21:01
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z010_1] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z010_1] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2021-Mar-01 11:21:01
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z010_1] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2021-Mar-01 11:21:22
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z010_1] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z010_1] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2021-Mar-01 11:21:22
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z010_1] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2021-Mar-01 11:22:40
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z010_1] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z010_1] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2021-Mar-01 11:22:40
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+set_property TRIGGER_COMPARE_VALUE eq1'b1 [get_hw_probes drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/SWIPT_OUT0 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z010_1] -filter {CELL_NAME=~"u_ila_0"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z010_1] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2021-Mar-01 11:24:33
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z010_1] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z010_1] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2021-Mar-01 11:24:33
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z010_1] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2021-Mar-01 11:24:57
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z010_1] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z010_1] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2021-Mar-01 11:24:57
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z010_1] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2021-Mar-01 11:25:06
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z010_1] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z010_1] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2021-Mar-01 11:25:06
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z010_1] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2021-Mar-01 11:25:09
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z010_1] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z010_1] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2021-Mar-01 11:25:09
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z010_1] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2021-Mar-01 11:25:15
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z010_1] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z010_1] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2021-Mar-01 11:25:15
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z010_1] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2021-Mar-01 11:25:18
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z010_1] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z010_1] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2021-Mar-01 11:25:18
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z010_1] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2021-Mar-01 11:25:22
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z010_1] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z010_1] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2021-Mar-01 11:25:22
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z010_1] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2021-Mar-01 11:25:32
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z010_1] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z010_1] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2021-Mar-01 11:25:32
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+set_property TRIGGER_COMPARE_VALUE eq1'bX [get_hw_probes drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/SWIPT_OUT0 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z010_1] -filter {CELL_NAME=~"u_ila_0"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z010_1] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2021-Mar-01 11:25:40
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z010_1] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z010_1] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2021-Mar-01 11:25:40
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+set_property PROBES.FILE {C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.runs/impl_1/drone_wrapper.ltx} [get_hw_devices xc7z010_1]
+set_property FULL_PROBES.FILE {C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.runs/impl_1/drone_wrapper.ltx} [get_hw_devices xc7z010_1]
+set_property PROGRAM.FILE {C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.runs/impl_1/drone_wrapper.bit} [get_hw_devices xc7z010_1]
+program_hw_devices [get_hw_devices xc7z010_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z010_1] 0]
+INFO: [Labtools 27-2302] Device xc7z010 (JTAG device index = 1) is programmed with a design that has 1 ILA core(s).
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z010_1] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2021-Mar-01 11:26:21
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z010_1] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z010_1] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2021-Mar-01 11:26:21
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210279A7912CA
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210279A7912CA
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+WARNING: [Labtools 27-3413] Dropping logic core with cellname:'u_ila_0' at location 'uuid_23E7D65A79BC59F7BC47406C1714DFAE' from probes file, since it cannot be found on the programmed device.
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+set_property PROBES.FILE {C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.runs/impl_1/drone_wrapper.ltx} [get_hw_devices xc7z010_1]
+set_property FULL_PROBES.FILE {C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.runs/impl_1/drone_wrapper.ltx} [get_hw_devices xc7z010_1]
+set_property PROGRAM.FILE {C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.runs/impl_1/drone_wrapper.bit} [get_hw_devices xc7z010_1]
+program_hw_devices [get_hw_devices xc7z010_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z010_1] 0]
+INFO: [Labtools 27-2302] Device xc7z010 (JTAG device index = 1) is programmed with a design that has 1 ILA core(s).
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z010_1] -filter {CELL_NAME=~"u_ila_0"}]]
+set_property PROBES.FILE {C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.runs/impl_1/drone_wrapper.ltx} [get_hw_devices xc7z010_1]
+set_property FULL_PROBES.FILE {C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.runs/impl_1/drone_wrapper.ltx} [get_hw_devices xc7z010_1]
+set_property PROGRAM.FILE {C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.runs/impl_1/drone_wrapper.bit} [get_hw_devices xc7z010_1]
+program_hw_devices [get_hw_devices xc7z010_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z010_1] 0]
+INFO: [Labtools 27-2302] Device xc7z010 (JTAG device index = 1) is programmed with a design that has 1 ILA core(s).
+set_property PROBES.FILE {C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.runs/impl_1/drone_wrapper.ltx} [get_hw_devices xc7z010_1]
+set_property FULL_PROBES.FILE {C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.runs/impl_1/drone_wrapper.ltx} [get_hw_devices xc7z010_1]
+set_property PROGRAM.FILE {C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.runs/impl_1/drone_wrapper.bit} [get_hw_devices xc7z010_1]
+program_hw_devices [get_hw_devices xc7z010_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z010_1] 0]
+INFO: [Labtools 27-2302] Device xc7z010 (JTAG device index = 1) is programmed with a design that has 1 ILA core(s).
+set_property PROBES.FILE {C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.runs/impl_1/drone_wrapper.ltx} [get_hw_devices xc7z010_1]
+set_property FULL_PROBES.FILE {C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.runs/impl_1/drone_wrapper.ltx} [get_hw_devices xc7z010_1]
+set_property PROGRAM.FILE {C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.runs/impl_1/drone_wrapper.bit} [get_hw_devices xc7z010_1]
+program_hw_devices [get_hw_devices xc7z010_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z010_1] 0]
+INFO: [Labtools 27-2302] Device xc7z010 (JTAG device index = 1) is programmed with a design that has 1 ILA core(s).
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+WARNING: [Project 1-478] Design 'synth_1' is stale and will not be used when launching 'impl_1'
+[Mon Mar  1 11:50:57 2021] Launched synth_1...
+Run output will be captured here: C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.runs/synth_1/runme.log
+[Mon Mar  1 11:50:57 2021] Launched impl_1...
+Run output will be captured here: C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.runs/impl_1/runme.log
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z010_1] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2021-Mar-01 12:06:01
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z010_1] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z010_1] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2021-Mar-01 12:06:01
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z010_1] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2021-Mar-01 12:06:38
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z010_1] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z010_1] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2021-Mar-01 12:06:38
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z010_1] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2021-Mar-01 12:06:43
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z010_1] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z010_1] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2021-Mar-01 12:06:43
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+set_property PROBES.FILE {C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.runs/impl_1/drone_wrapper.ltx} [get_hw_devices xc7z010_1]
+set_property FULL_PROBES.FILE {C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.runs/impl_1/drone_wrapper.ltx} [get_hw_devices xc7z010_1]
+set_property PROGRAM.FILE {C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.runs/impl_1/drone_wrapper.bit} [get_hw_devices xc7z010_1]
+program_hw_devices [get_hw_devices xc7z010_1]
+ERROR: [Labtools 27-3165] End of startup status: LOW
+ERROR: [Common 17-39] 'program_hw_devices' failed due to earlier errors.
+set_property PROBES.FILE {C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.runs/impl_1/drone_wrapper.ltx} [get_hw_devices xc7z010_1]
+set_property FULL_PROBES.FILE {C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.runs/impl_1/drone_wrapper.ltx} [get_hw_devices xc7z010_1]
+set_property PROGRAM.FILE {C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.runs/impl_1/drone_wrapper.bit} [get_hw_devices xc7z010_1]
+program_hw_devices [get_hw_devices xc7z010_1]
+ERROR: [Labtools 27-3165] End of startup status: LOW
+ERROR: [Common 17-39] 'program_hw_devices' failed due to earlier errors.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210279A7912CA
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210279A7912CA
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+WARNING: [Labtools 27-3413] Dropping logic core with cellname:'u_ila_0' at location 'uuid_23E7D65A79BC59F7BC47406C1714DFAE' from probes file, since it cannot be found on the programmed device.
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+set_property PROBES.FILE {C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.runs/impl_1/drone_wrapper.ltx} [get_hw_devices xc7z010_1]
+set_property FULL_PROBES.FILE {C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.runs/impl_1/drone_wrapper.ltx} [get_hw_devices xc7z010_1]
+set_property PROGRAM.FILE {C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.runs/impl_1/drone_wrapper.bit} [get_hw_devices xc7z010_1]
+program_hw_devices [get_hw_devices xc7z010_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z010_1] 0]
+INFO: [Labtools 27-2302] Device xc7z010 (JTAG device index = 1) is programmed with a design that has 1 ILA core(s).
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z010_1] -filter {CELL_NAME=~"u_ila_0"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z010_1] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2021-Mar-01 12:11:56
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z010_1] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z010_1] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2021-Mar-01 12:11:56
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210279A7912CA
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210279A7912CA
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+WARNING: [Labtools 27-3413] Dropping logic core with cellname:'u_ila_0' at location 'uuid_23E7D65A79BC59F7BC47406C1714DFAE' from probes file, since it cannot be found on the programmed device.
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+set_property PROBES.FILE {C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.runs/impl_1/drone_wrapper.ltx} [get_hw_devices xc7z010_1]
+set_property FULL_PROBES.FILE {C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.runs/impl_1/drone_wrapper.ltx} [get_hw_devices xc7z010_1]
+set_property PROGRAM.FILE {C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.runs/impl_1/drone_wrapper.bit} [get_hw_devices xc7z010_1]
+program_hw_devices [get_hw_devices xc7z010_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z010_1] 0]
+INFO: [Labtools 27-2302] Device xc7z010 (JTAG device index = 1) is programmed with a design that has 1 ILA core(s).
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z010_1] -filter {CELL_NAME=~"u_ila_0"}]]
+set_property PROBES.FILE {C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.runs/impl_1/drone_wrapper.ltx} [get_hw_devices xc7z010_1]
+set_property FULL_PROBES.FILE {C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.runs/impl_1/drone_wrapper.ltx} [get_hw_devices xc7z010_1]
+set_property PROGRAM.FILE {C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.runs/impl_1/drone_wrapper.bit} [get_hw_devices xc7z010_1]
+program_hw_devices [get_hw_devices xc7z010_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z010_1] 0]
+INFO: [Labtools 27-2302] Device xc7z010 (JTAG device index = 1) is programmed with a design that has 1 ILA core(s).
+ipx::edit_ip_in_project -upgrade true -name SWIPT_2020_v1_0_project -directory C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.tmp/SWIPT_2020_v1_0_project c:/Users/brech/Desktop/EAGLE2_v2/IP_Repo/SWIPT_2020_1.0/component.xml
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.1/data/ip'.
+create_project: Time (s): cpu = 00:00:06 ; elapsed = 00:00:10 . Memory (MB): peak = 4545.281 ; gain = 0.000
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/brech/Desktop/EAGLE2_v2/IP_Repo'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/brech/Desktop/EAGLEtutorials/tut5/tut5/tut5.srcs/sources_1/new'.
+INFO: [IP_Flow 19-795] Syncing license key meta-data
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [c:/Users/brech/Desktop/EAGLE2_v2/IP_Repo/SWIPT_2020_1.0/hdl/SWIPT_2020_v1_0_S00_AXI.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [c:/Users/brech/Desktop/EAGLE2_v2/IP_Repo/SWIPT_2020_1.0/swipt_toplevel.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [c:/Users/brech/Desktop/EAGLE2_v2/IP_Repo/SWIPT_2020_1.0/hdl/SWIPT_2020_v1_0.v:]
+ipx::edit_ip_in_project: Time (s): cpu = 00:00:09 ; elapsed = 00:00:12 . Memory (MB): peak = 4545.281 ; gain = 0.000
+update_compile_order -fileset sources_1
+set_property core_revision 13 [ipx::current_core]
+ipx::update_source_project_archive -component [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+current_project drone
+update_ip_catalog -rebuild -scan_changes
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/brech/Desktop/EAGLE2_v2/IP_Repo'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/brech/Desktop/EAGLEtutorials/tut5/tut5/tut5.srcs/sources_1/new'.
+report_ip_status -name ip_status
+current_project SWIPT_2020_v1_0_project
+current_project drone
+upgrade_ip -vlnv user.org:user:SWIPT_2020:1.0 [get_ips  drone_SWIPT_2020_0_0] -log ip_upgrade.log
+Upgrading 'C:/Users/brech/Desktop/EAGLE2_v2/src/bd/drone.bd'
+INFO: [IP_Flow 19-3422] Upgraded drone_SWIPT_2020_0_0 (SWIPT_2020_v1.0 1.0) from revision 12 to revision 13
+Wrote  : <C:\Users\brech\Desktop\EAGLE2_v2\src\bd\drone.bd> 
+Wrote  : <C:/Users/brech/Desktop/EAGLE2_v2/src/bd/ui/bd_2bde8598.ui> 
+INFO: [Coretcl 2-1525] Wrote upgrade log to 'C:/Users/brech/Desktop/EAGLE2_v2/drone/ip_upgrade.log'.
+export_ip_user_files -of_objects [get_ips drone_SWIPT_2020_0_0] -no_script -sync -force -quiet
+generate_target all [get_files  C:/Users/brech/Desktop/EAGLE2_v2/src/bd/drone.bd]
+CRITICAL WARNING: [BD 41-1358] IP interface /axi_gpio_led/GPIO has associated board param GPIO_BOARD_INTERFACE, which is set to board part interface leds_4bits, but IP interface is not connected to any external port. To apply board automation generated constraints, please make it external.
+Wrote  : <C:\Users\brech\Desktop\EAGLE2_v2\src\bd\drone.bd> 
+VHDL Output written to : C:/Users/brech/Desktop/EAGLE2_v2/src/bd/synth/drone.v
+VHDL Output written to : C:/Users/brech/Desktop/EAGLE2_v2/src/bd/sim/drone.v
+VHDL Output written to : C:/Users/brech/Desktop/EAGLE2_v2/src/bd/hdl/drone_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block SWIPT_2020_0 .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/brech/Desktop/EAGLE2_v2/src/bd/ip/drone_auto_pc_9/drone_auto_pc_9_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0_axi_periph/s00_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/brech/Desktop/EAGLE2_v2/src/bd/ip/drone_auto_pc_0/drone_auto_pc_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0_axi_periph/m00_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/brech/Desktop/EAGLE2_v2/src/bd/ip/drone_auto_pc_1/drone_auto_pc_1_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0_axi_periph/m01_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/brech/Desktop/EAGLE2_v2/src/bd/ip/drone_auto_pc_2/drone_auto_pc_2_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0_axi_periph/m02_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/brech/Desktop/EAGLE2_v2/src/bd/ip/drone_auto_pc_3/drone_auto_pc_3_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0_axi_periph/m03_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/brech/Desktop/EAGLE2_v2/src/bd/ip/drone_auto_pc_4/drone_auto_pc_4_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0_axi_periph/m04_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/brech/Desktop/EAGLE2_v2/src/bd/ip/drone_auto_pc_5/drone_auto_pc_5_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0_axi_periph/m05_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/brech/Desktop/EAGLE2_v2/src/bd/ip/drone_auto_pc_6/drone_auto_pc_6_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0_axi_periph/m06_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/brech/Desktop/EAGLE2_v2/src/bd/ip/drone_auto_pc_7/drone_auto_pc_7_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0_axi_periph/m07_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/brech/Desktop/EAGLE2_v2/src/bd/ip/drone_auto_pc_8/drone_auto_pc_8_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0_axi_periph/m09_couplers/auto_pc .
+Exporting to file C:/Users/brech/Desktop/EAGLE2_v2/src/bd/hw_handoff/drone.hwh
+Generated Block Design Tcl file C:/Users/brech/Desktop/EAGLE2_v2/src/bd/hw_handoff/drone_bd.tcl
+Generated Hardware Definition File C:/Users/brech/Desktop/EAGLE2_v2/src/bd/synth/drone.hwdef
+generate_target: Time (s): cpu = 00:01:11 ; elapsed = 00:01:18 . Memory (MB): peak = 5004.266 ; gain = 9.055
+export_ip_user_files -of_objects [get_files C:/Users/brech/Desktop/EAGLE2_v2/src/bd/drone.bd] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files C:/Users/brech/Desktop/EAGLE2_v2/src/bd/drone.bd] -directory C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.ip_user_files -ipstatic_source_dir C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.cache/compile_simlib/modelsim} {questa=C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.cache/compile_simlib/questa} {riviera=C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.cache/compile_simlib/riviera} {activehdl=C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+report_ip_status -name ip_status 
+update_ip_catalog -rebuild -scan_changes
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/brech/Desktop/EAGLE2_v2/IP_Repo'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/brech/Desktop/EAGLEtutorials/tut5/tut5/tut5.srcs/sources_1/new'.
+report_ip_status -name ip_status
+set_property core_revision 14 [ipx::current_core]
+ipx::update_source_project_archive -component [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+current_project SWIPT_2020_v1_0_project
+ipx::move_temp_component_back -component [ipx::current_core]
+close_project -delete
+update_ip_catalog -rebuild -repo_path c:/Users/brech/Desktop/EAGLE2_v2/IP_Repo
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'c:/Users/brech/Desktop/EAGLE2_v2/IP_Repo'
+upgrade_ip -vlnv user.org:user:SWIPT_2020:1.0 [get_ips  drone_SWIPT_2020_0_0] -log ip_upgrade.log
+Upgrading 'C:/Users/brech/Desktop/EAGLE2_v2/src/bd/drone.bd'
+INFO: [IP_Flow 19-3422] Upgraded drone_SWIPT_2020_0_0 (SWIPT_2020_v1.0 1.0) from revision 13 to revision 14
+Wrote  : <C:\Users\brech\Desktop\EAGLE2_v2\src\bd\drone.bd> 
+Wrote  : <C:/Users/brech/Desktop/EAGLE2_v2/src/bd/ui/bd_2bde8598.ui> 
+INFO: [Coretcl 2-1525] Wrote upgrade log to 'C:/Users/brech/Desktop/EAGLE2_v2/drone/ip_upgrade.log'.
+export_ip_user_files -of_objects [get_ips drone_SWIPT_2020_0_0] -no_script -sync -force -quiet
+report_ip_status -name ip_status 
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.runs/synth_1
+
+launch_runs impl_1 -jobs 4
+CRITICAL WARNING: [BD 41-1358] IP interface /axi_gpio_led/GPIO has associated board param GPIO_BOARD_INTERFACE, which is set to board part interface leds_4bits, but IP interface is not connected to any external port. To apply board automation generated constraints, please make it external.
+Wrote  : <C:\Users\brech\Desktop\EAGLE2_v2\src\bd\drone.bd> 
+VHDL Output written to : C:/Users/brech/Desktop/EAGLE2_v2/src/bd/synth/drone.v
+VHDL Output written to : C:/Users/brech/Desktop/EAGLE2_v2/src/bd/sim/drone.v
+VHDL Output written to : C:/Users/brech/Desktop/EAGLE2_v2/src/bd/hdl/drone_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block SWIPT_2020_0 .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/brech/Desktop/EAGLE2_v2/src/bd/ip/drone_auto_pc_9/drone_auto_pc_9_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0_axi_periph/s00_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/brech/Desktop/EAGLE2_v2/src/bd/ip/drone_auto_pc_0/drone_auto_pc_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0_axi_periph/m00_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/brech/Desktop/EAGLE2_v2/src/bd/ip/drone_auto_pc_1/drone_auto_pc_1_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0_axi_periph/m01_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/brech/Desktop/EAGLE2_v2/src/bd/ip/drone_auto_pc_2/drone_auto_pc_2_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0_axi_periph/m02_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/brech/Desktop/EAGLE2_v2/src/bd/ip/drone_auto_pc_3/drone_auto_pc_3_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0_axi_periph/m03_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/brech/Desktop/EAGLE2_v2/src/bd/ip/drone_auto_pc_4/drone_auto_pc_4_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0_axi_periph/m04_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/brech/Desktop/EAGLE2_v2/src/bd/ip/drone_auto_pc_5/drone_auto_pc_5_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0_axi_periph/m05_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/brech/Desktop/EAGLE2_v2/src/bd/ip/drone_auto_pc_6/drone_auto_pc_6_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0_axi_periph/m06_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/brech/Desktop/EAGLE2_v2/src/bd/ip/drone_auto_pc_7/drone_auto_pc_7_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0_axi_periph/m07_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/brech/Desktop/EAGLE2_v2/src/bd/ip/drone_auto_pc_8/drone_auto_pc_8_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0_axi_periph/m09_couplers/auto_pc .
+Exporting to file C:/Users/brech/Desktop/EAGLE2_v2/src/bd/hw_handoff/drone.hwh
+Generated Block Design Tcl file C:/Users/brech/Desktop/EAGLE2_v2/src/bd/hw_handoff/drone_bd.tcl
+Generated Hardware Definition File C:/Users/brech/Desktop/EAGLE2_v2/src/bd/synth/drone.hwdef
+WARNING: [Project 1-478] Design 'synth_1' is stale and will not be used when launching 'impl_1'
+[Mon Mar  1 12:40:13 2021] Launched synth_1...
+Run output will be captured here: C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.runs/synth_1/runme.log
+[Mon Mar  1 12:40:13 2021] Launched impl_1...
+Run output will be captured here: C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:56 ; elapsed = 00:01:12 . Memory (MB): peak = 5030.062 ; gain = 0.000
+report_ip_status -name ip_status 
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+WARNING: [Project 1-478] Design 'synth_1' is stale and will not be used when launching 'impl_1'
+[Mon Mar  1 12:41:43 2021] Launched synth_1...
+Run output will be captured here: C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.runs/synth_1/runme.log
+[Mon Mar  1 12:41:43 2021] Launched impl_1...
+Run output will be captured here: C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.runs/impl_1/runme.log
+set_property PROBES.FILE {C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.runs/impl_1/drone_wrapper.ltx} [get_hw_devices xc7z010_1]
+set_property FULL_PROBES.FILE {C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.runs/impl_1/drone_wrapper.ltx} [get_hw_devices xc7z010_1]
+set_property PROGRAM.FILE {C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.runs/impl_1/drone_wrapper.bit} [get_hw_devices xc7z010_1]
+program_hw_devices [get_hw_devices xc7z010_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z010_1] 0]
+INFO: [Labtools 27-2302] Device xc7z010 (JTAG device index = 1) is programmed with a design that has 1 ILA core(s).
+set_property PROBES.FILE {C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.runs/impl_1/drone_wrapper.ltx} [get_hw_devices xc7z010_1]
+set_property FULL_PROBES.FILE {C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.runs/impl_1/drone_wrapper.ltx} [get_hw_devices xc7z010_1]
+set_property PROGRAM.FILE {C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.runs/impl_1/drone_wrapper.bit} [get_hw_devices xc7z010_1]
+program_hw_devices [get_hw_devices xc7z010_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z010_1] 0]
+INFO: [Labtools 27-2302] Device xc7z010 (JTAG device index = 1) is programmed with a design that has 1 ILA core(s).
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210279A7912CA
+ipx::edit_ip_in_project -upgrade true -name SWIPT_2020_v1_0_project -directory C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.tmp/SWIPT_2020_v1_0_project c:/Users/brech/Desktop/EAGLE2_v2/IP_Repo/SWIPT_2020_1.0/component.xml
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.1/data/ip'.
+create_project: Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 5030.062 ; gain = 0.000
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/brech/Desktop/EAGLE2_v2/IP_Repo'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/brech/Desktop/EAGLEtutorials/tut5/tut5/tut5.srcs/sources_1/new'.
+INFO: [IP_Flow 19-795] Syncing license key meta-data
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [c:/Users/brech/Desktop/EAGLE2_v2/IP_Repo/SWIPT_2020_1.0/hdl/SWIPT_2020_v1_0_S00_AXI.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [c:/Users/brech/Desktop/EAGLE2_v2/IP_Repo/SWIPT_2020_1.0/swipt_toplevel.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [c:/Users/brech/Desktop/EAGLE2_v2/IP_Repo/SWIPT_2020_1.0/hdl/SWIPT_2020_v1_0.v:]
+ipx::edit_ip_in_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 5030.062 ; gain = 0.000
+update_compile_order -fileset sources_1
+set_property core_revision 15 [ipx::current_core]
+ipx::update_source_project_archive -component [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+ipx::move_temp_component_back -component [ipx::current_core]
+close_project -delete
+update_ip_catalog -rebuild -repo_path c:/Users/brech/Desktop/EAGLE2_v2/IP_Repo
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'c:/Users/brech/Desktop/EAGLE2_v2/IP_Repo'
+report_ip_status -name ip_status 
+upgrade_ip -vlnv user.org:user:SWIPT_2020:1.0 [get_ips  drone_SWIPT_2020_0_0] -log ip_upgrade.log
+Upgrading 'C:/Users/brech/Desktop/EAGLE2_v2/src/bd/drone.bd'
+INFO: [IP_Flow 19-3422] Upgraded drone_SWIPT_2020_0_0 (SWIPT_2020_v1.0 1.0) from revision 14 to revision 15
+Wrote  : <C:\Users\brech\Desktop\EAGLE2_v2\src\bd\drone.bd> 
+Wrote  : <C:/Users/brech/Desktop/EAGLE2_v2/src/bd/ui/bd_2bde8598.ui> 
+INFO: [Coretcl 2-1525] Wrote upgrade log to 'C:/Users/brech/Desktop/EAGLE2_v2/drone/ip_upgrade.log'.
+export_ip_user_files -of_objects [get_ips drone_SWIPT_2020_0_0] -no_script -sync -force -quiet
+generate_target all [get_files  C:/Users/brech/Desktop/EAGLE2_v2/src/bd/drone.bd]
+CRITICAL WARNING: [BD 41-1358] IP interface /axi_gpio_led/GPIO has associated board param GPIO_BOARD_INTERFACE, which is set to board part interface leds_4bits, but IP interface is not connected to any external port. To apply board automation generated constraints, please make it external.
+Wrote  : <C:\Users\brech\Desktop\EAGLE2_v2\src\bd\drone.bd> 
+VHDL Output written to : C:/Users/brech/Desktop/EAGLE2_v2/src/bd/synth/drone.v
+VHDL Output written to : C:/Users/brech/Desktop/EAGLE2_v2/src/bd/sim/drone.v
+VHDL Output written to : C:/Users/brech/Desktop/EAGLE2_v2/src/bd/hdl/drone_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block SWIPT_2020_0 .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/brech/Desktop/EAGLE2_v2/src/bd/ip/drone_auto_pc_9/drone_auto_pc_9_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0_axi_periph/s00_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/brech/Desktop/EAGLE2_v2/src/bd/ip/drone_auto_pc_0/drone_auto_pc_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0_axi_periph/m00_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/brech/Desktop/EAGLE2_v2/src/bd/ip/drone_auto_pc_1/drone_auto_pc_1_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0_axi_periph/m01_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/brech/Desktop/EAGLE2_v2/src/bd/ip/drone_auto_pc_2/drone_auto_pc_2_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0_axi_periph/m02_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/brech/Desktop/EAGLE2_v2/src/bd/ip/drone_auto_pc_3/drone_auto_pc_3_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0_axi_periph/m03_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/brech/Desktop/EAGLE2_v2/src/bd/ip/drone_auto_pc_4/drone_auto_pc_4_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0_axi_periph/m04_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/brech/Desktop/EAGLE2_v2/src/bd/ip/drone_auto_pc_5/drone_auto_pc_5_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0_axi_periph/m05_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/brech/Desktop/EAGLE2_v2/src/bd/ip/drone_auto_pc_6/drone_auto_pc_6_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0_axi_periph/m06_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/brech/Desktop/EAGLE2_v2/src/bd/ip/drone_auto_pc_7/drone_auto_pc_7_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0_axi_periph/m07_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/brech/Desktop/EAGLE2_v2/src/bd/ip/drone_auto_pc_8/drone_auto_pc_8_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0_axi_periph/m09_couplers/auto_pc .
+Exporting to file C:/Users/brech/Desktop/EAGLE2_v2/src/bd/hw_handoff/drone.hwh
+Generated Block Design Tcl file C:/Users/brech/Desktop/EAGLE2_v2/src/bd/hw_handoff/drone_bd.tcl
+Generated Hardware Definition File C:/Users/brech/Desktop/EAGLE2_v2/src/bd/synth/drone.hwdef
+generate_target: Time (s): cpu = 00:00:45 ; elapsed = 00:00:55 . Memory (MB): peak = 5030.062 ; gain = 0.000
+export_ip_user_files -of_objects [get_files C:/Users/brech/Desktop/EAGLE2_v2/src/bd/drone.bd] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files C:/Users/brech/Desktop/EAGLE2_v2/src/bd/drone.bd] -directory C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.ip_user_files -ipstatic_source_dir C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.cache/compile_simlib/modelsim} {questa=C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.cache/compile_simlib/questa} {riviera=C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.cache/compile_simlib/riviera} {activehdl=C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+report_ip_status -name ip_status 
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+WARNING: [Vivado 12-872] Run step 'Design Initialization' is out-of-date.
+[Mon Mar  1 14:05:15 2021] Launched impl_1...
+Run output will be captured here: C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.runs/impl_1/runme.log
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210279A7912CA
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+WARNING: [Labtools 27-3413] Dropping logic core with cellname:'u_ila_0' at location 'uuid_23E7D65A79BC59F7BC47406C1714DFAE' from probes file, since it cannot be found on the programmed device.
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+set_property PROBES.FILE {C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.runs/impl_1/drone_wrapper.ltx} [get_hw_devices xc7z010_1]
+set_property FULL_PROBES.FILE {C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.runs/impl_1/drone_wrapper.ltx} [get_hw_devices xc7z010_1]
+set_property PROGRAM.FILE {C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.runs/impl_1/drone_wrapper.bit} [get_hw_devices xc7z010_1]
+program_hw_devices [get_hw_devices xc7z010_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z010_1] 0]
+INFO: [Labtools 27-2302] Device xc7z010 (JTAG device index = 1) is programmed with a design that has 1 ILA core(s).
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z010_1] -filter {CELL_NAME=~"u_ila_0"}]]
+set_property PROBES.FILE {C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.runs/impl_1/drone_wrapper.ltx} [get_hw_devices xc7z010_1]
+set_property FULL_PROBES.FILE {C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.runs/impl_1/drone_wrapper.ltx} [get_hw_devices xc7z010_1]
+set_property PROGRAM.FILE {C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.runs/impl_1/drone_wrapper.bit} [get_hw_devices xc7z010_1]
+program_hw_devices [get_hw_devices xc7z010_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z010_1] 0]
+INFO: [Labtools 27-2302] Device xc7z010 (JTAG device index = 1) is programmed with a design that has 1 ILA core(s).
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+WARNING: [Project 1-478] Design 'synth_1' is stale and will not be used when launching 'impl_1'
+[Mon Mar  1 14:13:17 2021] Launched synth_1...
+Run output will be captured here: C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.runs/synth_1/runme.log
+[Mon Mar  1 14:13:17 2021] Launched impl_1...
+Run output will be captured here: C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.runs/impl_1/runme.log
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210279A7912CA
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210279A7912CA
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+WARNING: [Labtools 27-3413] Dropping logic core with cellname:'u_ila_0' at location 'uuid_23E7D65A79BC59F7BC47406C1714DFAE' from probes file, since it cannot be found on the programmed device.
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+refresh_hw_device [lindex [get_hw_devices xc7z010_1] 0]
+INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+WARNING: [Labtools 27-3413] Dropping logic core with cellname:'u_ila_0' at location 'uuid_23E7D65A79BC59F7BC47406C1714DFAE' from probes file, since it cannot be found on the programmed device.
+set_property PROBES.FILE {C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.runs/impl_1/drone_wrapper.ltx} [get_hw_devices xc7z010_1]
+set_property FULL_PROBES.FILE {C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.runs/impl_1/drone_wrapper.ltx} [get_hw_devices xc7z010_1]
+set_property PROGRAM.FILE {C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.runs/impl_1/drone_wrapper.bit} [get_hw_devices xc7z010_1]
+program_hw_devices [get_hw_devices xc7z010_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z010_1] 0]
+INFO: [Labtools 27-2302] Device xc7z010 (JTAG device index = 1) is programmed with a design that has 1 ILA core(s).
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z010_1] -filter {CELL_NAME=~"u_ila_0"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z010_1] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2021-Mar-01 14:36:07
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z010_1] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z010_1] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2021-Mar-01 14:36:07
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z010_1] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2021-Mar-01 14:36:16
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z010_1] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z010_1] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2021-Mar-01 14:36:16
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210279A7912CA
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210279A7912CA
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+WARNING: [Labtools 27-3413] Dropping logic core with cellname:'u_ila_0' at location 'uuid_23E7D65A79BC59F7BC47406C1714DFAE' from probes file, since it cannot be found on the programmed device.
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+set_property PROBES.FILE {C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.runs/impl_1/drone_wrapper.ltx} [get_hw_devices xc7z010_1]
+set_property FULL_PROBES.FILE {C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.runs/impl_1/drone_wrapper.ltx} [get_hw_devices xc7z010_1]
+set_property PROGRAM.FILE {C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.runs/impl_1/drone_wrapper.bit} [get_hw_devices xc7z010_1]
+program_hw_devices [get_hw_devices xc7z010_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z010_1] 0]
+INFO: [Labtools 27-2302] Device xc7z010 (JTAG device index = 1) is programmed with a design that has 1 ILA core(s).
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z010_1] -filter {CELL_NAME=~"u_ila_0"}]]
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210279A7912CA
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210279A7912CA
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+WARNING: [Labtools 27-3413] Dropping logic core with cellname:'u_ila_0' at location 'uuid_23E7D65A79BC59F7BC47406C1714DFAE' from probes file, since it cannot be found on the programmed device.
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+refresh_hw_device [lindex [get_hw_devices xc7z010_1] 0]
+INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+WARNING: [Labtools 27-3413] Dropping logic core with cellname:'u_ila_0' at location 'uuid_23E7D65A79BC59F7BC47406C1714DFAE' from probes file, since it cannot be found on the programmed device.
+set_property PROBES.FILE {C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.runs/impl_1/drone_wrapper.ltx} [get_hw_devices xc7z010_1]
+set_property FULL_PROBES.FILE {C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.runs/impl_1/drone_wrapper.ltx} [get_hw_devices xc7z010_1]
+set_property PROGRAM.FILE {C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.runs/impl_1/drone_wrapper.bit} [get_hw_devices xc7z010_1]
+program_hw_devices [get_hw_devices xc7z010_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z010_1] 0]
+INFO: [Labtools 27-2302] Device xc7z010 (JTAG device index = 1) is programmed with a design that has 1 ILA core(s).
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z010_1] -filter {CELL_NAME=~"u_ila_0"}]]
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210279A7912CA
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210279A7912CA
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+WARNING: [Labtools 27-3413] Dropping logic core with cellname:'u_ila_0' at location 'uuid_23E7D65A79BC59F7BC47406C1714DFAE' from probes file, since it cannot be found on the programmed device.
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+set_property PROBES.FILE {C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.runs/impl_1/drone_wrapper.ltx} [get_hw_devices xc7z010_1]
+set_property FULL_PROBES.FILE {C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.runs/impl_1/drone_wrapper.ltx} [get_hw_devices xc7z010_1]
+set_property PROGRAM.FILE {C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.runs/impl_1/drone_wrapper.bit} [get_hw_devices xc7z010_1]
+program_hw_devices [get_hw_devices xc7z010_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z010_1] 0]
+INFO: [Labtools 27-2302] Device xc7z010 (JTAG device index = 1) is programmed with a design that has 1 ILA core(s).
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z010_1] -filter {CELL_NAME=~"u_ila_0"}]]
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+WARNING: [Vivado 12-872] Run step 'Design Initialization' is out-of-date.
+[Mon Mar  1 14:59:19 2021] Launched impl_1...
+Run output will be captured here: C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.runs/impl_1/runme.log
+set_property PROBES.FILE {C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.runs/impl_1/drone_wrapper.ltx} [get_hw_devices xc7z010_1]
+set_property FULL_PROBES.FILE {C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.runs/impl_1/drone_wrapper.ltx} [get_hw_devices xc7z010_1]
+set_property PROGRAM.FILE {C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.runs/impl_1/drone_wrapper.bit} [get_hw_devices xc7z010_1]
+program_hw_devices [get_hw_devices xc7z010_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z010_1] 0]
+INFO: [Labtools 27-2302] Device xc7z010 (JTAG device index = 1) is programmed with a design that has 1 ILA core(s).
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.runs/synth_1
+
+launch_runs synth_1 -jobs 4
+[Mon Mar  1 15:01:53 2021] Launched synth_1...
+Run output will be captured here: C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.runs/synth_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+WARNING: [Project 1-478] Design 'synth_1' is stale and will not be used when launching 'impl_1'
+[Mon Mar  1 15:06:21 2021] Launched impl_1...
+Run output will be captured here: C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.runs/impl_1/runme.log
+set_property PROBES.FILE {C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.runs/impl_1/drone_wrapper.ltx} [get_hw_devices xc7z010_1]
+set_property FULL_PROBES.FILE {C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.runs/impl_1/drone_wrapper.ltx} [get_hw_devices xc7z010_1]
+set_property PROGRAM.FILE {C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.runs/impl_1/drone_wrapper.bit} [get_hw_devices xc7z010_1]
+program_hw_devices [get_hw_devices xc7z010_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z010_1] 0]
+INFO: [Labtools 27-2302] Device xc7z010 (JTAG device index = 1) is programmed with a design that has 1 ILA core(s).
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210279A7912CA
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Mar  1 15:54:26 2021...

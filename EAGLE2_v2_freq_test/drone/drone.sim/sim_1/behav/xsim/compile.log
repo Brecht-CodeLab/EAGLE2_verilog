@@ -1,0 +1,106 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/src/bd/ip/drone_processing_system7_0_0/sim/drone_processing_system7_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module drone_processing_system7_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/src/bd/ipshared/90cc/hdl/TDP_bram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TDP_bram
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/src/bd/ipshared/90cc/hdl/keccakF400Permutation.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module KeccakF400Permutation
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/src/bd/ipshared/90cc/hdl/EAGLE_interface_CONTROL.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EAGLE_interface_CONTROL
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/src/bd/ipshared/90cc/hdl/EAGLE_to_AXI_interface.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EAGLE_to_AXI_interface
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/src/bd/ipshared/90cc/hdl/crypto2020_hash_ip_v1_v1_0_S00_AXI.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module crypto2020_hash_ip_v1_v1_0_S00_AXI
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/src/bd/ipshared/90cc/hdl/crypto2020_hash_ip_v1_v1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module crypto2020_hash_ip_v1_v1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/src/bd/ip/drone_crypto2020_hash_ip_v1_0_0/sim/drone_crypto2020_hash_ip_v1_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module drone_crypto2020_hash_ip_v1_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/src/bd/ip/drone_xadc_wiz_0_0/drone_xadc_wiz_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module drone_xadc_wiz_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/src/bd/ipshared/8cf7/src/CalcL.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CalcL
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/src/bd/ipshared/8cf7/src/DutyAdjust.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DutyAdjust
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/src/bd/ipshared/8cf7/src/Freq.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Freq
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/src/bd/ipshared/8cf7/src/Optimization.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Optimization
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/src/bd/ipshared/8cf7/hdl/SWIPT_2020_v1_0_S00_AXI.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SWIPT_2020_v1_0_S00_AXI
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/src/bd/ipshared/8cf7/src/SwiptOut.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SwiptOut
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/src/bd/ipshared/8cf7/swipt_toplevel.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module swipt_toplevel
+INFO: [VRFC 10-2458] undeclared symbol startup_data, assumed default net type wire [C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/src/bd/ipshared/8cf7/swipt_toplevel.v:240]
+INFO: [VRFC 10-2458] undeclared symbol data_trans, assumed default net type wire [C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/src/bd/ipshared/8cf7/swipt_toplevel.v:242]
+INFO: [VRFC 10-2458] undeclared symbol data_rec, assumed default net type wire [C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/src/bd/ipshared/8cf7/swipt_toplevel.v:243]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/src/bd/ipshared/8cf7/hdl/SWIPT_2020_v1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SWIPT_2020_v1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/src/bd/ip/drone_SWIPT_2020_0_0/sim/drone_SWIPT_2020_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module drone_SWIPT_2020_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/src/bd/ip/drone_xbar_0/sim/drone_xbar_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module drone_xbar_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/src/bd/ip/drone_auto_pc_9/sim/drone_auto_pc_9.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module drone_auto_pc_9
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/src/bd/ip/drone_auto_pc_0/sim/drone_auto_pc_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module drone_auto_pc_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/src/bd/ip/drone_auto_pc_1/sim/drone_auto_pc_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module drone_auto_pc_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/src/bd/ip/drone_auto_pc_2/sim/drone_auto_pc_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module drone_auto_pc_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/src/bd/ip/drone_auto_pc_3/sim/drone_auto_pc_3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module drone_auto_pc_3
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/src/bd/ip/drone_auto_pc_4/sim/drone_auto_pc_4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module drone_auto_pc_4
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/src/bd/ip/drone_auto_pc_5/sim/drone_auto_pc_5.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module drone_auto_pc_5
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/src/bd/ip/drone_auto_pc_6/sim/drone_auto_pc_6.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module drone_auto_pc_6
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/src/bd/ip/drone_auto_pc_7/sim/drone_auto_pc_7.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module drone_auto_pc_7
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/src/bd/ip/drone_auto_pc_8/sim/drone_auto_pc_8.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module drone_auto_pc_8
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/src/bd/sim/drone.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module drone
+INFO: [VRFC 10-311] analyzing module drone_processing_system7_0_axi_periph_0
+INFO: [VRFC 10-311] analyzing module m00_couplers_imp_1B3V6J9
+INFO: [VRFC 10-311] analyzing module m01_couplers_imp_4I72GT
+INFO: [VRFC 10-311] analyzing module m02_couplers_imp_CJLMS
+INFO: [VRFC 10-311] analyzing module m03_couplers_imp_1F9725O
+INFO: [VRFC 10-311] analyzing module m04_couplers_imp_9WWXBQ
+INFO: [VRFC 10-311] analyzing module m05_couplers_imp_16SS5LQ
+INFO: [VRFC 10-311] analyzing module m06_couplers_imp_12MUI3R
+INFO: [VRFC 10-311] analyzing module m07_couplers_imp_E365ZJ
+INFO: [VRFC 10-311] analyzing module m08_couplers_imp_SDXJDE
+INFO: [VRFC 10-311] analyzing module m09_couplers_imp_1Q2JWSA
+INFO: [VRFC 10-311] analyzing module s00_couplers_imp_1YY2XJ2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/src/bd/hdl/drone_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module drone_wrapper
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/drone/drone.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/src/bd/ipshared/5f23/src/PWM_measure.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'PWM_measure'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/src/bd/ipshared/5f23/hdl/RC_v1_0_S00_AXI.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'RC_v1_0_S00_AXI'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/src/bd/ipshared/5f23/hdl/RC_v1_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'RC_v1_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/src/bd/ip/drone_RC_1_0/sim/drone_RC_1_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'drone_RC_1_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/src/bd/ip/drone_RC_0_0/sim/drone_RC_0_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'drone_RC_0_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/src/bd/ip/drone_axi_gpio_testpins_0/sim/drone_axi_gpio_testpins_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'drone_axi_gpio_testpins_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/src/bd/ip/drone_axi_gpio_led_0/sim/drone_axi_gpio_led_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'drone_axi_gpio_led_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/src/bd/ipshared/7836/kill_switch.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'kill_switch'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/src/bd/ip/drone_kill_switch_0_0/sim/drone_kill_switch_0_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'drone_kill_switch_0_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/src/bd/ipshared/7486/hdl/PWM_AXI.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'PWM_AXI'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/src/bd/ipshared/7486/hdl/PWM_AXI_v1_0_S00_AXI.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'PWM_AXI_v1_0_S00_AXI_triple'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/src/bd/ipshared/7486/hdl/PWM_AXI_v1_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'PWM_AXI_triple_v1_0'
+ERROR: [VRFC 10-2989] 'pwm_axi_v1_0_s00_axi' is not declared [C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/src/bd/ipshared/7486/hdl/PWM_AXI_v1_0.vhd:89]
+ERROR: [VRFC 10-3782] unit 'arch_imp' ignored due to previous errors [C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/src/bd/ipshared/7486/hdl/PWM_AXI_v1_0.vhd:53]
+INFO: [VRFC 10-3070] VHDL file 'C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/src/bd/ipshared/7486/hdl/PWM_AXI_v1_0.vhd' ignored due to errors

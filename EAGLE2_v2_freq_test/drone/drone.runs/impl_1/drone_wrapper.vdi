@@ -1,0 +1,1304 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Thu Mar  4 19:34:05 2021
+# Process ID: 10936
+# Current directory: C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/drone/drone.runs/impl_1
+# Command line: vivado.exe -log drone_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source drone_wrapper.tcl -notrace
+# Log file: C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/drone/drone.runs/impl_1/drone_wrapper.vdi
+# Journal file: C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/drone/drone.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source drone_wrapper.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/IP_Repo'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/brech/Desktop/EAGLEtutorials/tut5/tut5/tut5.srcs/sources_1/new'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.1/data/ip'.
+Command: link_design -top drone_wrapper -part xc7z010clg400-1
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.783 . Memory (MB): peak = 1096.770 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 1123 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2020.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [c:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/src/bd/ip/drone_processing_system7_0_0/drone_processing_system7_0_0.xdc] for cell 'drone_i/processing_system7_0/inst'
+WARNING: [Vivado 12-2489] -input_jitter contains time 0.389970 which will be rounded to 0.390 to ensure it is an integer multiple of 1 picosecond [c:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/src/bd/ip/drone_processing_system7_0_0/drone_processing_system7_0_0.xdc:24]
+Finished Parsing XDC File [c:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/src/bd/ip/drone_processing_system7_0_0/drone_processing_system7_0_0.xdc] for cell 'drone_i/processing_system7_0/inst'
+Parsing XDC File [c:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/src/bd/ip/drone_axi_gpio_testpins_0/drone_axi_gpio_testpins_0_board.xdc] for cell 'drone_i/axi_gpio_testpins/U0'
+Finished Parsing XDC File [c:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/src/bd/ip/drone_axi_gpio_testpins_0/drone_axi_gpio_testpins_0_board.xdc] for cell 'drone_i/axi_gpio_testpins/U0'
+Parsing XDC File [c:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/src/bd/ip/drone_axi_gpio_testpins_0/drone_axi_gpio_testpins_0.xdc] for cell 'drone_i/axi_gpio_testpins/U0'
+Finished Parsing XDC File [c:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/src/bd/ip/drone_axi_gpio_testpins_0/drone_axi_gpio_testpins_0.xdc] for cell 'drone_i/axi_gpio_testpins/U0'
+Parsing XDC File [c:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/src/bd/ip/drone_axi_gpio_led_0/drone_axi_gpio_led_0_board.xdc] for cell 'drone_i/axi_gpio_led/U0'
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'BOARD_PIN', because the property does not exist for objects of type 'pin'. [c:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/src/bd/ip/drone_axi_gpio_led_0/drone_axi_gpio_led_0_board.xdc:3]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'BOARD_PIN', because the property does not exist for objects of type 'pin'. [c:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/src/bd/ip/drone_axi_gpio_led_0/drone_axi_gpio_led_0_board.xdc:5]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'BOARD_PIN', because the property does not exist for objects of type 'pin'. [c:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/src/bd/ip/drone_axi_gpio_led_0/drone_axi_gpio_led_0_board.xdc:7]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'BOARD_PIN', because the property does not exist for objects of type 'pin'. [c:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/src/bd/ip/drone_axi_gpio_led_0/drone_axi_gpio_led_0_board.xdc:9]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+Finished Parsing XDC File [c:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/src/bd/ip/drone_axi_gpio_led_0/drone_axi_gpio_led_0_board.xdc] for cell 'drone_i/axi_gpio_led/U0'
+Parsing XDC File [c:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/src/bd/ip/drone_axi_gpio_led_0/drone_axi_gpio_led_0.xdc] for cell 'drone_i/axi_gpio_led/U0'
+Finished Parsing XDC File [c:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/src/bd/ip/drone_axi_gpio_led_0/drone_axi_gpio_led_0.xdc] for cell 'drone_i/axi_gpio_led/U0'
+Parsing XDC File [c:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/src/bd/ip/drone_rst_processing_system7_0_100M_0/drone_rst_processing_system7_0_100M_0_board.xdc] for cell 'drone_i/rst_processing_system7_0_100M/U0'
+Finished Parsing XDC File [c:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/src/bd/ip/drone_rst_processing_system7_0_100M_0/drone_rst_processing_system7_0_100M_0_board.xdc] for cell 'drone_i/rst_processing_system7_0_100M/U0'
+Parsing XDC File [c:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/src/bd/ip/drone_rst_processing_system7_0_100M_0/drone_rst_processing_system7_0_100M_0.xdc] for cell 'drone_i/rst_processing_system7_0_100M/U0'
+Finished Parsing XDC File [c:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/src/bd/ip/drone_rst_processing_system7_0_100M_0/drone_rst_processing_system7_0_100M_0.xdc] for cell 'drone_i/rst_processing_system7_0_100M/U0'
+Parsing XDC File [c:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/src/bd/ip/drone_xadc_wiz_0_0/drone_xadc_wiz_0_0.xdc] for cell 'drone_i/xadc_wiz_0/inst'
+Finished Parsing XDC File [c:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/src/bd/ip/drone_xadc_wiz_0_0/drone_xadc_wiz_0_0.xdc] for cell 'drone_i/xadc_wiz_0/inst'
+Parsing XDC File [C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/constraints/ZYBO_Master_2018.xdc]
+WARNING: [Vivado 12-584] No ports matched 'test_killswitch'. [C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/constraints/ZYBO_Master_2018.xdc:29]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/constraints/ZYBO_Master_2018.xdc:29]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'tes_killswitch'. [C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/constraints/ZYBO_Master_2018.xdc:30]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/constraints/ZYBO_Master_2018.xdc:30]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+CRITICAL WARNING: [Vivado 12-1411] Cannot set LOC property of ports, Could not legally place instance ADC_inn_6_IBUF_inst at K14 (IOB_X0Y60) since it belongs to a shape containing instance drone_i/xadc_wiz_0/inst. The shape requires relative placement between ADC_inn_6_IBUF_inst and drone_i/xadc_wiz_0/inst that can not be honoured because it would result in an invalid location for drone_i/xadc_wiz_0/inst. [C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/constraints/ZYBO_Master_2018.xdc:465]
+CRITICAL WARNING: [Vivado 12-1411] Cannot set LOC property of ports, Could not legally place instance ADC_inp_6_IBUF_inst at J14 (IOB_X0Y59) since it belongs to a shape containing instance drone_i/xadc_wiz_0/inst. The shape requires relative placement between ADC_inp_6_IBUF_inst and drone_i/xadc_wiz_0/inst that can not be honoured because it would result in an invalid location for drone_i/xadc_wiz_0/inst. [C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/constraints/ZYBO_Master_2018.xdc:466]
+WARNING: [Vivado 12-584] No ports matched 'leds_4bits_tri_o[3]'. [C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/constraints/ZYBO_Master_2018.xdc:494]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/constraints/ZYBO_Master_2018.xdc:494]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds_4bits_tri_o[2]'. [C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/constraints/ZYBO_Master_2018.xdc:495]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/constraints/ZYBO_Master_2018.xdc:495]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds_4bits_tri_o[1]'. [C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/constraints/ZYBO_Master_2018.xdc:496]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/constraints/ZYBO_Master_2018.xdc:496]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds_4bits_tri_o[0]'. [C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/constraints/ZYBO_Master_2018.xdc:497]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/constraints/ZYBO_Master_2018.xdc:497]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds_4bits_tri_o[3]'. [C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/constraints/ZYBO_Master_2018.xdc:498]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/constraints/ZYBO_Master_2018.xdc:498]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds_4bits_tri_o[2]'. [C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/constraints/ZYBO_Master_2018.xdc:499]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/constraints/ZYBO_Master_2018.xdc:499]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds_4bits_tri_o[1]'. [C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/constraints/ZYBO_Master_2018.xdc:500]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/constraints/ZYBO_Master_2018.xdc:500]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds_4bits_tri_o[0]'. [C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/constraints/ZYBO_Master_2018.xdc:501]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/constraints/ZYBO_Master_2018.xdc:501]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+CRITICAL WARNING: [Common 17-163] Missing value for option 'value', please type 'set_property -help' for usage info. [C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/constraints/ZYBO_Master_2018.xdc:503]
+WARNING: [Vivado 12-584] No ports matched 'data_start_led'. [C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/constraints/ZYBO_Master_2018.xdc:511]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/constraints/ZYBO_Master_2018.xdc:511]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'data_start_led'. [C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/constraints/ZYBO_Master_2018.xdc:512]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/constraints/ZYBO_Master_2018.xdc:512]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/constraints/ZYBO_Master_2018.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.011 . Memory (MB): peak = 1096.770 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 2 instances were transformed.
+  IOBUF => IOBUF (IBUF, OBUFT): 2 instances
+
+11 Infos, 13 Warnings, 19 Critical Warnings and 0 Errors encountered.
+link_design completed successfully
+link_design: Time (s): cpu = 00:00:17 ; elapsed = 00:00:21 . Memory (MB): peak = 1096.770 ; gain = 0.000
+INFO: [Common 17-600] The following parameters have non-default value.
+tcl.collectionResultDisplayLimit
+Command: opt_design -directive RuntimeOptimized
+INFO: [Vivado_Tcl 4-136] Directive used for opt_design is: RuntimeOptimized
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z010'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 1096.770 ; gain = 0.000
+
+Starting Logic Optimization Task
+
+Phase 1 Generate And Synthesize Debug Cores
+INFO: [Chipscope 16-329] Generating Script for core instance : dbg_hub 
+INFO: [IP_Flow 19-3806] Processing IP xilinx.com:ip:xsdbm:3.0 for cell dbg_hub_CV.
+INFO: [Chipscope 16-329] Generating Script for core instance : u_ila_0 
+INFO: [IP_Flow 19-3806] Processing IP xilinx.com:ip:ila:6.2 for cell u_ila_0_CV.
+INFO: [Chipscope 16-469] Using cached IP synthesis design for IP xilinx.com:ip:xsdbm:3.0, cache-ID = 30d62fd0c9cf0b92.
+get_clocks: Time (s): cpu = 00:00:13 ; elapsed = 00:00:12 . Memory (MB): peak = 1865.039 ; gain = 543.535
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.131 . Memory (MB): peak = 1865.039 ; gain = 0.000
+Phase 1 Generate And Synthesize Debug Cores | Checksum: 1d4b0c170
+
+Time (s): cpu = 00:00:19 ; elapsed = 00:03:50 . Memory (MB): peak = 1865.039 ; gain = 609.285
+
+Phase 2 Retarget
+INFO: [Opt 31-138] Pushed 100 inverter(s) to 107 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 2 Retarget | Checksum: 14ad02acb
+
+Time (s): cpu = 00:00:21 ; elapsed = 00:03:52 . Memory (MB): peak = 1865.039 ; gain = 609.285
+INFO: [Opt 31-389] Phase Retarget created 31 cells and removed 229 cells
+INFO: [Opt 31-1021] In phase Retarget, 68 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 3 Constant propagation
+INFO: [Opt 31-138] Pushed 19 inverter(s) to 26 load pin(s).
+Phase 3 Constant propagation | Checksum: 1e85c1d04
+
+Time (s): cpu = 00:00:22 ; elapsed = 00:03:53 . Memory (MB): peak = 1865.039 ; gain = 609.285
+INFO: [Opt 31-389] Phase Constant propagation created 143 cells and removed 640 cells
+INFO: [Opt 31-1021] In phase Constant propagation, 47 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 4 Sweep
+Phase 4 Sweep | Checksum: 17aa3832e
+
+Time (s): cpu = 00:00:26 ; elapsed = 00:03:57 . Memory (MB): peak = 1865.039 ; gain = 609.285
+INFO: [Opt 31-389] Phase Sweep created 0 cells and removed 3215 cells
+INFO: [Opt 31-1021] In phase Sweep, 919 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 5 BUFG optimization
+Phase 5 BUFG optimization | Checksum: 17aa3832e
+
+Time (s): cpu = 00:00:27 ; elapsed = 00:03:58 . Memory (MB): peak = 1865.039 ; gain = 609.285
+INFO: [Opt 31-662] Phase BUFG optimization created 0 cells of which 0 are BUFGs and removed 0 cells.
+
+Phase 6 Shift Register Optimization
+INFO: [Opt 31-1064] SRL Remap converted 0 SRLs to 0 registers and converted 0 registers of register chains to 0 SRLs
+Phase 6 Shift Register Optimization | Checksum: 17aa3832e
+
+Time (s): cpu = 00:00:27 ; elapsed = 00:03:58 . Memory (MB): peak = 1865.039 ; gain = 609.285
+INFO: [Opt 31-389] Phase Shift Register Optimization created 0 cells and removed 0 cells
+
+Phase 7 Post Processing Netlist
+Phase 7 Post Processing Netlist | Checksum: 17aa3832e
+
+Time (s): cpu = 00:00:28 ; elapsed = 00:03:59 . Memory (MB): peak = 1865.039 ; gain = 609.285
+INFO: [Opt 31-389] Phase Post Processing Netlist created 0 cells and removed 0 cells
+INFO: [Opt 31-1021] In phase Post Processing Netlist, 57 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+Opt_design Change Summary
+=========================
+
+
+-------------------------------------------------------------------------------------------------------------------------
+|  Phase                        |  #Cells created  |  #Cells Removed  |  #Constrained objects preventing optimizations  |
+-------------------------------------------------------------------------------------------------------------------------
+|  Retarget                     |              31  |             229  |                                             68  |
+|  Constant propagation         |             143  |             640  |                                             47  |
+|  Sweep                        |               0  |            3215  |                                            919  |
+|  BUFG optimization            |               0  |               0  |                                              0  |
+|  Shift Register Optimization  |               0  |               0  |                                              0  |
+|  Post Processing Netlist      |               0  |               0  |                                             57  |
+-------------------------------------------------------------------------------------------------------------------------
+
+
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.070 . Memory (MB): peak = 1865.039 ; gain = 0.000
+Ending Logic Optimization Task | Checksum: 1cb7c928d
+
+Time (s): cpu = 00:00:29 ; elapsed = 00:04:00 . Memory (MB): peak = 1865.039 ; gain = 609.285
+
+Starting Netlist Obfuscation Task
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.013 . Memory (MB): peak = 1865.039 ; gain = 0.000
+Ending Netlist Obfuscation Task | Checksum: 1cb7c928d
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.014 . Memory (MB): peak = 1865.039 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+43 Infos, 13 Warnings, 19 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:00:35 ; elapsed = 00:04:05 . Memory (MB): peak = 1865.039 ; gain = 768.270
+INFO: [Common 17-600] The following parameters have non-default value.
+tcl.collectionResultDisplayLimit
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.183 . Memory (MB): peak = 1865.039 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/drone/drone.runs/impl_1/drone_wrapper_opt.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:14 ; elapsed = 00:00:09 . Memory (MB): peak = 1866.055 ; gain = 1.016
+INFO: [runtcl-4] Executing : report_drc -file drone_wrapper_drc_opted.rpt -pb drone_wrapper_drc_opted.pb -rpx drone_wrapper_drc_opted.rpx
+Command: report_drc -file drone_wrapper_drc_opted.rpt -pb drone_wrapper_drc_opted.pb -rpx drone_wrapper_drc_opted.rpx
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Coretcl 2-168] The results of DRC are in file C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/drone/drone.runs/impl_1/drone_wrapper_drc_opted.rpt.
+report_drc completed successfully
+INFO: [Chipscope 16-240] Debug cores have already been implemented
+Command: place_design -directive ExtraTimingOpt
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z010'
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+Starting Placer Task
+INFO: [Place 46-5] The placer was invoked with the 'ExtraTimingOpt' directive.
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 2 CPUs
+
+Phase 1 Placer Initialization
+
+Phase 1.1 Placer Initialization Netlist Sorting
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.013 . Memory (MB): peak = 1879.684 ; gain = 0.000
+Phase 1.1 Placer Initialization Netlist Sorting | Checksum: f94a3e3e
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.043 . Memory (MB): peak = 1879.684 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.015 . Memory (MB): peak = 1879.684 ; gain = 0.000
+
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device | Checksum: aa2484d9
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1879.684 ; gain = 0.000
+
+Phase 1.3 Build Placer Netlist Model
+Phase 1.3 Build Placer Netlist Model | Checksum: 1c4505594
+
+Time (s): cpu = 00:00:11 ; elapsed = 00:00:08 . Memory (MB): peak = 1961.773 ; gain = 82.090
+
+Phase 1.4 Constrain Clocks/Macros
+Phase 1.4 Constrain Clocks/Macros | Checksum: 1c4505594
+
+Time (s): cpu = 00:00:11 ; elapsed = 00:00:08 . Memory (MB): peak = 1961.773 ; gain = 82.090
+Phase 1 Placer Initialization | Checksum: 1c4505594
+
+Time (s): cpu = 00:00:11 ; elapsed = 00:00:08 . Memory (MB): peak = 1961.773 ; gain = 82.090
+
+Phase 2 Global Placement
+
+Phase 2.1 Floorplanning
+Phase 2.1 Floorplanning | Checksum: 159fd2697
+
+Time (s): cpu = 00:00:14 ; elapsed = 00:00:10 . Memory (MB): peak = 1961.773 ; gain = 82.090
+
+Phase 2.2 Global Placement Core
+
+Phase 2.2.1 Physical Synthesis In Placer
+INFO: [Physopt 32-1035] Found 26 LUTNM shape to break, 696 LUT instances to create LUTNM shape
+INFO: [Physopt 32-1044] Break lutnm for timing: one critical 0, two critical 26, total 26, new lutff created 10
+INFO: [Physopt 32-775] End 1 Pass. Optimized 307 nets or cells. Created 26 new cells, deleted 281 existing cells and moved 0 existing cell
+INFO: [Physopt 32-65] No nets found for high-fanout optimization.
+INFO: [Physopt 32-232] Optimized 0 net. Created 0 new instance.
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-456] No candidate cells for DSP register optimization found in the design.
+INFO: [Physopt 32-775] End 2 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-1123] No candidate cells found for Shift Register to Pipeline optimization
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-677] No candidate cells for Shift Register optimization found in the design
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-526] No candidate cells for BRAM register optimization found in the design
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-846] No candidate cells for URAM register optimization found in the design
+INFO: [Physopt 32-775] End 2 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-949] No candidate nets found for HD net replication
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.014 . Memory (MB): peak = 1961.773 ; gain = 0.000
+
+Summary of Physical Synthesis Optimizations
+============================================
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+|  Optimization                                     |  Added Cells  |  Removed Cells  |  Optimized Cells/Nets  |  Dont Touch  |  Iterations  |  Elapsed   |
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+|  LUT Combining                                    |           26  |            281  |                   307  |           0  |           1  |  00:00:01  |
+|  Very High Fanout                                 |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  DSP Register                                     |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Shift Register to Pipeline                       |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Shift Register                                   |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  BRAM Register                                    |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  URAM Register                                    |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Dynamic/Static Region Interface Net Replication  |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Total                                            |           26  |            281  |                   307  |           0  |           8  |  00:00:01  |
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Phase 2.2.1 Physical Synthesis In Placer | Checksum: 14f5ddcc8
+
+Time (s): cpu = 00:00:52 ; elapsed = 00:00:31 . Memory (MB): peak = 1961.773 ; gain = 82.090
+Phase 2.2 Global Placement Core | Checksum: 113a126e6
+
+Time (s): cpu = 00:00:53 ; elapsed = 00:00:32 . Memory (MB): peak = 1961.773 ; gain = 82.090
+Phase 2 Global Placement | Checksum: 113a126e6
+
+Time (s): cpu = 00:00:53 ; elapsed = 00:00:32 . Memory (MB): peak = 1961.773 ; gain = 82.090
+
+Phase 3 Detail Placement
+
+Phase 3.1 Commit Multi Column Macros
+Phase 3.1 Commit Multi Column Macros | Checksum: 13c9a837f
+
+Time (s): cpu = 00:00:56 ; elapsed = 00:00:33 . Memory (MB): peak = 1961.773 ; gain = 82.090
+
+Phase 3.2 Commit Most Macros & LUTRAMs
+Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: 1866f4eef
+
+Time (s): cpu = 00:01:01 ; elapsed = 00:00:37 . Memory (MB): peak = 1961.773 ; gain = 82.090
+
+Phase 3.3 Area Swap Optimization
+Phase 3.3 Area Swap Optimization | Checksum: 117e7737e
+
+Time (s): cpu = 00:01:01 ; elapsed = 00:00:37 . Memory (MB): peak = 1961.773 ; gain = 82.090
+
+Phase 3.4 Pipeline Register Optimization
+Phase 3.4 Pipeline Register Optimization | Checksum: 114c040a3
+
+Time (s): cpu = 00:01:02 ; elapsed = 00:00:37 . Memory (MB): peak = 1961.773 ; gain = 82.090
+
+Phase 3.5 Fast Optimization
+Phase 3.5 Fast Optimization | Checksum: 1a48b5b5e
+
+Time (s): cpu = 00:01:09 ; elapsed = 00:00:43 . Memory (MB): peak = 1961.773 ; gain = 82.090
+
+Phase 3.6 Small Shape Detail Placement
+Phase 3.6 Small Shape Detail Placement | Checksum: fd779f8d
+
+Time (s): cpu = 00:01:18 ; elapsed = 00:00:52 . Memory (MB): peak = 1961.773 ; gain = 82.090
+
+Phase 3.7 Re-assign LUT pins
+Phase 3.7 Re-assign LUT pins | Checksum: e2382fde
+
+Time (s): cpu = 00:01:20 ; elapsed = 00:00:54 . Memory (MB): peak = 1961.773 ; gain = 82.090
+
+Phase 3.8 Pipeline Register Optimization
+Phase 3.8 Pipeline Register Optimization | Checksum: 11638addf
+
+Time (s): cpu = 00:01:20 ; elapsed = 00:00:54 . Memory (MB): peak = 1961.773 ; gain = 82.090
+
+Phase 3.9 Fast Optimization
+Phase 3.9 Fast Optimization | Checksum: 1596160bc
+
+Time (s): cpu = 00:01:29 ; elapsed = 00:01:01 . Memory (MB): peak = 1961.773 ; gain = 82.090
+Phase 3 Detail Placement | Checksum: 1596160bc
+
+Time (s): cpu = 00:01:29 ; elapsed = 00:01:01 . Memory (MB): peak = 1961.773 ; gain = 82.090
+
+Phase 4 Post Placement Optimization and Clean-Up
+
+Phase 4.1 Post Commit Optimization
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Phase 4.1.1 Post Placement Optimization
+Post Placement Optimization Initialization | Checksum: 1ed6791ec
+
+Phase 4.1.1.1 BUFG Insertion
+
+Starting Physical Synthesis Task
+
+Phase 1 Physical Synthesis Initialization
+INFO: [Physopt 32-721] Multithreading enabled for phys_opt_design using a maximum of 2 CPUs
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-101.862 | TNS=-6095.548 |
+Phase 1 Physical Synthesis Initialization | Checksum: 250cd018a
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1996.133 ; gain = 0.000
+INFO: [Place 46-56] BUFG insertion identified 0 candidate nets. Inserted BUFG: 0, Replicated BUFG Driver: 0, Skipped due to Placement/Routing Conflicts: 0, Skipped due to Timing Degradation: 0, Skipped due to Illegal Netlist: 0.
+Ending Physical Synthesis Task | Checksum: 214238760
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1996.133 ; gain = 0.000
+Phase 4.1.1.1 BUFG Insertion | Checksum: 1ed6791ec
+
+Time (s): cpu = 00:01:40 ; elapsed = 00:01:08 . Memory (MB): peak = 1996.133 ; gain = 116.449
+INFO: [Place 30-746] Post Placement Timing Summary WNS=-101.622. For the most accurate timing information please run report_timing.
+Phase 4.1.1 Post Placement Optimization | Checksum: 18bbb5831
+
+Time (s): cpu = 00:02:28 ; elapsed = 00:01:56 . Memory (MB): peak = 1996.133 ; gain = 116.449
+Phase 4.1 Post Commit Optimization | Checksum: 18bbb5831
+
+Time (s): cpu = 00:02:29 ; elapsed = 00:01:57 . Memory (MB): peak = 1996.133 ; gain = 116.449
+Post Placement Optimization Initialization | Checksum: 1adf6f9a3
+
+Starting Physical Synthesis Task
+
+Phase 1 Physical Synthesis Initialization
+INFO: [Physopt 32-721] Multithreading enabled for phys_opt_design using a maximum of 2 CPUs
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-102.355 | TNS=-6116.418 |
+Phase 1 Physical Synthesis Initialization | Checksum: 2604a8e6c
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1996.133 ; gain = 0.000
+INFO: [Place 46-56] BUFG insertion identified 0 candidate nets. Inserted BUFG: 0, Replicated BUFG Driver: 0, Skipped due to Placement/Routing Conflicts: 0, Skipped due to Timing Degradation: 0, Skipped due to Illegal Netlist: 0.
+Ending Physical Synthesis Task | Checksum: 1c5356235
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1996.133 ; gain = 0.000
+INFO: [Place 30-746] Post Placement Timing Summary WNS=-101.852. For the most accurate timing information please run report_timing.
+
+Phase 4.2 Post Placement Cleanup
+Phase 4.2 Post Placement Cleanup | Checksum: 16f8c40f1
+
+Time (s): cpu = 00:03:45 ; elapsed = 00:03:11 . Memory (MB): peak = 1996.133 ; gain = 116.449
+
+Phase 4.3 Placer Reporting
+Phase 4.3 Placer Reporting | Checksum: 16f8c40f1
+
+Time (s): cpu = 00:03:45 ; elapsed = 00:03:11 . Memory (MB): peak = 1996.133 ; gain = 116.449
+
+Phase 4.4 Final Placement Cleanup
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.016 . Memory (MB): peak = 1996.133 ; gain = 0.000
+Phase 4.4 Final Placement Cleanup | Checksum: 185fed62e
+
+Time (s): cpu = 00:03:45 ; elapsed = 00:03:12 . Memory (MB): peak = 1996.133 ; gain = 116.449
+Phase 4 Post Placement Optimization and Clean-Up | Checksum: 185fed62e
+
+Time (s): cpu = 00:03:45 ; elapsed = 00:03:12 . Memory (MB): peak = 1996.133 ; gain = 116.449
+Ending Placer Task | Checksum: 1286c8784
+
+Time (s): cpu = 00:03:45 ; elapsed = 00:03:12 . Memory (MB): peak = 1996.133 ; gain = 116.449
+INFO: [Common 17-83] Releasing license: Implementation
+89 Infos, 13 Warnings, 19 Critical Warnings and 0 Errors encountered.
+place_design completed successfully
+place_design: Time (s): cpu = 00:03:51 ; elapsed = 00:03:15 . Memory (MB): peak = 1996.133 ; gain = 119.438
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:11 ; elapsed = 00:00:04 . Memory (MB): peak = 2003.426 ; gain = 7.293
+INFO: [Common 17-1381] The checkpoint 'C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/drone/drone.runs/impl_1/drone_wrapper_placed.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:16 ; elapsed = 00:00:08 . Memory (MB): peak = 2003.426 ; gain = 7.293
+INFO: [runtcl-4] Executing : report_io -file drone_wrapper_io_placed.rpt
+report_io: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.104 . Memory (MB): peak = 2003.426 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_utilization -file drone_wrapper_utilization_placed.rpt -pb drone_wrapper_utilization_placed.pb
+INFO: [runtcl-4] Executing : report_control_sets -verbose -file drone_wrapper_control_sets_placed.rpt
+report_control_sets: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.102 . Memory (MB): peak = 2003.426 ; gain = 0.000
+Command: route_design -directive NoTimingRelaxation
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z010'
+Running DRC as a precondition to command route_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+
+Starting Routing Task
+INFO: [Route 35-270] Using Router directive 'NoTimingRelaxation'.
+INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 2 CPUs
+Checksum: PlaceDB: 3ed5a3e7 ConstDB: 0 ShapeSum: e996e39d RouteDB: 0
+
+Phase 1 Build RT Design
+Phase 1 Build RT Design | Checksum: fb2064e8
+
+Time (s): cpu = 00:00:47 ; elapsed = 00:00:25 . Memory (MB): peak = 2033.016 ; gain = 24.434
+Post Restoration Checksum: NetGraph: e54307df NumContArr: 15dd5d09 Constraints: 0 Timing: 0
+
+Phase 2 Router Initialization
+
+Phase 2.1 Create Timer
+Phase 2.1 Create Timer | Checksum: fb2064e8
+
+Time (s): cpu = 00:00:48 ; elapsed = 00:00:26 . Memory (MB): peak = 2061.574 ; gain = 52.992
+
+Phase 2.2 Fix Topology Constraints
+Phase 2.2 Fix Topology Constraints | Checksum: fb2064e8
+
+Time (s): cpu = 00:00:48 ; elapsed = 00:00:26 . Memory (MB): peak = 2070.352 ; gain = 61.770
+
+Phase 2.3 Pre Route Cleanup
+Phase 2.3 Pre Route Cleanup | Checksum: fb2064e8
+
+Time (s): cpu = 00:00:48 ; elapsed = 00:00:26 . Memory (MB): peak = 2070.352 ; gain = 61.770
+ Number of Nodes with overlaps = 0
+
+Phase 2.4 Update Timing
+Phase 2.4 Update Timing | Checksum: 182e66434
+
+Time (s): cpu = 00:00:59 ; elapsed = 00:00:34 . Memory (MB): peak = 2106.195 ; gain = 97.613
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-99.477| TNS=-5934.489| WHS=-0.240 | THS=-249.014|
+
+
+Phase 2.5 Update Timing for Bus Skew
+
+Phase 2.5.1 Update Timing
+Phase 2.5.1 Update Timing | Checksum: 251cb2c7e
+
+Time (s): cpu = 00:01:08 ; elapsed = 00:00:40 . Memory (MB): peak = 2133.477 ; gain = 124.895
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-99.477| TNS=-5921.121| WHS=N/A    | THS=N/A    |
+
+Phase 2.5 Update Timing for Bus Skew | Checksum: 210515e88
+
+Time (s): cpu = 00:01:08 ; elapsed = 00:00:40 . Memory (MB): peak = 2141.969 ; gain = 133.387
+Phase 2 Router Initialization | Checksum: 198d9eb5e
+
+Time (s): cpu = 00:01:08 ; elapsed = 00:00:40 . Memory (MB): peak = 2141.969 ; gain = 133.387
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 0.00647523 %
+  Global Horizontal Routing Utilization  = 0.00965074 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 18606
+    (Failed Nets is the sum of unrouted and partially routed nets)
+  Number of Unrouted Nets             = 18604
+  Number of Partially Routed Nets     = 2
+  Number of Node Overlaps             = 0
+
+
+Phase 3 Initial Routing
+Phase 3 Initial Routing | Checksum: edabe5df
+
+Time (s): cpu = 00:01:14 ; elapsed = 00:00:43 . Memory (MB): peak = 2141.969 ; gain = 133.387
+
+Phase 4 Rip-up And Reroute
+
+Phase 4.1 Global Iteration 0
+ Number of Nodes with overlaps = 2143
+ Number of Nodes with overlaps = 402
+ Number of Nodes with overlaps = 67
+ Number of Nodes with overlaps = 3
+ Number of Nodes with overlaps = 1
+ Number of Nodes with overlaps = 0
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-110.011| TNS=-7792.502| WHS=N/A    | THS=N/A    |
+
+Phase 4.1 Global Iteration 0 | Checksum: 1cbc1657d
+
+Time (s): cpu = 00:01:40 ; elapsed = 00:01:01 . Memory (MB): peak = 2141.969 ; gain = 133.387
+
+Phase 4.2 Global Iteration 1
+ Number of Nodes with overlaps = 574
+ Number of Nodes with overlaps = 78
+ Number of Nodes with overlaps = 19
+ Number of Nodes with overlaps = 9
+ Number of Nodes with overlaps = 0
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-111.257| TNS=-7850.495| WHS=N/A    | THS=N/A    |
+
+Phase 4.2 Global Iteration 1 | Checksum: 15add311f
+
+Time (s): cpu = 00:01:58 ; elapsed = 00:01:16 . Memory (MB): peak = 2141.969 ; gain = 133.387
+Phase 4 Rip-up And Reroute | Checksum: 15add311f
+
+Time (s): cpu = 00:01:58 ; elapsed = 00:01:16 . Memory (MB): peak = 2141.969 ; gain = 133.387
+
+Phase 5 Delay and Skew Optimization
+
+Phase 5.1 Delay CleanUp
+
+Phase 5.1.1 Update Timing
+Phase 5.1.1 Update Timing | Checksum: 1afa48638
+
+Time (s): cpu = 00:02:01 ; elapsed = 00:01:18 . Memory (MB): peak = 2141.969 ; gain = 133.387
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-109.896| TNS=-7697.328| WHS=N/A    | THS=N/A    |
+
+ Number of Nodes with overlaps = 0
+Phase 5.1 Delay CleanUp | Checksum: 168eb2d06
+
+Time (s): cpu = 00:02:06 ; elapsed = 00:01:21 . Memory (MB): peak = 2156.691 ; gain = 148.109
+
+Phase 5.2 Clock Skew Optimization
+Phase 5.2 Clock Skew Optimization | Checksum: 168eb2d06
+
+Time (s): cpu = 00:02:06 ; elapsed = 00:01:21 . Memory (MB): peak = 2156.691 ; gain = 148.109
+Phase 5 Delay and Skew Optimization | Checksum: 168eb2d06
+
+Time (s): cpu = 00:02:06 ; elapsed = 00:01:21 . Memory (MB): peak = 2156.691 ; gain = 148.109
+
+Phase 6 Post Hold Fix
+
+Phase 6.1 Hold Fix Iter
+
+Phase 6.1.1 Update Timing
+Phase 6.1.1 Update Timing | Checksum: 193201ae8
+
+Time (s): cpu = 00:02:09 ; elapsed = 00:01:23 . Memory (MB): peak = 2156.691 ; gain = 148.109
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-109.896| TNS=-7344.564| WHS=-0.009 | THS=-0.012 |
+
+Phase 6.1 Hold Fix Iter | Checksum: 23e035b3d
+
+Time (s): cpu = 00:02:09 ; elapsed = 00:01:23 . Memory (MB): peak = 2156.691 ; gain = 148.109
+Phase 6 Post Hold Fix | Checksum: 270ac899d
+
+Time (s): cpu = 00:02:09 ; elapsed = 00:01:23 . Memory (MB): peak = 2156.691 ; gain = 148.109
+
+Phase 7 Timing Verification
+
+Phase 7.1 Update Timing
+Phase 7.1 Update Timing | Checksum: 1b74246cf
+
+Time (s): cpu = 00:02:14 ; elapsed = 00:01:26 . Memory (MB): peak = 2156.691 ; gain = 148.109
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-109.896| TNS=-7344.564| WHS=N/A    | THS=N/A    |
+
+Phase 7 Timing Verification | Checksum: 1b74246cf
+
+Time (s): cpu = 00:02:14 ; elapsed = 00:01:26 . Memory (MB): peak = 2156.691 ; gain = 148.109
+
+Phase 8 Route finalize
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 8.72945 %
+  Global Horizontal Routing Utilization  = 11.4607 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 0
+    (Failed Nets is the sum of unrouted and partially routed nets)
+  Number of Unrouted Nets             = 0
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 0
+
+Congestion Report
+North Dir 1x1 Area, Max Cong = 47.7477%, No Congested Regions.
+South Dir 1x1 Area, Max Cong = 65.7658%, No Congested Regions.
+East Dir 1x1 Area, Max Cong = 64.7059%, No Congested Regions.
+West Dir 1x1 Area, Max Cong = 60.2941%, No Congested Regions.
+
+------------------------------
+Reporting congestion hotspots
+------------------------------
+Direction: North
+----------------
+Congested clusters found at Level 0
+Effective congestion level: 0 Aspect Ratio: 1 Sparse Ratio: 0
+Direction: South
+----------------
+Congested clusters found at Level 0
+Effective congestion level: 0 Aspect Ratio: 1 Sparse Ratio: 0
+Direction: East
+----------------
+Congested clusters found at Level 0
+Effective congestion level: 0 Aspect Ratio: 1 Sparse Ratio: 0
+Direction: West
+----------------
+Congested clusters found at Level 0
+Effective congestion level: 0 Aspect Ratio: 1 Sparse Ratio: 0
+
+Phase 8 Route finalize | Checksum: 1b74246cf
+
+Time (s): cpu = 00:02:14 ; elapsed = 00:01:26 . Memory (MB): peak = 2156.691 ; gain = 148.109
+
+Phase 9 Verifying routed nets
+
+ Verification completed successfully
+Phase 9 Verifying routed nets | Checksum: 1b74246cf
+
+Time (s): cpu = 00:02:14 ; elapsed = 00:01:26 . Memory (MB): peak = 2156.691 ; gain = 148.109
+
+Phase 10 Depositing Routes
+Phase 10 Depositing Routes | Checksum: 188a3c30e
+
+Time (s): cpu = 00:02:16 ; elapsed = 00:01:29 . Memory (MB): peak = 2156.691 ; gain = 148.109
+
+Phase 11 Incr Placement Change
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.013 . Memory (MB): peak = 2156.691 ; gain = 0.000
+INFO: [Place 30-746] Post Placement Timing Summary WNS=-109.660. For the most accurate timing information please run report_timing.
+Ending IncrPlace Task | Checksum: 1d8f377a1
+
+Time (s): cpu = 00:00:34 ; elapsed = 00:00:27 . Memory (MB): peak = 2156.691 ; gain = 0.000
+Phase 11 Incr Placement Change | Checksum: 188a3c30e
+
+Time (s): cpu = 00:02:50 ; elapsed = 00:01:56 . Memory (MB): peak = 2156.691 ; gain = 148.109
+
+Phase 12 Build RT Design
+Phase 12 Build RT Design | Checksum: 11aded54f
+
+Time (s): cpu = 00:03:14 ; elapsed = 00:02:18 . Memory (MB): peak = 2156.691 ; gain = 148.109
+Post Restoration Checksum: NetGraph: 6ea4946 NumContArr: f23aa467 Constraints: 0 Timing: 0
+
+Phase 13 Router Initialization
+
+Phase 13.1 Create Timer
+Phase 13.1 Create Timer | Checksum: f924edad
+
+Time (s): cpu = 00:03:15 ; elapsed = 00:02:19 . Memory (MB): peak = 2156.691 ; gain = 148.109
+
+Phase 13.2 Fix Topology Constraints
+Phase 13.2 Fix Topology Constraints | Checksum: f924edad
+
+Time (s): cpu = 00:03:15 ; elapsed = 00:02:19 . Memory (MB): peak = 2159.195 ; gain = 150.613
+
+Phase 13.3 Pre Route Cleanup
+Phase 13.3 Pre Route Cleanup | Checksum: 12ddbe67e
+
+Time (s): cpu = 00:03:15 ; elapsed = 00:02:19 . Memory (MB): peak = 2159.195 ; gain = 150.613
+ Number of Nodes with overlaps = 0
+
+Phase 13.4 Update Timing
+Phase 13.4 Update Timing | Checksum: 1d5c72103
+
+Time (s): cpu = 00:03:29 ; elapsed = 00:02:29 . Memory (MB): peak = 2187.723 ; gain = 179.141
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-109.779| TNS=-7427.202| WHS=-0.240 | THS=-248.114|
+
+
+Phase 13.5 Update Timing for Bus Skew
+
+Phase 13.5.1 Update Timing
+Phase 13.5.1 Update Timing | Checksum: 1cc78f344
+
+Time (s): cpu = 00:03:38 ; elapsed = 00:02:35 . Memory (MB): peak = 2213.965 ; gain = 205.383
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-109.779| TNS=-7334.846| WHS=N/A    | THS=N/A    |
+
+Phase 13.5 Update Timing for Bus Skew | Checksum: 1501b0a7f
+
+Time (s): cpu = 00:03:38 ; elapsed = 00:02:35 . Memory (MB): peak = 2222.445 ; gain = 213.863
+Phase 13 Router Initialization | Checksum: 14eddc483
+
+Time (s): cpu = 00:03:38 ; elapsed = 00:02:35 . Memory (MB): peak = 2222.445 ; gain = 213.863
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 8.71805 %
+  Global Horizontal Routing Utilization  = 11.4494 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 27
+    (Failed Nets is the sum of unrouted and partially routed nets)
+  Number of Unrouted Nets             = 13
+  Number of Partially Routed Nets     = 14
+  Number of Node Overlaps             = 0
+
+
+Phase 14 Initial Routing
+Phase 14 Initial Routing | Checksum: c094fcb6
+
+Time (s): cpu = 00:03:39 ; elapsed = 00:02:35 . Memory (MB): peak = 2222.445 ; gain = 213.863
+
+Phase 15 Rip-up And Reroute
+
+Phase 15.1 Global Iteration 0
+ Number of Nodes with overlaps = 883
+ Number of Nodes with overlaps = 406
+ Number of Nodes with overlaps = 182
+ Number of Nodes with overlaps = 15
+ Number of Nodes with overlaps = 1
+ Number of Nodes with overlaps = 0
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-110.997| TNS=-7425.978| WHS=N/A    | THS=N/A    |
+
+Phase 15.1 Global Iteration 0 | Checksum: bcae90a0
+
+Time (s): cpu = 00:04:03 ; elapsed = 00:02:53 . Memory (MB): peak = 2222.445 ; gain = 213.863
+
+Phase 15.2 Global Iteration 1
+ Number of Nodes with overlaps = 610
+ Number of Nodes with overlaps = 163
+ Number of Nodes with overlaps = 22
+ Number of Nodes with overlaps = 1
+ Number of Nodes with overlaps = 1
+ Number of Nodes with overlaps = 0
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-110.822| TNS=-7427.377| WHS=N/A    | THS=N/A    |
+
+Phase 15.2 Global Iteration 1 | Checksum: 228934f66
+
+Time (s): cpu = 00:04:20 ; elapsed = 00:03:07 . Memory (MB): peak = 2222.445 ; gain = 213.863
+
+Phase 15.3 Global Iteration 2
+ Number of Nodes with overlaps = 464
+ Number of Nodes with overlaps = 45
+ Number of Nodes with overlaps = 4
+ Number of Nodes with overlaps = 0
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-110.970| TNS=-7426.828| WHS=N/A    | THS=N/A    |
+
+Phase 15.3 Global Iteration 2 | Checksum: 15a9da607
+
+Time (s): cpu = 00:04:31 ; elapsed = 00:03:15 . Memory (MB): peak = 2222.445 ; gain = 213.863
+Phase 15 Rip-up And Reroute | Checksum: 15a9da607
+
+Time (s): cpu = 00:04:31 ; elapsed = 00:03:15 . Memory (MB): peak = 2222.445 ; gain = 213.863
+
+Phase 16 Delay and Skew Optimization
+
+Phase 16.1 Delay CleanUp
+
+Phase 16.1.1 Update Timing
+Phase 16.1.1 Update Timing | Checksum: 10d163ec6
+
+Time (s): cpu = 00:04:34 ; elapsed = 00:03:17 . Memory (MB): peak = 2222.445 ; gain = 213.863
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-110.707| TNS=-7342.258| WHS=N/A    | THS=N/A    |
+
+ Number of Nodes with overlaps = 0
+Phase 16.1 Delay CleanUp | Checksum: 105073698
+
+Time (s): cpu = 00:04:39 ; elapsed = 00:03:20 . Memory (MB): peak = 2226.461 ; gain = 217.879
+
+Phase 16.2 Clock Skew Optimization
+Phase 16.2 Clock Skew Optimization | Checksum: 105073698
+
+Time (s): cpu = 00:04:39 ; elapsed = 00:03:20 . Memory (MB): peak = 2226.461 ; gain = 217.879
+Phase 16 Delay and Skew Optimization | Checksum: 105073698
+
+Time (s): cpu = 00:04:39 ; elapsed = 00:03:20 . Memory (MB): peak = 2226.461 ; gain = 217.879
+
+Phase 17 Post Hold Fix
+
+Phase 17.1 Hold Fix Iter
+
+Phase 17.1.1 Update Timing
+Phase 17.1.1 Update Timing | Checksum: 175f4bfef
+
+Time (s): cpu = 00:04:42 ; elapsed = 00:03:22 . Memory (MB): peak = 2226.461 ; gain = 217.879
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-110.707| TNS=-7270.397| WHS=0.050  | THS=0.000  |
+
+Phase 17.1 Hold Fix Iter | Checksum: 116a8d073
+
+Time (s): cpu = 00:04:42 ; elapsed = 00:03:22 . Memory (MB): peak = 2226.461 ; gain = 217.879
+Phase 17 Post Hold Fix | Checksum: 116a8d073
+
+Time (s): cpu = 00:04:42 ; elapsed = 00:03:22 . Memory (MB): peak = 2226.461 ; gain = 217.879
+
+Phase 18 Timing Verification
+
+Phase 18.1 Update Timing
+Phase 18.1 Update Timing | Checksum: f6fdc6fa
+
+Time (s): cpu = 00:04:47 ; elapsed = 00:03:25 . Memory (MB): peak = 2226.461 ; gain = 217.879
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-110.707| TNS=-7270.397| WHS=N/A    | THS=N/A    |
+
+Phase 18 Timing Verification | Checksum: f6fdc6fa
+
+Time (s): cpu = 00:04:47 ; elapsed = 00:03:25 . Memory (MB): peak = 2226.461 ; gain = 217.879
+
+Phase 19 Reset Design
+INFO: [Route 35-307] 18622 nets already restored were skipped.
+Post Restoration Checksum: NetGraph: fb3c28ec NumContArr: 66301b9a Constraints: 0 Timing: 18d0e303
+Phase 19 Reset Design | Checksum: 17a3d2789
+
+Time (s): cpu = 00:04:51 ; elapsed = 00:03:28 . Memory (MB): peak = 2226.461 ; gain = 217.879
+
+Phase 20 Post Router Timing
+INFO: [Route 35-20] Post Routing Timing Summary | WNS=-109.896| TNS=-7345.379| WHS=0.049  | THS=0.000  |
+
+WARNING: [Route 35-39] The design did not meet timing requirements. Please run report_timing_summary for detailed reports.
+Resolution: Verify that the timing was met or had small violations at all previous steps (synthesis, placement, power_opt, and phys_opt). Run report_timing_summary and analyze individual timing paths.
+INFO: [Route 35-253] TNS is the sum of the worst slack violation on every endpoint in the design. Review the paths with the biggest WNS violations in the timing reports and modify your constraints or your design to improve both WNS and TNS.
+Phase 20 Post Router Timing | Checksum: 24d45ce64
+
+Time (s): cpu = 00:05:03 ; elapsed = 00:03:34 . Memory (MB): peak = 2226.461 ; gain = 217.879
+INFO: [Route 35-16] Router Completed Successfully
+
+Time (s): cpu = 00:05:03 ; elapsed = 00:03:34 . Memory (MB): peak = 2226.461 ; gain = 217.879
+
+Routing Is Done.
+INFO: [Common 17-83] Releasing license: Implementation
+121 Infos, 14 Warnings, 19 Critical Warnings and 0 Errors encountered.
+route_design completed successfully
+route_design: Time (s): cpu = 00:05:09 ; elapsed = 00:03:38 . Memory (MB): peak = 2226.461 ; gain = 223.035
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:14 ; elapsed = 00:00:05 . Memory (MB): peak = 2226.461 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/drone/drone.runs/impl_1/drone_wrapper_routed.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:17 ; elapsed = 00:00:08 . Memory (MB): peak = 2226.461 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_drc -file drone_wrapper_drc_routed.rpt -pb drone_wrapper_drc_routed.pb -rpx drone_wrapper_drc_routed.rpx
+Command: report_drc -file drone_wrapper_drc_routed.rpt -pb drone_wrapper_drc_routed.pb -rpx drone_wrapper_drc_routed.rpx
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Coretcl 2-168] The results of DRC are in file C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/drone/drone.runs/impl_1/drone_wrapper_drc_routed.rpt.
+report_drc completed successfully
+report_drc: Time (s): cpu = 00:00:11 ; elapsed = 00:00:06 . Memory (MB): peak = 2226.461 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_methodology -file drone_wrapper_methodology_drc_routed.rpt -pb drone_wrapper_methodology_drc_routed.pb -rpx drone_wrapper_methodology_drc_routed.rpx
+Command: report_methodology -file drone_wrapper_methodology_drc_routed.rpt -pb drone_wrapper_methodology_drc_routed.pb -rpx drone_wrapper_methodology_drc_routed.rpx
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [DRC 23-133] Running Methodology with 2 threads
+INFO: [Coretcl 2-1520] The results of Report Methodology are in file C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/drone/drone.runs/impl_1/drone_wrapper_methodology_drc_routed.rpt.
+report_methodology completed successfully
+report_methodology: Time (s): cpu = 00:00:21 ; elapsed = 00:00:13 . Memory (MB): peak = 2226.461 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_power -file drone_wrapper_power_routed.rpt -pb drone_wrapper_power_summary_routed.pb -rpx drone_wrapper_power_routed.rpx
+Command: report_power -file drone_wrapper_power_routed.rpt -pb drone_wrapper_power_summary_routed.pb -rpx drone_wrapper_power_routed.rpx
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+133 Infos, 14 Warnings, 19 Critical Warnings and 0 Errors encountered.
+report_power completed successfully
+report_power: Time (s): cpu = 00:00:13 ; elapsed = 00:00:07 . Memory (MB): peak = 2231.535 ; gain = 5.074
+INFO: [runtcl-4] Executing : report_route_status -file drone_wrapper_route_status.rpt -pb drone_wrapper_route_status.pb
+INFO: [runtcl-4] Executing : report_timing_summary -max_paths 10 -file drone_wrapper_timing_summary_routed.rpt -pb drone_wrapper_timing_summary_routed.pb -rpx drone_wrapper_timing_summary_routed.rpx
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+WARNING: [Timing 38-436] There are set_bus_skew constraint(s) in this design. Please run report_bus_skew to ensure that bus skew requirements are met.
+INFO: [runtcl-4] Executing : report_incremental_reuse -file drone_wrapper_incremental_reuse_routed.rpt
+INFO: [Vivado_Tcl 4-1062] Incremental flow is disabled. No incremental reuse Info to report.
+INFO: [runtcl-4] Executing : report_clock_utilization -file drone_wrapper_clock_utilization_routed.rpt
+INFO: [runtcl-4] Executing : report_bus_skew -warn_on_violation -file drone_wrapper_bus_skew_routed.rpt -pb drone_wrapper_bus_skew_routed.pb -rpx drone_wrapper_bus_skew_routed.rpx
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+Command: phys_opt_design -directive AddRetime
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z010'
+INFO: [Vivado_Tcl 4-241] Physical synthesis in post route mode ( 100.0% nets are fully routed)
+INFO: [Vivado_Tcl 4-137] Directive used for phys_opt_design is: AddRetime
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.034 . Memory (MB): peak = 2231.535 ; gain = 0.000
+
+Starting Physical Synthesis Task
+
+Phase 1 Physical Synthesis Initialization
+INFO: [Physopt 32-721] Multithreading enabled for phys_opt_design using a maximum of 2 CPUs
+INFO: [Physopt 32-668] Current Timing Summary | WNS=-109.896 | TNS=-7345.377 | WHS=0.049 | THS=0.000 |
+Phase 1 Physical Synthesis Initialization | Checksum: 1f47aaa91
+
+Time (s): cpu = 00:00:15 ; elapsed = 00:00:07 . Memory (MB): peak = 2231.535 ; gain = 0.000
+WARNING: [Physopt 32-745] Physical Optimization has determined that the magnitude of the negative slack is too large and it is highly unlikely that slack will be improved. Post-Route Physical Optimization is most effective when WNS is above -0.5ns
+
+Phase 2 Critical Path Optimization
+INFO: [Physopt 32-668] Current Timing Summary | WNS=-109.896 | TNS=-7345.377 | WHS=0.049 | THS=0.000 |
+INFO: [Physopt 32-953] Path group WNS did not improve. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/inst_swiptout/pulse_length_reg[0]_bret__2_n_0.
+INFO: [Physopt 32-953] Path group WNS did not improve. Path group: clk_fpga_0. Processed net: drone_i/processing_system7_0/inst/FCLK_CLK_unbuffered[0].
+INFO: [Physopt 32-953] Path group WNS did not improve. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/inst_swiptout/pulse_counter[0]_bret__3_i_11_n_0.
+INFO: [Physopt 32-953] Path group WNS did not improve. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/inst_swiptout/pulse_counter_reg[1]_bret__1_i_1_n_0.
+INFO: [Physopt 32-953] Path group WNS did not improve. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/inst_swiptout/pulse_counter[1]_bret__1_i_15_n_0.
+INFO: [Physopt 32-953] Path group WNS did not improve. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/inst_swiptout/pulse_counter_reg[2]_bret__1_i_1_n_0.
+INFO: [Physopt 32-953] Path group WNS did not improve. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/inst_swiptout/pulse_counter_reg[3]_bret__1_i_1_n_0.
+INFO: [Physopt 32-953] Path group WNS did not improve. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/inst_swiptout/pulse_counter[3]_bret__1_i_9_n_0.
+INFO: [Physopt 32-953] Path group WNS did not improve. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/inst_swiptout/pulse_counter_reg[4]_bret__1_i_1_n_0.
+INFO: [Physopt 32-953] Path group WNS did not improve. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/inst_swiptout/pulse_counter[4]_bret__1_i_10_n_0.
+INFO: [Physopt 32-953] Path group WNS did not improve. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/inst_swiptout/pulse_counter_reg[5]_bret__1_i_1_n_0.
+INFO: [Physopt 32-953] Path group WNS did not improve. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/inst_swiptout/pulse_counter[5]_bret__1_i_15_n_0.
+INFO: [Physopt 32-953] Path group WNS did not improve. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/inst_swiptout/pulse_counter_reg[6]_bret__1_i_1_n_0.
+INFO: [Physopt 32-953] Path group WNS did not improve. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/inst_swiptout/pulse_counter[6]_bret__1_i_8_n_0.
+INFO: [Physopt 32-953] Path group WNS did not improve. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/inst_swiptout/pulse_counter_reg[7]_bret__1_i_1_n_0.
+INFO: [Physopt 32-953] Path group WNS did not improve. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/inst_swiptout/pulse_counter[7]_bret__1_i_5_n_0.
+INFO: [Physopt 32-953] Path group WNS did not improve. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/inst_swiptout/pulse_counter_reg[8]_bret__1_i_1_n_0.
+INFO: [Physopt 32-953] Path group WNS did not improve. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/inst_swiptout/pulse_counter[8]_bret__1_i_16_n_0.
+INFO: [Physopt 32-953] Path group WNS did not improve. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/inst_swiptout/pulse_counter_reg[9]_bret__1_i_1_n_0.
+INFO: [Physopt 32-953] Path group WNS did not improve. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/inst_swiptout/pulse_counter[9]_bret__1_i_11_n_0.
+INFO: [Physopt 32-953] Path group WNS did not improve. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/inst_swiptout/pulse_counter_reg[10]_bret__1_i_1_n_0.
+INFO: [Physopt 32-953] Path group WNS did not improve. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/inst_swiptout/pulse_counter[10]_bret__1_i_11_n_0.
+INFO: [Physopt 32-953] Path group WNS did not improve. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/inst_swiptout/pulse_counter_reg[11]_bret__1_i_1_n_0.
+INFO: [Physopt 32-953] Path group WNS did not improve. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/inst_swiptout/pulse_counter[11]_bret__1_i_12_n_0.
+INFO: [Physopt 32-953] Path group WNS did not improve. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/inst_swiptout/pulse_counter_reg[11]_bret__1_i_3_n_0.
+INFO: [Physopt 32-953] Path group WNS did not improve. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/inst_swiptout/pulse_counter[11]_bret__1_i_23_n_0.
+INFO: [Physopt 32-953] Path group WNS did not improve. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/inst_swiptout/pulse_counter_reg[11]_bret__1_i_14_n_0.
+INFO: [Physopt 32-953] Path group WNS did not improve. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/inst_swiptout/pulse_counter[11]_bret__1_i_35_n_0.
+INFO: [Physopt 32-952] Improved path group WNS = -109.884. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/inst_swiptout/pulse_counter_reg[11]_bret__1_i_26_n_0.
+INFO: [Physopt 32-953] Path group WNS did not improve. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/inst_swiptout/pulse_counter_reg[11]_bret__1_i_26_n_0.
+INFO: [Physopt 32-953] Path group WNS did not improve. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/inst_swiptout/pulse_counter[11]_bret__1_i_48_n_0.
+INFO: [Physopt 32-953] Path group WNS did not improve. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/inst_swiptout/pulse_counter_reg[11]_bret__1_i_38_n_0.
+INFO: [Physopt 32-953] Path group WNS did not improve. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/inst_swiptout/pulse_counter[11]_bret__1_i_61_n_0.
+INFO: [Physopt 32-953] Path group WNS did not improve. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/inst_swiptout/pulse_counter_reg[11]_bret__1_i_51_n_0.
+INFO: [Physopt 32-953] Path group WNS did not improve. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/inst_swiptout/pulse_counter[11]_bret__1_i_75_n_0.
+INFO: [Physopt 32-952] Improved path group WNS = -109.857. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/inst_swiptout/pulse_counter_reg[11]_bret__1_i_64_n_0.
+INFO: [Physopt 32-953] Path group WNS did not improve. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/inst_swiptout/pulse_counter_reg[11]_bret__1_i_64_n_0.
+INFO: [Physopt 32-952] Improved path group WNS = -109.795. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/inst_swiptout/pulse_counter_reg[11]_bret__1_i_77_n_0.
+INFO: [Physopt 32-953] Path group WNS did not improve. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/inst_swiptout/pulse_counter[11]_bret__1_i_87_n_0.
+INFO: [Physopt 32-953] Path group WNS did not improve. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/inst_swiptout/pulse_counter_reg[11]_bret__1_i_77_n_0.
+INFO: [Physopt 32-953] Path group WNS did not improve. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/inst_swiptout/pulse_counter[11]_bret__1_i_100_n_0.
+INFO: [Physopt 32-953] Path group WNS did not improve. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/inst_swiptout/pulse_counter_reg[11]_bret__1_i_90_n_0.
+INFO: [Physopt 32-953] Path group WNS did not improve. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/inst_swiptout/pulse_counter[11]_bret__1_i_114_n_0.
+INFO: [Physopt 32-953] Path group WNS did not improve. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/inst_swiptout/pulse_counter_reg[11]_bret__1_i_103_n_0.
+INFO: [Physopt 32-953] Path group WNS did not improve. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/inst_swiptout/pulse_counter_reg[11]_bret__1_i_116_n_0.
+INFO: [Physopt 32-953] Path group WNS did not improve. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/inst_swiptout/pulse_counter[11]_bret__1_i_140_n_0.
+INFO: [Physopt 32-953] Path group WNS did not improve. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/inst_swiptout/pulse_counter_reg[11]_bret__1_i_129_n_0.
+INFO: [Physopt 32-953] Path group WNS did not improve. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/inst_swiptout/pulse_counter[11]_bret__1_i_153_n_0.
+INFO: [Physopt 32-953] Path group WNS did not improve. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/inst_swiptout/pulse_counter_reg[11]_bret__1_i_142_n_0.
+INFO: [Physopt 32-953] Path group WNS did not improve. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/inst_swiptout/pulse_counter[11]_bret__1_i_166_n_0.
+INFO: [Physopt 32-953] Path group WNS did not improve. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/inst_swiptout/pulse_counter_reg[11]_bret__1_i_141_n_1.
+INFO: [Physopt 32-953] Path group WNS did not improve. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/inst_swiptout/pulse_counter_reg[11]_bret__1_i_158_n_3.
+INFO: [Physopt 32-953] Path group WNS did not improve. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/inst_swiptout/pulse_counter[11]_bret__1_i_180_n_0.
+INFO: [Physopt 32-953] Path group WNS did not improve. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/inst_swiptout/pulse_counter_reg[11]_bret__1_i_178_n_4.
+INFO: [Physopt 32-953] Path group WNS did not improve. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/inst_swiptout/pulse_counter[11]_bret__1_i_170_n_0.
+INFO: [Physopt 32-953] Path group WNS did not improve. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/inst_swiptout/pulse_counter_reg[0]_bret__3_i_1_n_0.
+INFO: [Physopt 32-953] Path group WNS did not improve. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/inst_swiptout/pulse_length1_i_24_n_3.
+INFO: [Physopt 32-953] Path group WNS did not improve. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/inst_swiptout/pulse_length1_i_733_n_0.
+INFO: [Physopt 32-952] Improved path group WNS = -109.789. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/inst_swiptout/pulse_length1_i_23_n_2.
+INFO: [Physopt 32-953] Path group WNS did not improve. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/inst_swiptout/pulse_length1_i_734_n_0.
+INFO: [Physopt 32-953] Path group WNS did not improve. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/inst_swiptout/pulse_length1_i_23_n_2.
+INFO: [Physopt 32-953] Path group WNS did not improve. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/inst_swiptout/pulse_length1_i_729_n_0.
+INFO: [Physopt 32-953] Path group WNS did not improve. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/inst_swiptout/pulse_length1_i_22_n_2.
+INFO: [Physopt 32-953] Path group WNS did not improve. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/inst_swiptout/pulse_length1_i_725_n_0.
+INFO: [Physopt 32-953] Path group WNS did not improve. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/inst_swiptout/pulse_length1_i_21_n_2.
+INFO: [Physopt 32-953] Path group WNS did not improve. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/inst_swiptout/pulse_length1_i_721_n_0.
+INFO: [Physopt 32-953] Path group WNS did not improve. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/inst_swiptout/pulse_length1_i_20_n_2.
+INFO: [Physopt 32-953] Path group WNS did not improve. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/inst_swiptout/pulse_length1_i_717_n_0.
+INFO: [Physopt 32-953] Path group WNS did not improve. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/inst_swiptout/pulse_length1_i_19_n_2.
+INFO: [Physopt 32-953] Path group WNS did not improve. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/inst_swiptout/pulse_length1_i_713_n_0.
+INFO: [Physopt 32-953] Path group WNS did not improve. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/inst_swiptout/pulse_length1_i_18_n_2.
+INFO: [Physopt 32-953] Path group WNS did not improve. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/inst_swiptout/pulse_length1_i_709_n_0.
+INFO: [Physopt 32-953] Path group WNS did not improve. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/inst_swiptout/pulse_length1_i_17_n_2.
+INFO: [Physopt 32-953] Path group WNS did not improve. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/inst_swiptout/pulse_length1_i_467_n_0.
+INFO: [Physopt 32-953] Path group WNS did not improve. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/inst_swiptout/pulse_length1_i_16_n_2.
+INFO: [Physopt 32-953] Path group WNS did not improve. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/inst_swiptout/pulse_length1_i_702_n_0.
+INFO: [Physopt 32-953] Path group WNS did not improve. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/inst_swiptout/pulse_length1_i_15_n_2.
+INFO: [Physopt 32-953] Path group WNS did not improve. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/inst_swiptout/pulse_length1_i_698_n_0.
+INFO: [Physopt 32-953] Path group WNS did not improve. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/inst_swiptout/pulse_length1_i_14_n_2.
+INFO: [Physopt 32-953] Path group WNS did not improve. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/inst_swiptout/pulse_length1_i_694_n_0.
+INFO: [Physopt 32-953] Path group WNS did not improve. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/inst_swiptout/pulse_length1_i_13_n_2.
+INFO: [Physopt 32-953] Path group WNS did not improve. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/inst_swiptout/pulse_length1_i_581_n_0.
+INFO: [Physopt 32-952] Improved path group WNS = -109.780. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/inst_swiptout/pulse_length1_i_12_n_2.
+INFO: [Physopt 32-953] Path group WNS did not improve. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/inst_swiptout/pulse_length1_i_690_n_0.
+INFO: [Physopt 32-953] Path group WNS did not improve. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/inst_swiptout/pulse_length1_i_12_n_2.
+INFO: [Physopt 32-953] Path group WNS did not improve. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/inst_swiptout/pulse_length1_i_686_n_0.
+INFO: [Physopt 32-953] Path group WNS did not improve. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/inst_swiptout/pulse_length1_i_11_n_2.
+INFO: [Physopt 32-953] Path group WNS did not improve. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/inst_swiptout/pulse_length1_i_683_n_0.
+INFO: [Physopt 32-953] Path group WNS did not improve. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/inst_swiptout/pulse_length1_i_10_n_2.
+INFO: [Physopt 32-953] Path group WNS did not improve. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/inst_swiptout/pulse_length1_i_680_n_0.
+INFO: [Physopt 32-952] Improved path group WNS = -109.729. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/inst_swiptout/pulse_length1_i_9_n_2.
+INFO: [Physopt 32-953] Path group WNS did not improve. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/inst_swiptout/pulse_length1_i_566_n_0.
+INFO: [Physopt 32-952] Improved path group WNS = -109.716. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/inst_swiptout/pulse_length1_i_9_n_2.
+INFO: [Physopt 32-953] Path group WNS did not improve. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/inst_swiptout/pulse_length1_i_9_n_2.
+INFO: [Physopt 32-952] Improved path group WNS = -109.661. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/inst_swiptout/pulse_length1_i_8_n_2.
+INFO: [Physopt 32-953] Path group WNS did not improve. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/inst_swiptout/pulse_length1_i_677_n_0.
+INFO: [Physopt 32-953] Path group WNS did not improve. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/inst_swiptout/pulse_length1_i_8_n_2.
+INFO: [Physopt 32-953] Path group WNS did not improve. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/inst_swiptout/pulse_length1_i_7_n_2.
+INFO: [Physopt 32-953] Path group WNS did not improve. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/inst_swiptout/pulse_length1_i_551_n_0.
+INFO: [Physopt 32-953] Path group WNS did not improve. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/inst_swiptout/pulse_length1_i_6_n_2.
+INFO: [Physopt 32-953] Path group WNS did not improve. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/inst_swiptout/pulse_length1_i_667_n_0.
+INFO: [Physopt 32-953] Path group WNS did not improve. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/inst_swiptout/pulse_length1_i_5_n_2.
+INFO: [Physopt 32-953] Path group WNS did not improve. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/inst_swiptout/pulse_length1_i_663_n_0.
+INFO: [Physopt 32-953] Path group WNS did not improve. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/inst_swiptout/pulse_length1_i_4_n_2.
+INFO: [Physopt 32-953] Path group WNS did not improve. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/inst_swiptout/pulse_length1_i_660_n_0.
+INFO: [Physopt 32-953] Path group WNS did not improve. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/inst_swiptout/pulse_length1_i_3_n_2.
+INFO: [Physopt 32-953] Path group WNS did not improve. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/inst_swiptout/pulse_length1_i_657_n_0.
+INFO: [Physopt 32-952] Improved path group WNS = -109.636. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/inst_swiptout/pulse_length1_i_2_n_2.
+INFO: [Physopt 32-952] Improved path group WNS = -109.571. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/inst_swiptout/pulse_length1_i_2_n_2.
+INFO: [Physopt 32-953] Path group WNS did not improve. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/inst_swiptout/pulse_length1_i_2_n_2.
+INFO: [Common 17-14] Message 'Physopt 32-953' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Physopt 32-703] Processed net drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[8]. Clock skew was adjusted for instance drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq_reg[8].
+INFO: [Physopt 32-952] Improved path group WNS = -109.569. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[8].
+INFO: [Physopt 32-703] Processed net drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[1]. Clock skew was adjusted for instance drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq_reg[1].
+INFO: [Physopt 32-952] Improved path group WNS = -109.536. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[1].
+INFO: [Physopt 32-703] Processed net drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[0]. Clock skew was adjusted for instance drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq_reg[0].
+INFO: [Physopt 32-952] Improved path group WNS = -109.447. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[0].
+INFO: [Physopt 32-703] Processed net drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[8]. Clock skew was adjusted for instance drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq_reg[8].
+INFO: [Physopt 32-952] Improved path group WNS = -109.446. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[8].
+INFO: [Physopt 32-703] Processed net drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[1]. Clock skew was adjusted for instance drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq_reg[1].
+INFO: [Physopt 32-952] Improved path group WNS = -109.412. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[1].
+INFO: [Physopt 32-703] Processed net drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[0]. Clock skew was adjusted for instance drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq_reg[0].
+INFO: [Physopt 32-952] Improved path group WNS = -109.360. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[0].
+INFO: [Physopt 32-703] Processed net drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[9]. Clock skew was adjusted for instance drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq_reg[9].
+INFO: [Physopt 32-952] Improved path group WNS = -109.237. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[9].
+INFO: [Physopt 32-703] Processed net drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[9]. Clock skew was adjusted for instance drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq_reg[9].
+INFO: [Physopt 32-952] Improved path group WNS = -109.223. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[9].
+INFO: [Physopt 32-703] Processed net drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[8]. Clock skew was adjusted for instance drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq_reg[8].
+INFO: [Physopt 32-952] Improved path group WNS = -109.222. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[8].
+INFO: [Physopt 32-703] Processed net drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[1]. Clock skew was adjusted for instance drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq_reg[1].
+INFO: [Physopt 32-952] Improved path group WNS = -109.188. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[1].
+INFO: [Physopt 32-703] Processed net drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[0]. Clock skew was adjusted for instance drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq_reg[0].
+INFO: [Physopt 32-952] Improved path group WNS = -109.166. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[0].
+INFO: [Physopt 32-703] Processed net drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[12]. Clock skew was adjusted for instance drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq_reg[12].
+INFO: [Physopt 32-952] Improved path group WNS = -109.056. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[12].
+INFO: [Physopt 32-703] Processed net drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[16]. Clock skew was adjusted for instance drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq_reg[16].
+INFO: [Physopt 32-952] Improved path group WNS = -109.045. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[16].
+INFO: [Physopt 32-703] Processed net drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[13]. Clock skew was adjusted for instance drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq_reg[13].
+INFO: [Physopt 32-952] Improved path group WNS = -109.042. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[13].
+INFO: [Physopt 32-703] Processed net drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[12]. Clock skew was adjusted for instance drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq_reg[12].
+INFO: [Physopt 32-952] Improved path group WNS = -109.013. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[12].
+INFO: [Physopt 32-703] Processed net drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[9]. Clock skew was adjusted for instance drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq_reg[9].
+INFO: [Physopt 32-952] Improved path group WNS = -108.999. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[9].
+INFO: [Physopt 32-703] Processed net drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[8]. Clock skew was adjusted for instance drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq_reg[8].
+INFO: [Physopt 32-952] Improved path group WNS = -108.998. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[8].
+INFO: [Physopt 32-703] Processed net drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[1]. Clock skew was adjusted for instance drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq_reg[1].
+INFO: [Physopt 32-952] Improved path group WNS = -108.964. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[1].
+INFO: [Physopt 32-703] Processed net drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[0]. Clock skew was adjusted for instance drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq_reg[0].
+INFO: [Physopt 32-952] Improved path group WNS = -108.933. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[0].
+INFO: [Physopt 32-703] Processed net drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[16]. Clock skew was adjusted for instance drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq_reg[16].
+INFO: [Physopt 32-952] Improved path group WNS = -108.921. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[16].
+INFO: [Physopt 32-703] Processed net drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[13]. Clock skew was adjusted for instance drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq_reg[13].
+INFO: [Physopt 32-952] Improved path group WNS = -108.898. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[13].
+INFO: [Physopt 32-703] Processed net drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[18]. Clock skew was adjusted for instance drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq_reg[18].
+INFO: [Physopt 32-952] Improved path group WNS = -108.818. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[18].
+INFO: [Physopt 32-703] Processed net drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[12]. Clock skew was adjusted for instance drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq_reg[12].
+INFO: [Physopt 32-952] Improved path group WNS = -108.789. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[12].
+INFO: [Physopt 32-703] Processed net drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[9]. Clock skew was adjusted for instance drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq_reg[9].
+INFO: [Physopt 32-952] Improved path group WNS = -108.775. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[9].
+INFO: [Physopt 32-703] Processed net drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[8]. Clock skew was adjusted for instance drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq_reg[8].
+INFO: [Physopt 32-952] Improved path group WNS = -108.774. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[8].
+INFO: [Physopt 32-703] Processed net drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[18]. Clock skew was adjusted for instance drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq_reg[18].
+INFO: [Physopt 32-952] Improved path group WNS = -108.774. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[18].
+INFO: [Physopt 32-703] Processed net drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[1]. Clock skew was adjusted for instance drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq_reg[1].
+INFO: [Physopt 32-952] Improved path group WNS = -108.740. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[1].
+INFO: [Physopt 32-703] Processed net drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[0]. Clock skew was adjusted for instance drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq_reg[0].
+INFO: [Physopt 32-952] Improved path group WNS = -108.709. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[0].
+INFO: [Physopt 32-703] Processed net drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[16]. Clock skew was adjusted for instance drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq_reg[16].
+INFO: [Physopt 32-952] Improved path group WNS = -108.697. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[16].
+INFO: [Physopt 32-703] Processed net drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[13]. Clock skew was adjusted for instance drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq_reg[13].
+INFO: [Physopt 32-952] Improved path group WNS = -108.594. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[13].
+INFO: [Physopt 32-703] Processed net drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[12]. Clock skew was adjusted for instance drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq_reg[12].
+INFO: [Physopt 32-952] Improved path group WNS = -108.565. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[12].
+INFO: [Physopt 32-703] Processed net drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[9]. Clock skew was adjusted for instance drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq_reg[9].
+INFO: [Physopt 32-952] Improved path group WNS = -108.551. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[9].
+INFO: [Physopt 32-703] Processed net drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[8]. Clock skew was adjusted for instance drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq_reg[8].
+INFO: [Physopt 32-952] Improved path group WNS = -108.550. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[8].
+INFO: [Physopt 32-703] Processed net drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[18]. Clock skew was adjusted for instance drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq_reg[18].
+INFO: [Physopt 32-952] Improved path group WNS = -108.550. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[18].
+INFO: [Physopt 32-703] Processed net drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[1]. Clock skew was adjusted for instance drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq_reg[1].
+INFO: [Physopt 32-952] Improved path group WNS = -108.516. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[1].
+INFO: [Physopt 32-703] Processed net drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[0]. Clock skew was adjusted for instance drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq_reg[0].
+INFO: [Physopt 32-952] Improved path group WNS = -108.485. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[0].
+INFO: [Physopt 32-703] Processed net drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[16]. Clock skew was adjusted for instance drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq_reg[16].
+INFO: [Physopt 32-952] Improved path group WNS = -108.473. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[16].
+INFO: [Physopt 32-703] Processed net drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[13]. Clock skew was adjusted for instance drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq_reg[13].
+INFO: [Physopt 32-952] Improved path group WNS = -108.370. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[13].
+INFO: [Physopt 32-703] Processed net drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[12]. Clock skew was adjusted for instance drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq_reg[12].
+INFO: [Physopt 32-952] Improved path group WNS = -108.341. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[12].
+INFO: [Physopt 32-703] Processed net drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[9]. Clock skew was adjusted for instance drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq_reg[9].
+INFO: [Physopt 32-952] Improved path group WNS = -108.327. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[9].
+INFO: [Physopt 32-703] Processed net drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[8]. Clock skew was adjusted for instance drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq_reg[8].
+INFO: [Physopt 32-952] Improved path group WNS = -108.326. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[8].
+INFO: [Physopt 32-703] Processed net drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[18]. Clock skew was adjusted for instance drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq_reg[18].
+INFO: [Physopt 32-952] Improved path group WNS = -108.326. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[18].
+INFO: [Physopt 32-703] Processed net drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[1]. Clock skew was adjusted for instance drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq_reg[1].
+INFO: [Physopt 32-952] Improved path group WNS = -108.292. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[1].
+INFO: [Physopt 32-703] Processed net drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[0]. Clock skew was adjusted for instance drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq_reg[0].
+INFO: [Physopt 32-952] Improved path group WNS = -108.261. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[0].
+INFO: [Physopt 32-703] Processed net drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[16]. Clock skew was adjusted for instance drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq_reg[16].
+INFO: [Physopt 32-952] Improved path group WNS = -108.249. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[16].
+INFO: [Physopt 32-703] Processed net drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[13]. Clock skew was adjusted for instance drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq_reg[13].
+INFO: [Physopt 32-952] Improved path group WNS = -108.146. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[13].
+INFO: [Physopt 32-703] Processed net drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[12]. Clock skew was adjusted for instance drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq_reg[12].
+INFO: [Physopt 32-952] Improved path group WNS = -108.117. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[12].
+INFO: [Physopt 32-703] Processed net drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[9]. Clock skew was adjusted for instance drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq_reg[9].
+INFO: [Physopt 32-952] Improved path group WNS = -108.103. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[9].
+INFO: [Physopt 32-703] Processed net drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[8]. Clock skew was adjusted for instance drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq_reg[8].
+INFO: [Physopt 32-952] Improved path group WNS = -108.102. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[8].
+INFO: [Physopt 32-703] Processed net drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[18]. Clock skew was adjusted for instance drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq_reg[18].
+INFO: [Physopt 32-952] Improved path group WNS = -108.102. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[18].
+INFO: [Physopt 32-703] Processed net drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[1]. Clock skew was adjusted for instance drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq_reg[1].
+INFO: [Physopt 32-952] Improved path group WNS = -108.068. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[1].
+INFO: [Physopt 32-703] Processed net drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[0]. Clock skew was adjusted for instance drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq_reg[0].
+INFO: [Physopt 32-952] Improved path group WNS = -108.037. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[0].
+INFO: [Physopt 32-703] Processed net drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[16]. Clock skew was adjusted for instance drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq_reg[16].
+INFO: [Physopt 32-952] Improved path group WNS = -108.025. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[16].
+INFO: [Physopt 32-703] Processed net drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[13]. Clock skew was adjusted for instance drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq_reg[13].
+INFO: [Physopt 32-952] Improved path group WNS = -107.922. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[13].
+INFO: [Physopt 32-703] Processed net drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[12]. Clock skew was adjusted for instance drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq_reg[12].
+INFO: [Physopt 32-952] Improved path group WNS = -107.893. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[12].
+INFO: [Physopt 32-703] Processed net drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[9]. Clock skew was adjusted for instance drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq_reg[9].
+INFO: [Physopt 32-952] Improved path group WNS = -107.879. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[9].
+INFO: [Physopt 32-703] Processed net drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[8]. Clock skew was adjusted for instance drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq_reg[8].
+INFO: [Physopt 32-952] Improved path group WNS = -107.878. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[8].
+INFO: [Physopt 32-703] Processed net drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[18]. Clock skew was adjusted for instance drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq_reg[18].
+INFO: [Physopt 32-952] Improved path group WNS = -107.878. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[18].
+INFO: [Physopt 32-703] Processed net drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[1]. Clock skew was adjusted for instance drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq_reg[1].
+INFO: [Physopt 32-952] Improved path group WNS = -107.844. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[1].
+INFO: [Physopt 32-703] Processed net drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[0]. Clock skew was adjusted for instance drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq_reg[0].
+INFO: [Physopt 32-952] Improved path group WNS = -107.813. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[0].
+INFO: [Physopt 32-703] Processed net drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[16]. Clock skew was adjusted for instance drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq_reg[16].
+INFO: [Physopt 32-952] Improved path group WNS = -107.801. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[16].
+INFO: [Physopt 32-703] Processed net drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[13]. Clock skew was adjusted for instance drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq_reg[13].
+INFO: [Physopt 32-952] Improved path group WNS = -107.698. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[13].
+INFO: [Physopt 32-703] Processed net drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[12]. Clock skew was adjusted for instance drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq_reg[12].
+INFO: [Physopt 32-952] Improved path group WNS = -107.669. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[12].
+INFO: [Physopt 32-703] Processed net drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[9]. Clock skew was adjusted for instance drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq_reg[9].
+INFO: [Physopt 32-952] Improved path group WNS = -107.655. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[9].
+INFO: [Physopt 32-703] Processed net drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[8]. Clock skew was adjusted for instance drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq_reg[8].
+INFO: [Physopt 32-952] Improved path group WNS = -107.654. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[8].
+INFO: [Physopt 32-703] Processed net drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[18]. Clock skew was adjusted for instance drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq_reg[18].
+INFO: [Physopt 32-952] Improved path group WNS = -107.654. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[18].
+INFO: [Physopt 32-703] Processed net drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[1]. Clock skew was adjusted for instance drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq_reg[1].
+INFO: [Physopt 32-952] Improved path group WNS = -107.620. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[1].
+INFO: [Physopt 32-703] Processed net drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[0]. Clock skew was adjusted for instance drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq_reg[0].
+INFO: [Physopt 32-952] Improved path group WNS = -107.589. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[0].
+INFO: [Physopt 32-703] Processed net drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[16]. Clock skew was adjusted for instance drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq_reg[16].
+INFO: [Physopt 32-952] Improved path group WNS = -107.577. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[16].
+INFO: [Physopt 32-703] Processed net drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[13]. Clock skew was adjusted for instance drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq_reg[13].
+INFO: [Physopt 32-952] Improved path group WNS = -107.474. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[13].
+INFO: [Physopt 32-703] Processed net drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[12]. Clock skew was adjusted for instance drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq_reg[12].
+INFO: [Physopt 32-952] Improved path group WNS = -107.445. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[12].
+INFO: [Physopt 32-703] Processed net drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[9]. Clock skew was adjusted for instance drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq_reg[9].
+INFO: [Physopt 32-952] Improved path group WNS = -107.431. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[9].
+INFO: [Physopt 32-703] Processed net drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[8]. Clock skew was adjusted for instance drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq_reg[8].
+INFO: [Physopt 32-952] Improved path group WNS = -107.430. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[8].
+INFO: [Physopt 32-703] Processed net drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[18]. Clock skew was adjusted for instance drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq_reg[18].
+INFO: [Physopt 32-952] Improved path group WNS = -107.429. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[18].
+INFO: [Physopt 32-703] Processed net drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[1]. Clock skew was adjusted for instance drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq_reg[1].
+INFO: [Physopt 32-952] Improved path group WNS = -107.396. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[1].
+INFO: [Physopt 32-703] Processed net drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[0]. Clock skew was adjusted for instance drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq_reg[0].
+INFO: [Physopt 32-952] Improved path group WNS = -107.365. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[0].
+INFO: [Physopt 32-703] Processed net drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[16]. Clock skew was adjusted for instance drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq_reg[16].
+INFO: [Physopt 32-952] Improved path group WNS = -107.353. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[16].
+INFO: [Physopt 32-703] Processed net drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[13]. Clock skew was adjusted for instance drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq_reg[13].
+INFO: [Physopt 32-952] Improved path group WNS = -107.250. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[13].
+INFO: [Physopt 32-703] Processed net drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[12]. Clock skew was adjusted for instance drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq_reg[12].
+INFO: [Physopt 32-952] Improved path group WNS = -107.221. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[12].
+INFO: [Physopt 32-703] Processed net drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[9]. Clock skew was adjusted for instance drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq_reg[9].
+INFO: [Physopt 32-952] Improved path group WNS = -107.207. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[9].
+INFO: [Physopt 32-703] Processed net drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[8]. Clock skew was adjusted for instance drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq_reg[8].
+INFO: [Physopt 32-952] Improved path group WNS = -107.206. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[8].
+INFO: [Physopt 32-703] Processed net drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[18]. Clock skew was adjusted for instance drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq_reg[18].
+INFO: [Physopt 32-952] Improved path group WNS = -107.206. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[18].
+INFO: [Physopt 32-703] Processed net drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[1]. Clock skew was adjusted for instance drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq_reg[1].
+INFO: [Physopt 32-952] Improved path group WNS = -107.172. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[1].
+INFO: [Physopt 32-703] Processed net drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[0]. Clock skew was adjusted for instance drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq_reg[0].
+INFO: [Physopt 32-952] Improved path group WNS = -107.141. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[0].
+INFO: [Physopt 32-703] Processed net drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[16]. Clock skew was adjusted for instance drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq_reg[16].
+INFO: [Physopt 32-952] Improved path group WNS = -107.129. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[16].
+INFO: [Physopt 32-703] Processed net drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[13]. Clock skew was adjusted for instance drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq_reg[13].
+INFO: [Physopt 32-952] Improved path group WNS = -107.026. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[13].
+INFO: [Physopt 32-703] Processed net drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[12]. Clock skew was adjusted for instance drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq_reg[12].
+INFO: [Physopt 32-952] Improved path group WNS = -106.997. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[12].
+INFO: [Physopt 32-703] Processed net drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[9]. Clock skew was adjusted for instance drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq_reg[9].
+INFO: [Physopt 32-952] Improved path group WNS = -106.983. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/freq[9].
+INFO: [Physopt 32-952] Improved path group WNS = -106.967. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/inst_swiptout/pulse_counter[1]_bret__1_i_15_n_0.
+INFO: [Physopt 32-952] Improved path group WNS = -106.888. Path group: clk_fpga_0. Processed net: drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/inst_swiptout/pulse_counter[3]_bret__1_i_9_n_0.
+INFO: [Common 17-14] Message 'Physopt 32-952' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Physopt 32-668] Current Timing Summary | WNS=-106.455 | TNS=-7105.611 | WHS=0.049 | THS=0.000 |
+Phase 2 Critical Path Optimization | Checksum: 1f47aaa91
+
+Time (s): cpu = 00:04:40 ; elapsed = 00:03:19 . Memory (MB): peak = 2268.250 ; gain = 36.715
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.013 . Memory (MB): peak = 2268.250 ; gain = 0.000
+INFO: [Physopt 32-669] Post Physical Optimization Timing Summary | WNS=-106.455 | TNS=-7105.611 | WHS=0.049 | THS=0.000 |
+
+Summary of Physical Synthesis Optimizations
+============================================
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+|  Optimization   |  WNS Gain (ns)  |  TNS Gain (ns)  |  Added Cells  |  Removed Cells  |  Optimized Cells/Nets  |  Dont Touch  |  Iterations  |  Elapsed   |
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+|  Critical Path  |          3.442  |        239.766  |            0  |              0  |                   116  |           0  |           1  |  00:03:12  |
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.013 . Memory (MB): peak = 2268.250 ; gain = 0.000
+Ending Physical Synthesis Task | Checksum: 22514368c
+
+Time (s): cpu = 00:04:40 ; elapsed = 00:03:19 . Memory (MB): peak = 2268.250 ; gain = 36.715
+INFO: [Common 17-83] Releasing license: Implementation
+442 Infos, 16 Warnings, 19 Critical Warnings and 0 Errors encountered.
+phys_opt_design completed successfully
+phys_opt_design: Time (s): cpu = 00:04:41 ; elapsed = 00:03:21 . Memory (MB): peak = 2268.250 ; gain = 36.715
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:13 ; elapsed = 00:00:05 . Memory (MB): peak = 2276.867 ; gain = 8.617
+INFO: [Common 17-1381] The checkpoint 'C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/drone/drone.runs/impl_1/drone_wrapper_postroute_physopt.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:18 ; elapsed = 00:00:08 . Memory (MB): peak = 2276.867 ; gain = 8.617
+INFO: [runtcl-4] Executing : report_timing_summary -max_paths 10 -warn_on_violation -file drone_wrapper_timing_summary_postroute_physopted.rpt -pb drone_wrapper_timing_summary_postroute_physopted.pb -rpx drone_wrapper_timing_summary_postroute_physopted.rpx
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+CRITICAL WARNING: [Timing 38-282] The design failed to meet the timing requirements. Please see the timing summary report for details on the timing violations.
+WARNING: [Timing 38-436] There are set_bus_skew constraint(s) in this design. Please run report_bus_skew to ensure that bus skew requirements are met.
+report_timing_summary: Time (s): cpu = 00:00:13 ; elapsed = 00:00:08 . Memory (MB): peak = 2276.867 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_bus_skew -warn_on_violation -file drone_wrapper_bus_skew_postroute_physopted.rpt -pb drone_wrapper_bus_skew_postroute_physopted.pb -rpx drone_wrapper_bus_skew_postroute_physopted.rpx
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+Command: write_bitstream -force drone_wrapper.bit
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z010'
+Running DRC as a precondition to command write_bitstream
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 2 threads
+WARNING: [DRC DPIP-1] Input pipelining: DSP drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/inst_swiptout/pulse_length1 input drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/inst_swiptout/pulse_length1/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/inst_swiptout/pulse_length1 input drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/inst_swiptout/pulse_length1/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPOP-1] PREG Output pipelining: DSP drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/inst_swiptout/pulse_length1 output drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/inst_swiptout/pulse_length1/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-2] MREG Output pipelining: DSP drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/inst_swiptout/pulse_length1 multiplier stage drone_i/SWIPT_2020_0/inst/SWIPT_2020_v1_0_S00_AXI_inst/swipt_toplevel_inst/inst_swiptout/pulse_length1/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC PLBUFGOPT-1] Non-Optimal connections to BUFG: A non-muxed BUFG drone_i/processing_system7_0/inst/buffer_fclk_clk_0.FCLK_CLK_0_BUFG is driven by another global buffer drone_i/processing_system7_0/inst/buffer_fclk_clk_0.FCLK_CLK_0_BUFG_replica. Remove non-muxed BUFG if it is not desired
+WARNING: [DRC PLBUFGOPT-1] Non-Optimal connections to BUFG: A non-muxed BUFG drone_i/processing_system7_0/inst/buffer_fclk_clk_0.FCLK_CLK_0_BUFG_replica is driven by another global buffer drone_i/processing_system7_0/inst/buffer_fclk_clk_0.FCLK_CLK_0_BUFG_replica_1. Remove non-muxed BUFG if it is not desired
+WARNING: [DRC PLBUFGOPT-1] Non-Optimal connections to BUFG: A non-muxed BUFG drone_i/processing_system7_0/inst/buffer_fclk_clk_0.FCLK_CLK_0_BUFG_replica_1 is driven by another global buffer drone_i/processing_system7_0/inst/buffer_fclk_clk_0.FCLK_CLK_0_BUFG_replica_2. Remove non-muxed BUFG if it is not desired
+WARNING: [DRC PLBUFGOPT-1] Non-Optimal connections to BUFG: A non-muxed BUFG drone_i/processing_system7_0/inst/buffer_fclk_clk_0.FCLK_CLK_0_BUFG_replica_10 is driven by another global buffer drone_i/processing_system7_0/inst/buffer_fclk_clk_0.FCLK_CLK_0_BUFG_replica_11. Remove non-muxed BUFG if it is not desired
+WARNING: [DRC PLBUFGOPT-1] Non-Optimal connections to BUFG: A non-muxed BUFG drone_i/processing_system7_0/inst/buffer_fclk_clk_0.FCLK_CLK_0_BUFG_replica_2 is driven by another global buffer drone_i/processing_system7_0/inst/buffer_fclk_clk_0.FCLK_CLK_0_BUFG_replica_3. Remove non-muxed BUFG if it is not desired
+WARNING: [DRC PLBUFGOPT-1] Non-Optimal connections to BUFG: A non-muxed BUFG drone_i/processing_system7_0/inst/buffer_fclk_clk_0.FCLK_CLK_0_BUFG_replica_3 is driven by another global buffer drone_i/processing_system7_0/inst/buffer_fclk_clk_0.FCLK_CLK_0_BUFG_replica_4. Remove non-muxed BUFG if it is not desired
+WARNING: [DRC PLBUFGOPT-1] Non-Optimal connections to BUFG: A non-muxed BUFG drone_i/processing_system7_0/inst/buffer_fclk_clk_0.FCLK_CLK_0_BUFG_replica_4 is driven by another global buffer drone_i/processing_system7_0/inst/buffer_fclk_clk_0.FCLK_CLK_0_BUFG_replica_5. Remove non-muxed BUFG if it is not desired
+WARNING: [DRC PLBUFGOPT-1] Non-Optimal connections to BUFG: A non-muxed BUFG drone_i/processing_system7_0/inst/buffer_fclk_clk_0.FCLK_CLK_0_BUFG_replica_5 is driven by another global buffer drone_i/processing_system7_0/inst/buffer_fclk_clk_0.FCLK_CLK_0_BUFG_replica_6. Remove non-muxed BUFG if it is not desired
+WARNING: [DRC PLBUFGOPT-1] Non-Optimal connections to BUFG: A non-muxed BUFG drone_i/processing_system7_0/inst/buffer_fclk_clk_0.FCLK_CLK_0_BUFG_replica_6 is driven by another global buffer drone_i/processing_system7_0/inst/buffer_fclk_clk_0.FCLK_CLK_0_BUFG_replica_7. Remove non-muxed BUFG if it is not desired
+WARNING: [DRC PLBUFGOPT-1] Non-Optimal connections to BUFG: A non-muxed BUFG drone_i/processing_system7_0/inst/buffer_fclk_clk_0.FCLK_CLK_0_BUFG_replica_7 is driven by another global buffer drone_i/processing_system7_0/inst/buffer_fclk_clk_0.FCLK_CLK_0_BUFG_replica_8. Remove non-muxed BUFG if it is not desired
+WARNING: [DRC PLBUFGOPT-1] Non-Optimal connections to BUFG: A non-muxed BUFG drone_i/processing_system7_0/inst/buffer_fclk_clk_0.FCLK_CLK_0_BUFG_replica_8 is driven by another global buffer drone_i/processing_system7_0/inst/buffer_fclk_clk_0.FCLK_CLK_0_BUFG_replica_9. Remove non-muxed BUFG if it is not desired
+WARNING: [DRC PLBUFGOPT-1] Non-Optimal connections to BUFG: A non-muxed BUFG drone_i/processing_system7_0/inst/buffer_fclk_clk_0.FCLK_CLK_0_BUFG_replica_9 is driven by another global buffer drone_i/processing_system7_0/inst/buffer_fclk_clk_0.FCLK_CLK_0_BUFG_replica_10. Remove non-muxed BUFG if it is not desired
+WARNING: [DRC RTSTAT-10] No routable loads: 25 net(s) have no routable loads. The problem bus(es) and/or net(s) are dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD6_RD/U_RD_FIFO/SUBCORE_FIFO.xsdbm_v3_0_0_rdfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD7_CTL/ctl_reg[2:0], dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD7_CTL/ctl_reg_en_2[1], dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD1/ctl_reg_en_2[1], dbg_hub/inst/BSCANID.u_xsdbm_id/SWITCH_N_EXT_BSCAN.bscan_switch/m_bscan_capture[0], dbg_hub/inst/BSCANID.u_xsdbm_id/SWITCH_N_EXT_BSCAN.bscan_switch/m_bscan_drck[0], dbg_hub/inst/BSCANID.u_xsdbm_id/SWITCH_N_EXT_BSCAN.bscan_switch/m_bscan_runtest[0], dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD6_WR/U_WR_FIFO/SUBCORE_FIFO.xsdbm_v3_0_0_wrfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwhf.whf/overflow, dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD6_RD/U_RD_FIFO/SUBCORE_FIFO.xsdbm_v3_0_0_rdfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwhf.whf/overflow, dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD6_RD/U_RD_FIFO/SUBCORE_FIFO.xsdbm_v3_0_0_rdfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gras.rsts/ram_empty_i, dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD6_WR/U_WR_FIFO/SUBCORE_FIFO.xsdbm_v3_0_0_wrfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/ram_full_i, dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD6_WR/U_WR_FIFO/SUBCORE_FIFO.xsdbm_v3_0_0_wrfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/rd_rst_reg[0], dbg_hub/inst/BSCANID.u_xsdbm_id/SWITCH_N_EXT_BSCAN.bscan_inst/s_bscan_tms, u_ila_0/inst/ila_core_inst/u_ila_regs/U_XSDB_SLAVE/s_daddr_o[13], u_ila_0/inst/ila_core_inst/u_ila_regs/U_XSDB_SLAVE/s_daddr_o[14]... and (the first 15 of 23 listed).
+INFO: [Vivado 12-3199] DRC finished with 0 Errors, 17 Warnings
+INFO: [Vivado 12-3200] Please refer to the DRC report (report_drc) for more information.
+INFO: [Designutils 20-2272] Running write_bitstream with 2 threads.
+Loading data files...
+Loading site data...
+Loading route data...
+Processing options...
+Creating bitmap...
+Creating bitstream...
+Writing bitstream ./drone_wrapper.bit...
+INFO: [Vivado 12-1842] Bitgen Completed Successfully.
+INFO: [Project 1-120] WebTalk data collection is mandatory when using a WebPACK part without a full Vivado license. To see the specific WebTalk data collected for your design, open the usage_statistics_webtalk.html or usage_statistics_webtalk.xml file in the implementation directory.
+INFO: [Common 17-186] 'C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/drone/drone.runs/impl_1/usage_statistics_webtalk.xml' has been successfully sent to Xilinx on Thu Mar  4 19:50:46 2021. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2020.1/doc/webtalk_introduction.html.
+INFO: [Common 17-83] Releasing license: Implementation
+460 Infos, 34 Warnings, 20 Critical Warnings and 0 Errors encountered.
+write_bitstream completed successfully
+write_bitstream: Time (s): cpu = 00:00:37 ; elapsed = 00:00:32 . Memory (MB): peak = 2566.168 ; gain = 289.301
+INFO: [Common 17-206] Exiting Vivado at Thu Mar  4 19:50:46 2021...
