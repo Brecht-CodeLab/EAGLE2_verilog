@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Sat Feb 27 17:26:00 2021
+# Process ID: 2236
+# Current directory: c:/Users/brech/Desktop/EAGLE2_v2/drone
+# Command line: wbtcv.exe -mode batch -source c:/users/brech/desktop/eagle2_v2/drone/drone.tmp/swipt_2020_v1_0_project/SWIPT_2020_v1_0_project.hw/webtalk/labtool_webtalk.tcl -notrace
+# Log file: c:/Users/brech/Desktop/EAGLE2_v2/drone/webtalk.log
+# Journal file: c:/Users/brech/Desktop/EAGLE2_v2/drone\webtalk.jou
+#-----------------------------------------------------------
+source c:/users/brech/desktop/eagle2_v2/drone/drone.tmp/swipt_2020_v1_0_project/SWIPT_2020_v1_0_project.hw/webtalk/labtool_webtalk.tcl -notrace

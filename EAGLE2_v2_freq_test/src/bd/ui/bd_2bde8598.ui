@@ -103,26 +103,26 @@ preplace netloc SWIPT_2020_0_ADC_vn_in 1 3 1 1520 410n
 preplace netloc xadc_wiz_0_drdy_out 1 2 2 1140 50 1520
 preplace netloc xadc_wiz_0_do_out 1 2 2 1120 30 1540
 preplace netloc PWM_AXI_triple_4_PWM_out0 1 2 2 1100 10 1500
-preplace netloc processing_system7_0_axi_periph_M01_AXI 1 2 1 1040 1850n
+preplace netloc processing_system7_0_FIXED_IO 1 1 5 NJ 750 NJ 750 NJ 750 NJ 750 2150J
 preplace netloc processing_system7_0_axi_periph_M09_AXI 1 2 1 1100 610n
 preplace netloc processing_system7_0_axi_periph_M04_AXI 1 2 1 1120 830n
-preplace netloc axi_gpio_testpins_GPIO 1 3 3 1540J 1830 1870J 1590 2150J
-preplace netloc processing_system7_0_axi_periph_M08_AXI 1 2 1 980 1110n
-preplace netloc processing_system7_0_axi_periph_M07_AXI 1 2 1 980 1250n
-preplace netloc processing_system7_0_DDR 1 1 5 NJ 710 NJ 710 NJ 710 NJ 710 NJ
-preplace netloc processing_system7_0_axi_periph_M05_AXI 1 2 1 980 970n
-preplace netloc processing_system7_0_FIXED_IO 1 1 5 NJ 750 NJ 750 NJ 750 NJ 750 2150J
-preplace netloc processing_system7_0_axi_periph_M02_AXI 1 2 1 1040 1780n
-preplace netloc processing_system7_0_IIC_1 1 1 5 NJ 770 NJ 770 NJ 770 NJ 770 NJ
 preplace netloc processing_system7_0_axi_periph_M03_AXI 1 2 1 980 1420n
 preplace netloc processing_system7_0_axi_periph_M06_AXI 1 2 1 980 310n
 preplace netloc processing_system7_0_axi_periph_M00_AXI 1 2 1 980 1560n
 preplace netloc processing_system7_0_M_AXI_GP0 1 1 1 620 830n
+preplace netloc processing_system7_0_axi_periph_M08_AXI 1 2 1 980 1110n
+preplace netloc axi_gpio_testpins_GPIO 1 3 3 1540J 1830 1870J 1590 2150J
+preplace netloc processing_system7_0_axi_periph_M02_AXI 1 2 1 1040 1780n
+preplace netloc processing_system7_0_axi_periph_M07_AXI 1 2 1 980 1250n
+preplace netloc processing_system7_0_axi_periph_M05_AXI 1 2 1 980 970n
+preplace netloc processing_system7_0_IIC_1 1 1 5 NJ 770 NJ 770 NJ 770 NJ 770 NJ
+preplace netloc processing_system7_0_DDR 1 1 5 NJ 710 NJ 710 NJ 710 NJ 710 NJ
+preplace netloc processing_system7_0_axi_periph_M01_AXI 1 2 1 1040 1850n
 levelinfo -pg 1 -100 290 820 1350 1710 2020 2200
 pagesize -pg 1 -db -bbox -sgen -250 0 2340 2190
 ",
    "Reduced Jogs_ScaleFactor":"0.381238",
-   "Reduced Jogs_TopLeft":"-226,0",
+   "Reduced Jogs_TopLeft":"-226,3",
    "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:9.0 non-TLS-threadsafe
 #  -string -flagsOSRD
 preplace port DDR -pg 1 -lvl 7 -x 2710 -y 540 -defaultsOSRD

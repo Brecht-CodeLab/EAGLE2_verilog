@@ -118,14 +118,14 @@ vcom -work xil_defaultlib  -93 \
 "../../../../../src/bd/ip/drone_PWM_AXI_triple_4_0/sim/drone_PWM_AXI_triple_4_0.vhd" \
 
 vlog -work xil_defaultlib  "+incdir+../../../../../src/bd/ipshared/ec67/hdl" "+incdir+../../../../../src/bd/ipshared/6b56/hdl" "+incdir+C:/Xilinx/Vivado/2020.1/data/xilinx_vip/include" \
-"../../../../../src/bd/ipshared/8cf7/src/CalcL.v" \
-"../../../../../src/bd/ipshared/8cf7/src/DutyAdjust.v" \
-"../../../../../src/bd/ipshared/8cf7/src/Freq.v" \
-"../../../../../src/bd/ipshared/8cf7/src/Optimization.v" \
-"../../../../../src/bd/ipshared/8cf7/hdl/SWIPT_2020_v1_0_S00_AXI.v" \
-"../../../../../src/bd/ipshared/8cf7/src/SwiptOut.v" \
-"../../../../../src/bd/ipshared/8cf7/swipt_toplevel.v" \
-"../../../../../src/bd/ipshared/8cf7/hdl/SWIPT_2020_v1_0.v" \
+"../../../../../src/bd/ipshared/46f5/src/CalcL.v" \
+"../../../../../src/bd/ipshared/46f5/src/DutyAdjust.v" \
+"../../../../../src/bd/ipshared/46f5/src/Freq.v" \
+"../../../../../src/bd/ipshared/46f5/src/Optimization.v" \
+"../../../../../src/bd/ipshared/46f5/hdl/SWIPT_2020_v1_0_S00_AXI.v" \
+"../../../../../src/bd/ipshared/46f5/src/SwiptOut.v" \
+"../../../../../src/bd/ipshared/46f5/swipt_toplevel.v" \
+"../../../../../src/bd/ipshared/46f5/hdl/SWIPT_2020_v1_0.v" \
 "../../../../../src/bd/ip/drone_SWIPT_2020_0_0/sim/drone_SWIPT_2020_0_0.v" \
 
 vlog -work generic_baseblocks_v2_1_0  "+incdir+../../../../../src/bd/ipshared/ec67/hdl" "+incdir+../../../../../src/bd/ipshared/6b56/hdl" "+incdir+C:/Xilinx/Vivado/2020.1/data/xilinx_vip/include" \

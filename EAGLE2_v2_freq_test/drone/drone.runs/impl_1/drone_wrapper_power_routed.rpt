@@ -1,7 +1,7 @@
 Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
-| Date             : Thu Mar  4 19:46:34 2021
+| Date             : Sun Mar  7 11:42:49 2021
 | Host             : LAPTOP-HDUT8SCT running 64-bit major release  (build 9200)
 | Command          : report_power -file drone_wrapper_power_routed.rpt -pb drone_wrapper_power_summary_routed.pb -rpx drone_wrapper_power_routed.rpx
 | Design           : drone_wrapper
@@ -30,11 +30,11 @@ Table of Contents
 ----------
 
 +--------------------------+--------------+
-| Total On-Chip Power (W)  | 1.814        |
+| Total On-Chip Power (W)  | 1.815        |
 | Design Power Budget (W)  | Unspecified* |
 | Power Budget Margin (W)  | NA           |
 | Dynamic (W)              | 1.687        |
-| Device Static (W)        | 0.127        |
+| Device Static (W)        | 0.128        |
 | Effective TJA (C/W)      | 11.5         |
 | Max Ambient (C)          | 64.1         |
 | Junction Temperature (C) | 45.9         |
@@ -52,23 +52,23 @@ Table of Contents
 +--------------------------+-----------+----------+-----------+-----------------+
 | On-Chip                  | Power (W) | Used     | Available | Utilization (%) |
 +--------------------------+-----------+----------+-----------+-----------------+
-| Clocks                   |     0.036 |        7 |       --- |             --- |
-| Slice Logic              |     0.033 |    25680 |       --- |             --- |
-|   LUT as Logic           |     0.028 |     8675 |     17600 |           49.29 |
-|   CARRY4                 |     0.004 |      820 |      4400 |           18.64 |
-|   Register               |     0.001 |    11899 |     35200 |           33.80 |
-|   LUT as Shift Register  |    <0.001 |      682 |      6000 |           11.37 |
-|   F7/F8 Muxes            |    <0.001 |      254 |     17600 |            1.44 |
+| Clocks                   |     0.037 |        7 |       --- |             --- |
+| Slice Logic              |     0.032 |    26327 |       --- |             --- |
+|   LUT as Logic           |     0.027 |     8989 |     17600 |           51.07 |
+|   CARRY4                 |     0.004 |      824 |      4400 |           18.73 |
+|   Register               |     0.001 |    12145 |     35200 |           34.50 |
+|   LUT as Shift Register  |    <0.001 |      725 |      6000 |           12.08 |
+|   F7/F8 Muxes            |    <0.001 |      253 |     17600 |            1.44 |
 |   LUT as Distributed RAM |    <0.001 |       24 |      6000 |            0.40 |
-|   Others                 |     0.000 |      917 |       --- |             --- |
-| Signals                  |     0.042 |    18476 |       --- |             --- |
-| Block RAM                |     0.004 |     11.5 |        60 |           19.17 |
+|   Others                 |     0.000 |      985 |       --- |             --- |
+| Signals                  |     0.041 |    18953 |       --- |             --- |
+| Block RAM                |     0.006 |     15.5 |        60 |           25.83 |
 | DSPs                     |     0.001 |        1 |        80 |            1.25 |
 | I/O                      |     0.006 |       29 |       100 |           29.00 |
 | XADC                     |     0.002 |        1 |       --- |             --- |
 | PS7                      |     1.562 |        1 |       --- |             --- |
-| Static Power             |     0.127 |          |           |                 |
-| Total                    |     1.814 |          |           |                 |
+| Static Power             |     0.128 |          |           |                 |
+| Total                    |     1.815 |          |           |                 |
 +--------------------------+-----------+----------+-----------+-----------------+
 
 
@@ -78,7 +78,7 @@ Table of Contents
 +-----------+-------------+-----------+-------------+------------+-------------+-------------+------------+
 | Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) | Powerup (A) | Budget (A)  | Margin (A) |
 +-----------+-------------+-----------+-------------+------------+-------------+-------------+------------+
-| Vccint    |       1.000 |     0.124 |       0.117 |      0.008 |       NA    | Unspecified | NA         |
+| Vccint    |       1.000 |     0.124 |       0.116 |      0.008 |       NA    | Unspecified | NA         |
 | Vccaux    |       1.800 |     0.009 |       0.000 |      0.008 |       NA    | Unspecified | NA         |
 | Vcco33    |       3.300 |     0.003 |       0.002 |      0.001 |       NA    | Unspecified | NA         |
 | Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
@@ -162,12 +162,10 @@ Table of Contents
 |   dbg_hub                           |     0.002 |
 |     inst                            |     0.002 |
 |       BSCANID.u_xsdbm_id            |     0.002 |
-|   drone_i                           |     1.667 |
+|   drone_i                           |     1.664 |
 |     PWM_AXI_triple_0                |     0.002 |
 |       U0                            |     0.002 |
 |     PWM_AXI_triple_3                |     0.001 |
-|       U0                            |     0.001 |
-|     PWM_AXI_triple_4                |     0.001 |
 |       U0                            |     0.001 |
 |     PWM_AXI_triple_5                |     0.001 |
 |       U0                            |     0.001 |
@@ -175,8 +173,8 @@ Table of Contents
 |       U0                            |     0.003 |
 |     RC_1                            |     0.003 |
 |       U0                            |     0.003 |
-|     SWIPT_2020_0                    |     0.044 |
-|       inst                          |     0.044 |
+|     SWIPT_2020_0                    |     0.042 |
+|       inst                          |     0.042 |
 |     crypto2020_hash_ip_v1_0         |     0.003 |
 |       inst                          |     0.003 |
 |     processing_system7_0            |     1.566 |
@@ -184,7 +182,7 @@ Table of Contents
 |     processing_system7_0_axi_periph |     0.038 |
 |       m00_couplers                  |     0.003 |
 |       m01_couplers                  |     0.003 |
-|       m02_couplers                  |     0.004 |
+|       m02_couplers                  |     0.003 |
 |       m03_couplers                  |     0.003 |
 |       m04_couplers                  |     0.003 |
 |       m05_couplers                  |     0.003 |
@@ -193,9 +191,9 @@ Table of Contents
 |       m09_couplers                  |     0.003 |
 |       xbar                          |     0.011 |
 |     xadc_wiz_0                      |     0.002 |
-|   u_ila_0                           |     0.011 |
-|     inst                            |     0.011 |
-|       ila_core_inst                 |     0.011 |
+|   u_ila_0                           |     0.014 |
+|     inst                            |     0.014 |
+|       ila_core_inst                 |     0.014 |
 +-------------------------------------+-----------+
 
 

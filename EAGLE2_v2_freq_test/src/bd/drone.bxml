@@ -2,10 +2,10 @@
 <Root MajorVersion="0" MinorVersion="39">
   <CompositeFile CompositeFileTopName="drone" CanBeSetAsTop="true" CanDisplayChildGraph="true">
     <Description>Composite Fileset</Description>
-    <Generation Name="SYNTHESIS" State="GENERATED" Timestamp="1614881192"/>
-    <Generation Name="IMPLEMENTATION" State="GENERATED" Timestamp="1614881192"/>
-    <Generation Name="SIMULATION" State="GENERATED" Timestamp="1614881192"/>
-    <Generation Name="HW_HANDOFF" State="GENERATED" Timestamp="1614881192"/>
+    <Generation Name="SYNTHESIS" State="GENERATED" Timestamp="1615111648"/>
+    <Generation Name="IMPLEMENTATION" State="GENERATED" Timestamp="1615111648"/>
+    <Generation Name="SIMULATION" State="GENERATED" Timestamp="1615111648"/>
+    <Generation Name="HW_HANDOFF" State="GENERATED" Timestamp="1615111648"/>
     <FileCollection Name="SOURCES" Type="SOURCES">
       <File Name="ip\drone_processing_system7_0_0\drone_processing_system7_0_0.xci" Type="IP">
         <Instance HierarchyPath="processing_system7_0"/>
@@ -88,6 +88,7 @@
         <UsedIn Val="SIMULATION"/>
       </File>
       <File Name="ip\drone_processing_system7_0_axi_periph_0\drone_processing_system7_0_axi_periph_0.xci" Type="IP">
+        <Instance HierarchyPath="processing_system7_0_axi_periph"/>
         <Properties IsEditable="false" IsVisible="false" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
         <Library Name="xil_defaultlib"/>
         <UsedIn Val="SYNTHESIS"/>
@@ -132,17 +133,6 @@
         <Library Name="xil_defaultlib"/>
         <UsedIn Val="SYNTHESIS"/>
         <UsedIn Val="IMPLEMENTATION"/>
-        <UsedIn Val="SIMULATION"/>
-      </File>
-      <File Name="synth\drone.v" Type="Verilog">
-        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="false" IsStatusTracked="false"/>
-        <Library Name="xil_defaultlib"/>
-        <UsedIn Val="SYNTHESIS"/>
-        <UsedIn Val="IMPLEMENTATION"/>
-      </File>
-      <File Name="sim\drone.v" Type="Verilog">
-        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="false" IsStatusTracked="false"/>
-        <Library Name="xil_defaultlib"/>
         <UsedIn Val="SIMULATION"/>
       </File>
       <File Name="ip\drone_auto_pc_9\drone_auto_pc_9.xci" Type="IP">
@@ -223,6 +213,17 @@
         <Library Name="xil_defaultlib"/>
         <UsedIn Val="SYNTHESIS"/>
         <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="synth\drone.v" Type="Verilog">
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="false" IsStatusTracked="false"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+      </File>
+      <File Name="sim\drone.v" Type="Verilog">
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="false" IsStatusTracked="false"/>
+        <Library Name="xil_defaultlib"/>
         <UsedIn Val="SIMULATION"/>
       </File>
       <File Name="drone_ooc.xdc" Type="XDC">

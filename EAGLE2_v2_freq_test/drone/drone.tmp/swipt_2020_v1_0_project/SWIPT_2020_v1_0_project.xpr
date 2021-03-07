@@ -6,7 +6,7 @@
 <Project Version="7" Minor="49" Path="c:/users/brech/desktop/eagle2_verilog/eagle2_v2_freq_test/drone/drone.tmp/swipt_2020_v1_0_project/SWIPT_2020_v1_0_project.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
-    <Option Name="Id" Val="7c18c6e167634ae4904f9c338cdcd4d9"/>
+    <Option Name="Id" Val="3a7f0e95a79b49cc8b534e02046b359a"/>
     <Option Name="Part" Val="xc7z010clg400-1"/>
     <Option Name="CompiledLibDir" Val="$PCACHEDIR/compile_simlib"/>
     <Option Name="CompiledLibDirXSim" Val=""/>
@@ -72,6 +72,7 @@
       <Filter Type="Srcs"/>
       <File Path="$PPRDIR/../../../../../../../../Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/IP_Repo/SWIPT_2020_1.0/src/CalcL.v">
         <FileInfo>
+          <Attr Name="Library" Val=""/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
@@ -79,6 +80,7 @@
       </File>
       <File Path="$PPRDIR/../../../../../../../../Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/IP_Repo/SWIPT_2020_1.0/src/DutyAdjust.v">
         <FileInfo>
+          <Attr Name="Library" Val=""/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
@@ -86,6 +88,7 @@
       </File>
       <File Path="$PPRDIR/../../../../../../../../Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/IP_Repo/SWIPT_2020_1.0/src/Freq.v">
         <FileInfo>
+          <Attr Name="Library" Val=""/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
@@ -93,6 +96,7 @@
       </File>
       <File Path="$PPRDIR/../../../../../../../../Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/IP_Repo/SWIPT_2020_1.0/src/Optimization.v">
         <FileInfo>
+          <Attr Name="Library" Val=""/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
@@ -108,6 +112,7 @@
       </File>
       <File Path="$PPRDIR/../../../../../../../../Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_freq_test/IP_Repo/SWIPT_2020_1.0/src/SwiptOut.v">
         <FileInfo>
+          <Attr Name="Library" Val=""/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>

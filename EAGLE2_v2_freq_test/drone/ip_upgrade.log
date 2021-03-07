@@ -1,6 +1,90 @@
 Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 ------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Sun Mar  7 11:06:37 2021
+| Host         : LAPTOP-HDUT8SCT running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'drone_SWIPT_2020_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of drone_SWIPT_2020_0_0 (user.org:user:SWIPT_2020:1.0 (Rev. 27)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Sun Mar  7 11:04:57 2021
+| Host         : LAPTOP-HDUT8SCT running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'drone_SWIPT_2020_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of drone_SWIPT_2020_0_0 (user.org:user:SWIPT_2020:1.0) from (Rev. 22) to (Rev. 27)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Sat Mar  6 19:44:36 2021
+| Host         : LAPTOP-HDUT8SCT running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'drone_SWIPT_2020_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of drone_SWIPT_2020_0_0 (user.org:user:SWIPT_2020:1.0) from (Rev. 21) to (Rev. 22)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Sat Mar  6 12:27:24 2021
+| Host         : LAPTOP-HDUT8SCT running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'drone_SWIPT_2020_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of drone_SWIPT_2020_0_0 (user.org:user:SWIPT_2020:1.0) from (Rev. 20) to (Rev. 21)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
 | Date         : Thu Mar  4 15:35:41 2021
 | Host         : LAPTOP-HDUT8SCT running 64-bit major release  (build 9200)
 | Command      : upgrade_ip
