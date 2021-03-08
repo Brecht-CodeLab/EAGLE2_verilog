@@ -48,7 +48,7 @@
 
 
 // IP VLNV: user.org:user:SWIPT_2020:1.0
-// IP Revision: 17
+// IP Revision: 18
 
 (* X_CORE_INFO = "SWIPT_2020_v1_0,Vivado 2020.1" *)
 (* CHECK_LICENSE_TYPE = "drone_SWIPT_2020_0_0,SWIPT_2020_v1_0,{}" *)

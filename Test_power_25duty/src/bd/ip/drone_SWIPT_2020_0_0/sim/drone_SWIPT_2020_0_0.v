@@ -48,7 +48,7 @@
 
 
 // IP VLNV: user.org:user:SWIPT_2020:1.0
-// IP Revision: 17
+// IP Revision: 18
 
 `timescale 1ns/1ps
 

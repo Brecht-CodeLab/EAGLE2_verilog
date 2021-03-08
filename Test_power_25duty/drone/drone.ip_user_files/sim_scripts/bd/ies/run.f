@@ -79,12 +79,10 @@
   "../../../../../src/bd/ip/drone_PWM_AXI_triple_4_0/sim/drone_PWM_AXI_triple_4_0.vhd" \
 -endlib
 -makelib ies_lib/xil_defaultlib \
-  "../../../../../src/bd/ipshared/037c/src/Freq.v" \
-  "../../../../../src/bd/ipshared/037c/src/Optimization.v" \
-  "../../../../../src/bd/ipshared/037c/hdl/SWIPT_2020_v1_0_S00_AXI.v" \
-  "../../../../../src/bd/ipshared/037c/src/SwiptOut.v" \
-  "../../../../../src/bd/ipshared/037c/swipt_toplevel.v" \
-  "../../../../../src/bd/ipshared/037c/hdl/SWIPT_2020_v1_0.v" \
+  "../../../../../src/bd/ipshared/5bce/hdl/SWIPT_2020_v1_0_S00_AXI.v" \
+  "../../../../../src/bd/ipshared/5bce/src/SwiptOut.v" \
+  "../../../../../src/bd/ipshared/5bce/swipt_toplevel.v" \
+  "../../../../../src/bd/ipshared/5bce/hdl/SWIPT_2020_v1_0.v" \
   "../../../../../src/bd/ip/drone_SWIPT_2020_0_0/sim/drone_SWIPT_2020_0_0.v" \
 -endlib
 -makelib ies_lib/generic_baseblocks_v2_1_0 \

@@ -1,0 +1,164 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Mon Mar  1 21:44:47 2021
+# Process ID: 2960
+# Current directory: C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_bis/drone
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18576 C:\Users\brech\Desktop\EAGLE2_verilog\EAGLE2_v2_bis\drone\drone.xpr
+# Log file: C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_bis/drone/vivado.log
+# Journal file: C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_bis/drone\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_bis/drone/drone.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/brech/Desktop/EAGLE2_v2/drone' since last save.
+WARNING: [Project 1-312] File not found as 'C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v1/ZYBO/SwiptOut.v'; using path 'C:/Users/brech/Desktop/EAGLE2_v1/ZYBO/SwiptOut.v' instead.
+WARNING: [Project 1-312] File not found as 'C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v1/ZYBO/Freq.v'; using path 'C:/Users/brech/Desktop/EAGLE2_v1/ZYBO/Freq.v' instead.
+WARNING: [Project 1-312] File not found as 'C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v1/ZYBO/Optimization.v'; using path 'C:/Users/brech/Desktop/EAGLE2_v1/ZYBO/Optimization.v' instead.
+WARNING: [Project 1-312] File not found as 'C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v1/ZYBO/DutyAdjust.v'; using path 'C:/Users/brech/Desktop/EAGLE2_v1/ZYBO/DutyAdjust.v' instead.
+WARNING: [Project 1-312] File not found as 'C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v1/ZYBO/CalcL.v'; using path 'C:/Users/brech/Desktop/EAGLE2_v1/ZYBO/CalcL.v' instead.
+Scanning sources...
+Finished scanning sources
+WARNING: [Project 1-312] File not found as 'C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v1/ZYBO/SwiptOut.v'; using path 'C:/Users/brech/Desktop/EAGLE2_v1/ZYBO/SwiptOut.v' instead.
+WARNING: [Project 1-312] File not found as 'C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v1/ZYBO/Freq.v'; using path 'C:/Users/brech/Desktop/EAGLE2_v1/ZYBO/Freq.v' instead.
+WARNING: [Project 1-312] File not found as 'C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v1/ZYBO/Optimization.v'; using path 'C:/Users/brech/Desktop/EAGLE2_v1/ZYBO/Optimization.v' instead.
+WARNING: [Project 1-312] File not found as 'C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v1/ZYBO/DutyAdjust.v'; using path 'C:/Users/brech/Desktop/EAGLE2_v1/ZYBO/DutyAdjust.v' instead.
+WARNING: [Project 1-312] File not found as 'C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v1/ZYBO/CalcL.v'; using path 'C:/Users/brech/Desktop/EAGLE2_v1/ZYBO/CalcL.v' instead.
+WARNING: [Project 1-312] File not found as 'C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v1/ZYBO/SwiptOut.v'; using path 'C:/Users/brech/Desktop/EAGLE2_v1/ZYBO/SwiptOut.v' instead.
+WARNING: [Project 1-312] File not found as 'C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v1/ZYBO/Freq.v'; using path 'C:/Users/brech/Desktop/EAGLE2_v1/ZYBO/Freq.v' instead.
+WARNING: [Project 1-312] File not found as 'C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v1/ZYBO/Optimization.v'; using path 'C:/Users/brech/Desktop/EAGLE2_v1/ZYBO/Optimization.v' instead.
+WARNING: [Project 1-312] File not found as 'C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v1/ZYBO/DutyAdjust.v'; using path 'C:/Users/brech/Desktop/EAGLE2_v1/ZYBO/DutyAdjust.v' instead.
+WARNING: [Project 1-312] File not found as 'C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v1/ZYBO/CalcL.v'; using path 'C:/Users/brech/Desktop/EAGLE2_v1/ZYBO/CalcL.v' instead.
+INFO: [filemgmt 56-1] Board Part Repository Path: Directory not found as 'C:/Users/brech/Desktop/AppData/Roaming/Xilinx/Vivado/2020.1/xhub/board_store/xilinx_board_store'; using path 'C:/Users/brech/AppData/Roaming/Xilinx/Vivado/2020.1/xhub/board_store/xilinx_board_store' instead.
+INFO: [filemgmt 56-1] IP Repository Path: Directory not found as 'C:/Users/brech/Desktop/EAGLE2_verilog/EAGLEtutorials/tut5/tut5/tut5.srcs/sources_1/new'; using path 'C:/Users/brech/Desktop/EAGLEtutorials/tut5/tut5/tut5.srcs/sources_1/new' instead.
+WARNING: [filemgmt 56-2] Default IP Output Path : Could not find the directory 'C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_bis/drone/drone.srcs/sources_1', nor could it be found using path 'C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.srcs/sources_1'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_bis/IP_Repo'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/brech/Desktop/EAGLEtutorials/tut5/tut5/tut5.srcs/sources_1/new'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.1/data/ip'.
+open_project: Time (s): cpu = 00:00:29 ; elapsed = 00:00:15 . Memory (MB): peak = 1107.582 ; gain = 0.000
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2020.1
+  **** Build date : May 27 2020 at 20:24:38
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+****** Xilinx cs_server v2020.1.0
+  **** Build date : May 14 2020-03:10:29
+    ** Copyright 2017-2020 Xilinx, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:01 ; elapsed = 00:00:15 . Memory (MB): peak = 1403.812 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210279A7912CA
+open_hw_target: Time (s): cpu = 00:00:06 ; elapsed = 00:00:09 . Memory (MB): peak = 2468.543 ; gain = 1064.730
+set_property PROGRAM.FILE {C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_bis/drone/drone.runs/impl_1/drone_wrapper.bit} [get_hw_devices xc7z010_1]
+set_property PROBES.FILE {C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_bis/drone/drone.runs/impl_1/drone_wrapper.ltx} [get_hw_devices xc7z010_1]
+set_property FULL_PROBES.FILE {C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_bis/drone/drone.runs/impl_1/drone_wrapper.ltx} [get_hw_devices xc7z010_1]
+current_hw_device [get_hw_devices xc7z010_1]
+refresh_hw_device [lindex [get_hw_devices xc7z010_1] 0]
+INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+WARNING: [Labtools 27-3413] Dropping logic core with cellname:'u_ila_0' at location 'uuid_23E7D65A79BC59F7BC47406C1714DFAE' from probes file, since it cannot be found on the programmed device.
+refresh_hw_device [lindex [get_hw_devices xc7z010_1] 0]
+INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+WARNING: [Labtools 27-3413] Dropping logic core with cellname:'u_ila_0' at location 'uuid_23E7D65A79BC59F7BC47406C1714DFAE' from probes file, since it cannot be found on the programmed device.
+set_property PROBES.FILE {C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_bis/drone/drone.runs/impl_1/drone_wrapper.ltx} [get_hw_devices xc7z010_1]
+set_property FULL_PROBES.FILE {C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_bis/drone/drone.runs/impl_1/drone_wrapper.ltx} [get_hw_devices xc7z010_1]
+set_property PROGRAM.FILE {C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_bis/drone/drone.runs/impl_1/drone_wrapper.bit} [get_hw_devices xc7z010_1]
+program_hw_devices [get_hw_devices xc7z010_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z010_1] 0]
+INFO: [Labtools 27-2302] Device xc7z010 (JTAG device index = 1) is programmed with a design that has 1 ILA core(s).
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z010_1] -filter {CELL_NAME=~"u_ila_0"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z010_1] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2021-Mar-01 21:48:25
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z010_1] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z010_1] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2021-Mar-01 21:48:25
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_bis/drone/drone.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_bis/drone/drone.runs/synth_1
+
+launch_runs synth_1
+[Mon Mar  1 21:50:21 2021] Launched synth_1...
+Run output will be captured here: C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_bis/drone/drone.runs/synth_1/runme.log
+launch_runs impl_1
+[Mon Mar  1 21:54:44 2021] Launched impl_1...
+Run output will be captured here: C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_bis/drone/drone.runs/impl_1/runme.log
+open_run impl_1
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.673 . Memory (MB): peak = 2857.793 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 1058 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2020.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 3578.512 ; gain = 4.641
+Restored from archive | CPU: 2.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 3578.512 ; gain = 4.641
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.010 . Memory (MB): peak = 3578.512 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 56 instances were transformed.
+  CFGLUT5 => CFGLUT5 (SRL16E, SRLC32E): 44 instances
+  IOBUF => IOBUF (IBUF, OBUFT): 2 instances
+  RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 6 instances
+  SRLC32E => SRL16E: 4 instances
+
+open_run: Time (s): cpu = 00:00:53 ; elapsed = 00:00:55 . Memory (MB): peak = 3720.625 ; gain = 1174.250
+open_report: Time (s): cpu = 00:00:26 ; elapsed = 00:00:19 . Memory (MB): peak = 3757.609 ; gain = 36.984
+CRITICAL WARNING: [Timing 38-282] The design failed to meet the timing requirements. Please see the timing summary report for details on the timing violations.
+WARNING: [Timing 38-436] There are set_bus_skew constraint(s) in this design. Please run report_bus_skew to ensure that bus skew requirements are met.
+launch_runs impl_1 -to_step write_bitstream
+[Mon Mar  1 22:09:11 2021] Launched impl_1...
+Run output will be captured here: C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_bis/drone/drone.runs/impl_1/runme.log
+set_property PROBES.FILE {C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_bis/drone/drone.runs/impl_1/drone_wrapper.ltx} [get_hw_devices xc7z010_1]
+set_property FULL_PROBES.FILE {C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_bis/drone/drone.runs/impl_1/drone_wrapper.ltx} [get_hw_devices xc7z010_1]
+set_property PROGRAM.FILE {C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_bis/drone/drone.runs/impl_1/drone_wrapper.bit} [get_hw_devices xc7z010_1]
+program_hw_devices [get_hw_devices xc7z010_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z010_1] 0]
+INFO: [Labtools 27-2302] Device xc7z010 (JTAG device index = 1) is programmed with a design that has 1 ILA core(s).
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z010_1] -filter {CELL_NAME=~"u_ila_0"}] -trigger_now
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2021-Mar-01 22:11:48
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z010_1] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z010_1] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2021-Mar-01 22:11:48
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_bis/drone/drone.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210279A7912CA
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_bis/drone/drone.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream
+[Tue Mar  2 09:28:19 2021] Launched synth_1...
+Run output will be captured here: C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_bis/drone/drone.runs/synth_1/runme.log
+[Tue Mar  2 09:28:19 2021] Launched impl_1...
+Run output will be captured here: C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2_bis/drone/drone.runs/impl_1/runme.log

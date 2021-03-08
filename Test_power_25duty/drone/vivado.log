@@ -2,77 +2,71 @@
 # Vivado v2020.1 (64-bit)
 # SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
 # IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
-# Start of session at: Thu Mar  4 13:48:43 2021
-# Process ID: 24292
-# Current directory: C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2/drone
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent17652 C:\Users\brech\Desktop\EAGLE2_verilog\EAGLE2_v2\drone\drone.xpr
-# Log file: C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2/drone/vivado.log
-# Journal file: C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2/drone\vivado.jou
+# Start of session at: Sun Mar  7 23:08:35 2021
+# Process ID: 10196
+# Current directory: C:/Users/brech/Desktop/EAGLE2_verilog/Test_power_25duty/drone
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18672 C:\Users\brech\Desktop\EAGLE2_verilog\Test_power_25duty\drone\drone.xpr
+# Log file: C:/Users/brech/Desktop/EAGLE2_verilog/Test_power_25duty/drone/vivado.log
+# Journal file: C:/Users/brech/Desktop/EAGLE2_verilog/Test_power_25duty/drone\vivado.jou
 #-----------------------------------------------------------
 start_gui
-open_project C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2/drone/drone.xpr
-INFO: [Project 1-313] Project file moved from 'C:/Users/brech/Desktop/EAGLE2_v2/drone' since last save.
-WARNING: [Project 1-312] File not found as 'C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v1/ZYBO/SwiptOut.v'; using path 'C:/Users/brech/Desktop/EAGLE2_v1/ZYBO/SwiptOut.v' instead.
-WARNING: [Project 1-312] File not found as 'C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v1/ZYBO/Freq.v'; using path 'C:/Users/brech/Desktop/EAGLE2_v1/ZYBO/Freq.v' instead.
-WARNING: [Project 1-312] File not found as 'C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v1/ZYBO/Optimization.v'; using path 'C:/Users/brech/Desktop/EAGLE2_v1/ZYBO/Optimization.v' instead.
-WARNING: [Project 1-312] File not found as 'C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v1/ZYBO/DutyAdjust.v'; using path 'C:/Users/brech/Desktop/EAGLE2_v1/ZYBO/DutyAdjust.v' instead.
-WARNING: [Project 1-312] File not found as 'C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v1/ZYBO/CalcL.v'; using path 'C:/Users/brech/Desktop/EAGLE2_v1/ZYBO/CalcL.v' instead.
+open_project C:/Users/brech/Desktop/EAGLE2_verilog/Test_power_25duty/drone/drone.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2/drone' since last save.
 Scanning sources...
 Finished scanning sources
-WARNING: [Project 1-312] File not found as 'C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v1/ZYBO/SwiptOut.v'; using path 'C:/Users/brech/Desktop/EAGLE2_v1/ZYBO/SwiptOut.v' instead.
-WARNING: [Project 1-312] File not found as 'C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v1/ZYBO/Freq.v'; using path 'C:/Users/brech/Desktop/EAGLE2_v1/ZYBO/Freq.v' instead.
-WARNING: [Project 1-312] File not found as 'C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v1/ZYBO/Optimization.v'; using path 'C:/Users/brech/Desktop/EAGLE2_v1/ZYBO/Optimization.v' instead.
-WARNING: [Project 1-312] File not found as 'C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v1/ZYBO/DutyAdjust.v'; using path 'C:/Users/brech/Desktop/EAGLE2_v1/ZYBO/DutyAdjust.v' instead.
-WARNING: [Project 1-312] File not found as 'C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v1/ZYBO/CalcL.v'; using path 'C:/Users/brech/Desktop/EAGLE2_v1/ZYBO/CalcL.v' instead.
-WARNING: [Project 1-312] File not found as 'C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v1/ZYBO/SwiptOut.v'; using path 'C:/Users/brech/Desktop/EAGLE2_v1/ZYBO/SwiptOut.v' instead.
-WARNING: [Project 1-312] File not found as 'C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v1/ZYBO/Freq.v'; using path 'C:/Users/brech/Desktop/EAGLE2_v1/ZYBO/Freq.v' instead.
-WARNING: [Project 1-312] File not found as 'C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v1/ZYBO/Optimization.v'; using path 'C:/Users/brech/Desktop/EAGLE2_v1/ZYBO/Optimization.v' instead.
-WARNING: [Project 1-312] File not found as 'C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v1/ZYBO/DutyAdjust.v'; using path 'C:/Users/brech/Desktop/EAGLE2_v1/ZYBO/DutyAdjust.v' instead.
-WARNING: [Project 1-312] File not found as 'C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v1/ZYBO/CalcL.v'; using path 'C:/Users/brech/Desktop/EAGLE2_v1/ZYBO/CalcL.v' instead.
-INFO: [filemgmt 56-1] Board Part Repository Path: Directory not found as 'C:/Users/brech/Desktop/AppData/Roaming/Xilinx/Vivado/2020.1/xhub/board_store/xilinx_board_store'; using path 'C:/Users/brech/AppData/Roaming/Xilinx/Vivado/2020.1/xhub/board_store/xilinx_board_store' instead.
-INFO: [filemgmt 56-1] IP Repository Path: Directory not found as 'C:/Users/brech/Desktop/EAGLE2_verilog/EAGLEtutorials/tut5/tut5/tut5.srcs/sources_1/new'; using path 'C:/Users/brech/Desktop/EAGLEtutorials/tut5/tut5/tut5.srcs/sources_1/new' instead.
-WARNING: [filemgmt 56-2] Default IP Output Path : Could not find the directory 'C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2/drone/drone.srcs/sources_1', nor could it be found using path 'C:/Users/brech/Desktop/EAGLE2_v2/drone/drone.srcs/sources_1'.
+WARNING: [filemgmt 56-2] Default IP Output Path : Could not find the directory 'C:/Users/brech/Desktop/EAGLE2_verilog/Test_power_25duty/drone/drone.srcs/sources_1', nor could it be found using path 'C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2/drone/drone.srcs/sources_1'.
 INFO: [IP_Flow 19-234] Refreshing IP repositories
-INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2/IP_Repo'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/brech/Desktop/EAGLE2_verilog/Test_power_25duty/IP_Repo'.
 INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/brech/Desktop/EAGLEtutorials/tut5/tut5/tut5.srcs/sources_1/new'.
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.1/data/ip'.
-open_project: Time (s): cpu = 00:00:30 ; elapsed = 00:00:17 . Memory (MB): peak = 1096.945 ; gain = 0.000
-ipx::edit_ip_in_project -upgrade true -name SWIPT_2020_v1_0_project -directory C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2/drone/drone.tmp/SWIPT_2020_v1_0_project c:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2/IP_Repo/SWIPT_2020_1.0/component.xml
+open_project: Time (s): cpu = 00:00:32 ; elapsed = 00:00:19 . Memory (MB): peak = 1112.266 ; gain = 0.000
+ipx::edit_ip_in_project -upgrade true -name SWIPT_2020_v1_0_project -directory C:/Users/brech/Desktop/EAGLE2_verilog/Test_power_25duty/drone/drone.tmp/SWIPT_2020_v1_0_project c:/Users/brech/Desktop/EAGLE2_verilog/Test_power_25duty/IP_Repo/SWIPT_2020_1.0/component.xml
 INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
-Current project path is 'c:/users/brech/desktop/eagle2_verilog/eagle2_v2/drone/drone.tmp/swipt_2020_v1_0_project'
+Current project path is 'c:/users/brech/desktop/eagle2_verilog/test_power_25duty/drone/drone.tmp/swipt_2020_v1_0_project'
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.1/data/ip'.
-create_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:08 . Memory (MB): peak = 1208.738 ; gain = 0.000
+create_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:10 . Memory (MB): peak = 1172.059 ; gain = 0.000
 INFO: [IP_Flow 19-234] Refreshing IP repositories
-INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2/IP_Repo'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/brech/Desktop/EAGLE2_verilog/Test_power_25duty/IP_Repo'.
 INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/brech/Desktop/EAGLEtutorials/tut5/tut5/tut5.srcs/sources_1/new'.
 INFO: [IP_Flow 19-795] Syncing license key meta-data
-WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [c:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2/IP_Repo/SWIPT_2020_1.0/hdl/SWIPT_2020_v1_0_S00_AXI.v:]
-WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [c:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2/IP_Repo/SWIPT_2020_1.0/swipt_toplevel.v:]
-WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [c:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2/IP_Repo/SWIPT_2020_1.0/hdl/SWIPT_2020_v1_0.v:]
-ipx::edit_ip_in_project: Time (s): cpu = 00:00:18 ; elapsed = 00:00:11 . Memory (MB): peak = 1214.203 ; gain = 5.465
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [c:/Users/brech/Desktop/EAGLE2_verilog/Test_power_25duty/IP_Repo/SWIPT_2020_1.0/src/Freq.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [c:/Users/brech/Desktop/EAGLE2_verilog/Test_power_25duty/IP_Repo/SWIPT_2020_1.0/src/Optimization.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [c:/Users/brech/Desktop/EAGLE2_verilog/Test_power_25duty/IP_Repo/SWIPT_2020_1.0/hdl/SWIPT_2020_v1_0_S00_AXI.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [c:/Users/brech/Desktop/EAGLE2_verilog/Test_power_25duty/IP_Repo/SWIPT_2020_1.0/src/SwiptOut.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [c:/Users/brech/Desktop/EAGLE2_verilog/Test_power_25duty/IP_Repo/SWIPT_2020_1.0/swipt_toplevel.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [c:/Users/brech/Desktop/EAGLE2_verilog/Test_power_25duty/IP_Repo/SWIPT_2020_1.0/hdl/SWIPT_2020_v1_0.v:]
+ipx::edit_ip_in_project: Time (s): cpu = 00:00:25 ; elapsed = 00:00:13 . Memory (MB): peak = 1191.711 ; gain = 19.652
 update_compile_order -fileset sources_1
-add_files -norecurse -copy_to c:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2/IP_Repo/SWIPT_2020_1.0/src {C:/Users/brech/Desktop/EAGLE2_verilog/ZYBO/Freq.v C:/Users/brech/Desktop/EAGLE2_verilog/ZYBO/SwiptOut.v C:/Users/brech/Desktop/EAGLE2_verilog/ZYBO/Optimization.v}
-ERROR: [Vivado 12-3630] The destination file 'c:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2/IP_Repo/SWIPT_2020_1.0/src/Freq.v' already exists, please use -force if you want to overwrite!
-add_files -force -norecurse -copy_to c:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2/IP_Repo/SWIPT_2020_1.0/src {C:/Users/brech/Desktop/EAGLE2_verilog/ZYBO/Freq.v C:/Users/brech/Desktop/EAGLE2_verilog/ZYBO/SwiptOut.v C:/Users/brech/Desktop/EAGLE2_verilog/ZYBO/Optimization.v}
-WARNING: [Vivado 12-3631] The destination file or directory 'c:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2/IP_Repo/SWIPT_2020_1.0/src/Freq.v' already exists, -force is used to overwrite it
-WARNING: [Vivado 12-3631] The destination file or directory 'c:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2/IP_Repo/SWIPT_2020_1.0/src/SwiptOut.v' already exists, -force is used to overwrite it
-WARNING: [Vivado 12-3631] The destination file or directory 'c:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2/IP_Repo/SWIPT_2020_1.0/src/Optimization.v' already exists, -force is used to overwrite it
-c:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2/IP_Repo/SWIPT_2020_1.0/src/Freq.v c:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2/IP_Repo/SWIPT_2020_1.0/src/SwiptOut.v c:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2/IP_Repo/SWIPT_2020_1.0/src/Optimization.v
+current_project drone
+export_ip_user_files -of_objects  [get_files C:/Users/brech/Desktop/EAGLE2_v1/ZYBO/CalcL.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/brech/Desktop/EAGLE2_v1/ZYBO/DutyAdjust.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/brech/Desktop/EAGLE2_v1/ZYBO/Freq.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/brech/Desktop/EAGLE2_v1/ZYBO/Optimization.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/brech/Desktop/EAGLE2_v1/ZYBO/SwiptOut.v] -no_script -reset -force -quiet
+remove_files  {C:/Users/brech/Desktop/EAGLE2_v1/ZYBO/CalcL.v C:/Users/brech/Desktop/EAGLE2_v1/ZYBO/DutyAdjust.v C:/Users/brech/Desktop/EAGLE2_v1/ZYBO/Freq.v C:/Users/brech/Desktop/EAGLE2_v1/ZYBO/Optimization.v C:/Users/brech/Desktop/EAGLE2_v1/ZYBO/SwiptOut.v}
+current_project SWIPT_2020_v1_0_project
 update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files c:/Users/brech/Desktop/EAGLE2_verilog/Test_power_25duty/IP_Repo/SWIPT_2020_1.0/src/Freq.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files c:/Users/brech/Desktop/EAGLE2_verilog/Test_power_25duty/IP_Repo/SWIPT_2020_1.0/src/Optimization.v] -no_script -reset -force -quiet
+remove_files  {c:/Users/brech/Desktop/EAGLE2_verilog/Test_power_25duty/IP_Repo/SWIPT_2020_1.0/src/Freq.v c:/Users/brech/Desktop/EAGLE2_verilog/Test_power_25duty/IP_Repo/SWIPT_2020_1.0/src/Optimization.v}
 ipx::merge_project_changes files [ipx::current_core]
-WARNING: [IP_Flow 19-5226] Project source file 'c:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2/IP_Repo/SWIPT_2020_1.0/component.xml' ignored by IP packager.
-set_property core_revision 17 [ipx::current_core]
+WARNING: [IP_Flow 19-5226] Project source file 'c:/Users/brech/Desktop/EAGLE2_verilog/Test_power_25duty/IP_Repo/SWIPT_2020_1.0/component.xml' ignored by IP packager.
+WARNING: [IP_Flow 19-5109] File Group 'xilinx_verilogsynthesis (Verilog Synthesis)': File 'c:/Users/brech/Desktop/EAGLE2_verilog/Test_power_25duty/IP_Repo/SWIPT_2020_1.0/src/Freq.v' does not exist in the project sources. It has been removed from the packaged IP. If still required, please add this file to the project, merge sources and re-package.
+WARNING: [IP_Flow 19-5109] File Group 'xilinx_verilogsynthesis (Verilog Synthesis)': File 'c:/Users/brech/Desktop/EAGLE2_verilog/Test_power_25duty/IP_Repo/SWIPT_2020_1.0/src/Optimization.v' does not exist in the project sources. It has been removed from the packaged IP. If still required, please add this file to the project, merge sources and re-package.
+WARNING: [IP_Flow 19-5109] File Group 'xilinx_verilogbehavioralsimulation (Verilog Simulation)': File 'c:/Users/brech/Desktop/EAGLE2_verilog/Test_power_25duty/IP_Repo/SWIPT_2020_1.0/src/Freq.v' does not exist in the project sources. It has been removed from the packaged IP. If still required, please add this file to the project, merge sources and re-package.
+WARNING: [IP_Flow 19-5109] File Group 'xilinx_verilogbehavioralsimulation (Verilog Simulation)': File 'c:/Users/brech/Desktop/EAGLE2_verilog/Test_power_25duty/IP_Repo/SWIPT_2020_1.0/src/Optimization.v' does not exist in the project sources. It has been removed from the packaged IP. If still required, please add this file to the project, merge sources and re-package.
+set_property core_revision 18 [ipx::current_core]
 ipx::update_source_project_archive -component [ipx::current_core]
 ipx::create_xgui_files [ipx::current_core]
 ipx::update_checksums [ipx::current_core]
 ipx::save_core [ipx::current_core]
 ipx::move_temp_component_back -component [ipx::current_core]
 close_project -delete
-update_ip_catalog -rebuild -repo_path c:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2/IP_Repo
-INFO: [IP_Flow 19-725] Reloaded user IP repository 'c:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2/IP_Repo'
-set_property source_mgmt_mode DisplayOnly [current_project]
+update_ip_catalog -rebuild -repo_path c:/Users/brech/Desktop/EAGLE2_verilog/Test_power_25duty/IP_Repo
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'c:/Users/brech/Desktop/EAGLE2_verilog/Test_power_25duty/IP_Repo'
 report_ip_status -name ip_status 
 WARNING: [BD 41-176] The physical port 'S_AXI_GP2_rd_socket' specified in the portmap, is not found on the block! 
 WARNING: [BD 41-176] The physical port 'S_AXI_GP2_wr_socket' specified in the portmap, is not found on the block! 
@@ -111,118 +105,53 @@ Adding component instance block -- kuleuven.be:user:PWM_AXI_triple:1.0 - PWM_AXI
 Adding component instance block -- user.org:user:crypto2020_hash_ip_v1:1.0 - crypto2020_hash_ip_v1_0
 Adding component instance block -- user.org:user:SWIPT_2020:1.0 - SWIPT_2020_0
 WARNING: [BD 41-1731] Type mismatch between connected pins: /processing_system7_0/FCLK_CLK0(clk) and /kill_switch_0/clk(undef)
-Successfully read diagram <drone> from BD file <C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2/src/bd/drone.bd>
-Upgrading 'C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2/src/bd/drone.bd'
-INFO: [IP_Flow 19-3422] Upgraded drone_SWIPT_2020_0_0 (SWIPT_2020_v1.0 1.0) from revision 16 to revision 17
-Wrote  : <C:\Users\brech\Desktop\EAGLE2_verilog\EAGLE2_v2\src\bd\drone.bd> 
-Wrote  : <C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2/src/bd/ui/bd_2bde8598.ui> 
-INFO: [Coretcl 2-1525] Wrote upgrade log to 'C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2/drone/ip_upgrade.log'.
-upgrade_ip: Time (s): cpu = 00:00:15 ; elapsed = 00:00:13 . Memory (MB): peak = 1611.258 ; gain = 0.000
+Successfully read diagram <drone> from BD file <C:/Users/brech/Desktop/EAGLE2_verilog/Test_power_25duty/src/bd/drone.bd>
+Upgrading 'C:/Users/brech/Desktop/EAGLE2_verilog/Test_power_25duty/src/bd/drone.bd'
+INFO: [IP_Flow 19-3422] Upgraded drone_SWIPT_2020_0_0 (SWIPT_2020_v1.0 1.0) from revision 17 to revision 18
+Wrote  : <C:\Users\brech\Desktop\EAGLE2_verilog\Test_power_25duty\src\bd\drone.bd> 
+Wrote  : <C:/Users/brech/Desktop/EAGLE2_verilog/Test_power_25duty/src/bd/ui/bd_2bde8598.ui> 
+INFO: [Coretcl 2-1525] Wrote upgrade log to 'C:/Users/brech/Desktop/EAGLE2_verilog/Test_power_25duty/drone/ip_upgrade.log'.
+upgrade_ip: Time (s): cpu = 00:00:14 ; elapsed = 00:00:12 . Memory (MB): peak = 1482.062 ; gain = 137.992
 export_ip_user_files -of_objects [get_ips drone_SWIPT_2020_0_0] -no_script -sync -force -quiet
-generate_target all [get_files  C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2/src/bd/drone.bd]
+generate_target all [get_files  C:/Users/brech/Desktop/EAGLE2_verilog/Test_power_25duty/src/bd/drone.bd]
 CRITICAL WARNING: [BD 41-1358] IP interface /axi_gpio_led/GPIO has associated board param GPIO_BOARD_INTERFACE, which is set to board part interface leds_4bits, but IP interface is not connected to any external port. To apply board automation generated constraints, please make it external.
-Wrote  : <C:\Users\brech\Desktop\EAGLE2_verilog\EAGLE2_v2\src\bd\drone.bd> 
-VHDL Output written to : C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2/src/bd/synth/drone.v
-VHDL Output written to : C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2/src/bd/sim/drone.v
-VHDL Output written to : C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2/src/bd/hdl/drone_wrapper.v
+Wrote  : <C:\Users\brech\Desktop\EAGLE2_verilog\Test_power_25duty\src\bd\drone.bd> 
+VHDL Output written to : C:/Users/brech/Desktop/EAGLE2_verilog/Test_power_25duty/src/bd/synth/drone.v
+VHDL Output written to : C:/Users/brech/Desktop/EAGLE2_verilog/Test_power_25duty/src/bd/sim/drone.v
+VHDL Output written to : C:/Users/brech/Desktop/EAGLE2_verilog/Test_power_25duty/src/bd/hdl/drone_wrapper.v
 INFO: [BD 41-1029] Generation completed for the IP Integrator block SWIPT_2020_0 .
-WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2/src/bd/ip/drone_auto_pc_9/drone_auto_pc_9_ooc.xdc'
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/brech/Desktop/EAGLE2_verilog/Test_power_25duty/src/bd/ip/drone_auto_pc_9/drone_auto_pc_9_ooc.xdc'
 INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0_axi_periph/s00_couplers/auto_pc .
-WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2/src/bd/ip/drone_auto_pc_0/drone_auto_pc_0_ooc.xdc'
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/brech/Desktop/EAGLE2_verilog/Test_power_25duty/src/bd/ip/drone_auto_pc_0/drone_auto_pc_0_ooc.xdc'
 INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0_axi_periph/m00_couplers/auto_pc .
-WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2/src/bd/ip/drone_auto_pc_1/drone_auto_pc_1_ooc.xdc'
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/brech/Desktop/EAGLE2_verilog/Test_power_25duty/src/bd/ip/drone_auto_pc_1/drone_auto_pc_1_ooc.xdc'
 INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0_axi_periph/m01_couplers/auto_pc .
-WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2/src/bd/ip/drone_auto_pc_2/drone_auto_pc_2_ooc.xdc'
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/brech/Desktop/EAGLE2_verilog/Test_power_25duty/src/bd/ip/drone_auto_pc_2/drone_auto_pc_2_ooc.xdc'
 INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0_axi_periph/m02_couplers/auto_pc .
-WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2/src/bd/ip/drone_auto_pc_3/drone_auto_pc_3_ooc.xdc'
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/brech/Desktop/EAGLE2_verilog/Test_power_25duty/src/bd/ip/drone_auto_pc_3/drone_auto_pc_3_ooc.xdc'
 INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0_axi_periph/m03_couplers/auto_pc .
-WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2/src/bd/ip/drone_auto_pc_4/drone_auto_pc_4_ooc.xdc'
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/brech/Desktop/EAGLE2_verilog/Test_power_25duty/src/bd/ip/drone_auto_pc_4/drone_auto_pc_4_ooc.xdc'
 INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0_axi_periph/m04_couplers/auto_pc .
-WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2/src/bd/ip/drone_auto_pc_5/drone_auto_pc_5_ooc.xdc'
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/brech/Desktop/EAGLE2_verilog/Test_power_25duty/src/bd/ip/drone_auto_pc_5/drone_auto_pc_5_ooc.xdc'
 INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0_axi_periph/m05_couplers/auto_pc .
-WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2/src/bd/ip/drone_auto_pc_6/drone_auto_pc_6_ooc.xdc'
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/brech/Desktop/EAGLE2_verilog/Test_power_25duty/src/bd/ip/drone_auto_pc_6/drone_auto_pc_6_ooc.xdc'
 INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0_axi_periph/m06_couplers/auto_pc .
-WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2/src/bd/ip/drone_auto_pc_7/drone_auto_pc_7_ooc.xdc'
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/brech/Desktop/EAGLE2_verilog/Test_power_25duty/src/bd/ip/drone_auto_pc_7/drone_auto_pc_7_ooc.xdc'
 INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0_axi_periph/m07_couplers/auto_pc .
-WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2/src/bd/ip/drone_auto_pc_8/drone_auto_pc_8_ooc.xdc'
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/brech/Desktop/EAGLE2_verilog/Test_power_25duty/src/bd/ip/drone_auto_pc_8/drone_auto_pc_8_ooc.xdc'
 INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0_axi_periph/m09_couplers/auto_pc .
-Exporting to file C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2/src/bd/hw_handoff/drone.hwh
-Generated Block Design Tcl file C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2/src/bd/hw_handoff/drone_bd.tcl
-Generated Hardware Definition File C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2/src/bd/synth/drone.hwdef
-generate_target: Time (s): cpu = 00:00:43 ; elapsed = 00:00:56 . Memory (MB): peak = 1611.258 ; gain = 0.000
-export_ip_user_files -of_objects [get_files C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2/src/bd/drone.bd] -no_script -sync -force -quiet
-export_simulation -of_objects [get_files C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2/src/bd/drone.bd] -directory C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2/drone/drone.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2/drone/drone.ip_user_files -ipstatic_source_dir C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2/drone/drone.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2/drone/drone.cache/compile_simlib/modelsim} {questa=C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2/drone/drone.cache/compile_simlib/questa} {riviera=C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2/drone/drone.cache/compile_simlib/riviera} {activehdl=C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2/drone/drone.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+Exporting to file C:/Users/brech/Desktop/EAGLE2_verilog/Test_power_25duty/src/bd/hw_handoff/drone.hwh
+Generated Block Design Tcl file C:/Users/brech/Desktop/EAGLE2_verilog/Test_power_25duty/src/bd/hw_handoff/drone_bd.tcl
+Generated Hardware Definition File C:/Users/brech/Desktop/EAGLE2_verilog/Test_power_25duty/src/bd/synth/drone.hwdef
+generate_target: Time (s): cpu = 00:00:39 ; elapsed = 00:00:44 . Memory (MB): peak = 1600.316 ; gain = 118.254
+export_ip_user_files -of_objects [get_files C:/Users/brech/Desktop/EAGLE2_verilog/Test_power_25duty/src/bd/drone.bd] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files C:/Users/brech/Desktop/EAGLE2_verilog/Test_power_25duty/src/bd/drone.bd] -directory C:/Users/brech/Desktop/EAGLE2_verilog/Test_power_25duty/drone/drone.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/brech/Desktop/EAGLE2_verilog/Test_power_25duty/drone/drone.ip_user_files -ipstatic_source_dir C:/Users/brech/Desktop/EAGLE2_verilog/Test_power_25duty/drone/drone.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/brech/Desktop/EAGLE2_verilog/Test_power_25duty/drone/drone.cache/compile_simlib/modelsim} {questa=C:/Users/brech/Desktop/EAGLE2_verilog/Test_power_25duty/drone/drone.cache/compile_simlib/questa} {riviera=C:/Users/brech/Desktop/EAGLE2_verilog/Test_power_25duty/drone/drone.cache/compile_simlib/riviera} {activehdl=C:/Users/brech/Desktop/EAGLE2_verilog/Test_power_25duty/drone/drone.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
 reset_run synth_1
 launch_runs impl_1 -to_step write_bitstream
-[Thu Mar  4 14:00:05 2021] Launched synth_1...
-Run output will be captured here: C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2/drone/drone.runs/synth_1/runme.log
-[Thu Mar  4 14:00:05 2021] Launched impl_1...
-Run output will be captured here: C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2/drone/drone.runs/impl_1/runme.log
+[Sun Mar  7 23:23:12 2021] Launched synth_1...
+Run output will be captured here: C:/Users/brech/Desktop/EAGLE2_verilog/Test_power_25duty/drone/drone.runs/synth_1/runme.log
+[Sun Mar  7 23:23:12 2021] Launched impl_1...
+Run output will be captured here: C:/Users/brech/Desktop/EAGLE2_verilog/Test_power_25duty/drone/drone.runs/impl_1/runme.log
 open_hw_manager
-connect_hw_server -allow_non_jtag
-INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
-INFO: [Labtools 27-2222] Launching hw_server...
-INFO: [Labtools 27-2221] Launch Output:
-
-****** Xilinx hw_server v2020.1
-  **** Build date : May 27 2020 at 20:24:38
-    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
-
-
-INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
-INFO: [Labtools 27-3417] Launching cs_server...
-INFO: [Labtools 27-2221] Launch Output:
-
-
-****** Xilinx cs_server v2020.1.0
-  **** Build date : May 14 2020-03:10:29
-    ** Copyright 2017-2020 Xilinx, Inc. All Rights Reserved.
-
-
-
-connect_hw_server: Time (s): cpu = 00:00:01 ; elapsed = 00:00:15 . Memory (MB): peak = 1629.613 ; gain = 16.320
-open_hw_target
-INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210279A7912CA
-open_hw_target: Time (s): cpu = 00:00:07 ; elapsed = 00:00:11 . Memory (MB): peak = 2931.855 ; gain = 1302.242
-set_property PROGRAM.FILE {C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2/drone/drone.runs/impl_1/drone_wrapper.bit} [get_hw_devices xc7z010_1]
-set_property PROBES.FILE {C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2/drone/drone.runs/impl_1/drone_wrapper.ltx} [get_hw_devices xc7z010_1]
-set_property FULL_PROBES.FILE {C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2/drone/drone.runs/impl_1/drone_wrapper.ltx} [get_hw_devices xc7z010_1]
-current_hw_device [get_hw_devices xc7z010_1]
-refresh_hw_device [lindex [get_hw_devices xc7z010_1] 0]
-INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
-WARNING: [Labtools 27-3361] The debug hub core was not detected.
-Resolution: 
-1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
-2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
-For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
-WARNING: [Labtools 27-3413] Dropping logic core with cellname:'u_ila_0' at location 'uuid_23E7D65A79BC59F7BC47406C1714DFAE' from probes file, since it cannot be found on the programmed device.
-set_property PROBES.FILE {C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2/drone/drone.runs/impl_1/drone_wrapper.ltx} [get_hw_devices xc7z010_1]
-set_property FULL_PROBES.FILE {C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2/drone/drone.runs/impl_1/drone_wrapper.ltx} [get_hw_devices xc7z010_1]
-set_property PROGRAM.FILE {C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2/drone/drone.runs/impl_1/drone_wrapper.bit} [get_hw_devices xc7z010_1]
-program_hw_devices [get_hw_devices xc7z010_1]
-INFO: [Labtools 27-3164] End of startup status: HIGH
-refresh_hw_device [lindex [get_hw_devices xc7z010_1] 0]
-INFO: [Labtools 27-2302] Device xc7z010 (JTAG device index = 1) is programmed with a design that has 1 ILA core(s).
-display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z010_1] -filter {CELL_NAME=~"u_ila_0"}]]
-ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210279A7912CA
-INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210279A7912CA
-WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
-INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
-WARNING: [Labtools 27-3361] The debug hub core was not detected.
-Resolution: 
-1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
-2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
-For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
-WARNING: [Labtools 27-3413] Dropping logic core with cellname:'u_ila_0' at location 'uuid_23E7D65A79BC59F7BC47406C1714DFAE' from probes file, since it cannot be found on the programmed device.
-WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
-set_property PROBES.FILE {C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2/drone/drone.runs/impl_1/drone_wrapper.ltx} [get_hw_devices xc7z010_1]
-set_property FULL_PROBES.FILE {C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2/drone/drone.runs/impl_1/drone_wrapper.ltx} [get_hw_devices xc7z010_1]
-set_property PROGRAM.FILE {C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2/drone/drone.runs/impl_1/drone_wrapper.bit} [get_hw_devices xc7z010_1]
-program_hw_devices [get_hw_devices xc7z010_1]
-INFO: [Labtools 27-3164] End of startup status: HIGH
-refresh_hw_device [lindex [get_hw_devices xc7z010_1] 0]
-INFO: [Labtools 27-2302] Device xc7z010 (JTAG device index = 1) is programmed with a design that has 1 ILA core(s).
-display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z010_1] -filter {CELL_NAME=~"u_ila_0"}]]
-ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210279A7912CA
 exit
-INFO: [Common 17-206] Exiting Vivado at Thu Mar  4 14:43:37 2021...
+INFO: [Common 17-206] Exiting Vivado at Sun Mar  7 23:33:27 2021...

@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='C:/Users/brech/Desktop/EAGLE2_verilog/EAGLE2_v2/drone/drone.runs/impl_1'
+HD_PWD='C:/Users/brech/Desktop/EAGLE2_verilog/Test_power_25duty/drone/drone.runs/impl_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

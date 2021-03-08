@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_1" LaunchPart="xc7z010clg400-1" LaunchTime="1614862804">
+<GenRun Id="impl_1" LaunchPart="xc7z010clg400-1" LaunchTime="1615155791">
   <File Type="BITSTR-BMM" Name="drone_wrapper_bd.bmm"/>
   <File Type="OPT-METHODOLOGY-DRC" Name="drone_wrapper_methodology_drc_opted.rpt"/>
   <File Type="INIT-TIMING" Name="drone_wrapper_timing_summary_init.rpt"/>
@@ -85,41 +85,6 @@
       </FileInfo>
     </File>
     <File Path="$PPRDIR/../src/bd/hdl/drone_wrapper.v">
-      <FileInfo>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="implementation"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PPRDIR/../../../EAGLE2_v1/ZYBO/SwiptOut.v">
-      <FileInfo>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="implementation"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PPRDIR/../../../EAGLE2_v1/ZYBO/Freq.v">
-      <FileInfo>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="implementation"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PPRDIR/../../../EAGLE2_v1/ZYBO/Optimization.v">
-      <FileInfo>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="implementation"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PPRDIR/../../../EAGLE2_v1/ZYBO/DutyAdjust.v">
-      <FileInfo>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="implementation"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PPRDIR/../../../EAGLE2_v1/ZYBO/CalcL.v">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
